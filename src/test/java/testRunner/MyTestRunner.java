@@ -11,8 +11,8 @@ import io.cucumber.junit.CucumberOptions;
 		glue = {"stepdefinitions", "AppHooks"},
 		plugin = {"pretty",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
-				"timeline:test-output-thread/"
-			
+				"timeline:test-output-thread/", "json:target/Cucumber.json","html:target/cucumber-html-report.html"
+				,"junit:target/cucumber.xml"
 		}
 		
 		)

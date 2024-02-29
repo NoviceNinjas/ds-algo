@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="352.84" tests="62" skipped="0" failures="4" errors="0">
+<testcase classname="Array page features" name="Array page url" time="7.001">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Array..........passed
+Given The user is on the Array Page after logged in.........................passed
+Then The URL of the page should contain "array".............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Array page features" name="Arrays in Python Link" time="4.447">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Array..........passed
+Given The user is on the Array Page after logged in.........................passed
+When The user clicks a "Arrays in Python" link..............................passed
+Then The user should be redirected to "arrays-in-python" Page...............passed
+]]></system-out>
+</testcase>
+<testcase classname="Array page features" name="Try Here button of Array in Python Page" time="4.781">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Array..........passed
+Given The user is on the "array/applications-of-array/" Page................passed
+When The user clicks Try Here button of "Array in Python" Page..............passed
+Then The user should be redirected to "https://dsportalapp.herokuapp.com/tryEditor" Page.passed
+And The Page should have Python Editor......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Array page features" name="Arrays Using List link from Array in Python Page" time="3.93">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Array..........passed
+Given The user is on the "array/arrays-in-python/" Page.....................passed
+When The user clicks a "Arrays Using List" link.............................passed
+Then The user should be redirected to "arrays-using-list" Page..............passed
+]]></system-out>
+</testcase>
+<testcase classname="Array page features" name="Try Here button of Array Using List Page" time="4.822">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Array..........passed
+Given The user is on the "array/arrays-using-list" Page.....................passed
+When The user clicks Try Here button of "Array Using List" Page.............passed
+Then The user should be redirected to "https://dsportalapp.herokuapp.com/tryEditor" Page.passed
+And The Page should have Python Editor......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Array page features" name="Basic Operations in Lists Page from Array Using List Page" time="3.858">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Array..........passed
+Given The user is on the "array/arrays-using-list" Page.....................passed
+When The user clicks a "Basic Operations in Lists" link.....................passed
+Then The user should be redirected to "basic-operations-in-lists" Page......passed
+]]></system-out>
+</testcase>
+<testcase classname="Array page features" name="Try Here button of Basic Operations in Lists Page" time="4.771">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Array..........passed
+Given The user is on the "array/basic-operations-in-lists" Page.............passed
+When The user clicks Try Here button of "Basic Operations in Lists" Page....passed
+Then The user should be redirected to "https://dsportalapp.herokuapp.com/tryEditor" Page.passed
+And The Page should have Python Editor......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Array page features" name="Applications of Array Page from Basic Operations in Lists Page" time="3.827">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Array..........passed
+Given The user is on the "array/basic-operations-in-lists" Page.............passed
+When The user clicks a "Applications of Array" link.........................passed
+Then The user should be redirected to "applications-of-array" Page..........passed
+]]></system-out>
+</testcase>
+<testcase classname="Array page features" name="Practice question page with links" time="3.949">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Array..........passed
+Given The user is on the "array/applications-of-array/" Page................passed
+When The user clicks a "Practice Questions" link............................passed
+Then The user should be redirected to "array/practice" Page.................passed
+And user gets the following links to explore Practice page..................passed
+And The count of the practice links should be 4.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Array page features" name="Elements on Practice Page" time="4.745">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Array..........passed
+Given The user is on the "array/practice" Page..............................passed
+When The user clicks a "Search the array" link..............................passed
+Then The Page should have following elements................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Array page features" name="Elements on Practice Page" time="4.731">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Array..........passed
+Given The user is on the "array/practice" Page..............................passed
+When The user clicks a "Max Consecutive Ones" link..........................passed
+Then The Page should have following elements................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Array page features" name="Elements on Practice Page" time="4.704">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Array..........passed
+Given The user is on the "array/practice" Page..............................passed
+When The user clicks a "Find Numbers with Even Number of Digits" link.......passed
+Then The Page should have following elements................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Array page features" name="Elements on Practice Page" time="4.53">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Array..........passed
+Given The user is on the "array/practice" Page..............................passed
+When The user clicks a "Squares of a Sorted Array" link.....................passed
+Then The Page should have following elements................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Array page features" name="The user clicks Run on Python Editor of Array In Python Page without entering code" time="4.975">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Array..........passed
+Given The user is on the "array/arrays-in-python/" Page.....................passed
+And The user clicks Try Here button of "Arrays In Python" Page..............passed
+And The user is on the "tryEditor" Page.....................................passed
+When The user clicks "run" with code "false"................................passed
+Then Ouput Displayed "false"................................................passed
+And Error message "false"...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Array page features" name="The user clicks Run on Python Editor of Array In Python Page by enterering invalid code" time="4.973">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Array..........passed
+Given The user is on the "array/arrays-in-python/" Page.....................passed
+And The user clicks Try Here button of "Arrays In Python" Page..............passed
+And The user is on the "tryEditor" Page.....................................passed
+When The user writes "invalid" code for "1".................................passed
+And The user clicks "run" with code "true"..................................passed
+Then Error message "true"...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Array page features" name="The user clicks Run on Python Editor of Array In Python Page and entering valid code" time="6.799">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Array..........passed
+Given The user is on the "array/arrays-in-python/" Page.....................passed
+And The user clicks Try Here button of "Arrays In Python" Page..............passed
+And The user is on the "tryEditor" Page.....................................passed
+When The user writes "valid" code for "1"...................................passed
+And The user clicks "run" with code "true"..................................passed
+Then Ouput Displayed "true".................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Array page features" name="The user clicks Run on Python Editor of Arrays Using List Page without entering code" time="4.987">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Array..........passed
+Given The user is on the "array/arrays-using-list/" Page....................passed
+And The user clicks Try Here button of "Arrays Using List" Page.............passed
+And The user is on the "tryEditor" Page.....................................passed
+When The user clicks "run" with code "false"................................passed
+Then Ouput Displayed "false"................................................passed
+And Error message "false"...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Array page features" name="The user clicks Run on Python Editor of Arrays Using List Page by enterering invalid code" time="5.328">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Array..........passed
+Given The user is on the "array/arrays-using-list/" Page....................passed
+And The user clicks Try Here button of "Arrays Using List" Page.............passed
+And The user is on the "tryEditor" Page.....................................passed
+When The user writes "invalid" code for "1".................................passed
+And The user clicks "run" with code "true"..................................passed
+Then Error message "true"...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Array page features" name="The user clicks Run on Python Editor of Arrays Using List Page and entering valid code" time="7.035">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Array..........passed
+Given The user is on the "array/arrays-using-list/" Page....................passed
+And The user clicks Try Here button of "Arrays Using List" Page.............passed
+And The user is on the "tryEditor" Page.....................................passed
+When The user writes "valid" code for "1"...................................passed
+And The user clicks "run" with code "true"..................................passed
+Then Ouput Displayed "true".................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Array page features" name="The user clicks Run on Python Editor of Applications of Array Page without entering code" time="5.329">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Array..........passed
+Given The user is on the "array/applications-of-array/" Page................passed
+And The user clicks Try Here button of "Applications of Array" Page.........passed
+And The user is on the "tryEditor" Page.....................................passed
+When The user clicks "run" with code "false"................................passed
+Then Ouput Displayed "false"................................................passed
+And Error message "false"...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Array page features" name="The user clicks Run on Python Editor of Applications of Array Page by enterering invalid code" time="5.307">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Array..........passed
+Given The user is on the "array/applications-of-array/" Page................passed
+And The user clicks Try Here button of "Applications of Array" Page.........passed
+And The user is on the "tryEditor" Page.....................................passed
+When The user writes "invalid" code for "1".................................passed
+And The user clicks "run" with code "true"..................................passed
+Then Error message "true"...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Array page features" name="The user clicks Run on Python Editor of Applications of Array Page and entering valid code" time="7.362">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Array..........passed
+Given The user is on the "array/applications-of-array/" Page................passed
+And The user clicks Try Here button of "Applications of Array" Page.........passed
+And The user is on the "tryEditor" Page.....................................passed
+When The user writes "valid" code for "1"...................................passed
+And The user clicks "run" with code "true"..................................passed
+Then Ouput Displayed "true".................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Array page features" name="The user clicks Run on Python Editor of Basic Operations in Lists Page without entering code" time="5.286">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Array..........passed
+Given The user is on the "array/basic-operations-in-lists/" Page............passed
+And The user clicks Try Here button of "Basic Operations in Lists" Page.....passed
+And The user is on the "tryEditor" Page.....................................passed
+When The user clicks "run" with code "fales"................................passed
+Then Ouput Displayed "false"................................................passed
+And Error message "false"...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Array page features" name="The user clicks Run on Python Editor of Basic Operations in Lists Page by enterering invalid code" time="5.515">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Array..........passed
+Given The user is on the "array/basic-operations-in-lists/" Page............passed
+And The user clicks Try Here button of "Basic Operations in Lists" Page.....passed
+And The user is on the "tryEditor" Page.....................................passed
+When The user writes "invalid" code for "1".................................passed
+And The user clicks "run" with code "true"..................................passed
+Then Error message "true"...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Array page features" name="The user clicks Run on Python Editor of Basic Operations in Lists Page and entering valid code" time="7.678">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Array..........passed
+Given The user is on the "array/basic-operations-in-lists/" Page............passed
+And The user clicks Try Here button of "Basic Operations in Lists" Page.....passed
+And The user is on the "tryEditor" Page.....................................passed
+When The user writes "valid" code for "1"...................................passed
+And The user clicks "run" with code "true"..................................passed
+Then Ouput Displayed "true".................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Array page features" name="The user clicks Run on Python Editor of Search the Array Practice Page without entering code" time="4.881">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Array..........passed
+Given The user is on the "question/1" Page..................................passed
+When The user clicks "run" with code "false"................................passed
+Then Error message "false"..................................................passed
+And Ouput Displayed "false".................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Array page features" name="The user clicks Run on Python Editor of Search the Array Practice Page by enterering invalid code" time="5.076">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Array..........passed
+Given The user is on the "question/1" Page..................................passed
+When The user writes "invalid" code for "1".................................passed
+And The user clicks "run" with code "true"..................................passed
+Then Error message "true"...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Array page features" name="The user clicks Run on Python Editor of Search the Array Practice Page and entering valid code" time="7.168">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Array..........passed
+Given The user is on the "question/1" Page..................................passed
+When The user writes "valid" code for "1"...................................passed
+And The user clicks "run" with code "true"..................................passed
+Then Error message "false"..................................................passed
+Then Ouput Displayed "true".................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Array page features" name="The user clicks Submit on Python Editor of Search the Array Practice Page and entering valid code" time="7.355">
+<failure type="java.lang.AssertionError" message="expected [true] but found [false]">
+<![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at stepdefinitions.ArrayPageSteps.the_user_see_an_error_message(ArrayPageSteps.java:149)
+	at ✽.The user see an error message "Error occurred during submission"(file:///C:/Users/14255/OneDrive/Desktop/School/ds%20algo/NoviceNinjas/src/test/resources/AppFeatures/ArrayPage.feature:257)
+]]>
+</failure>
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Array..........passed
+Given The user is on the "question/1" Page..................................passed
+When The user writes "valid" code for "1"...................................passed
+And The user clicks "submit" with code "true"...............................passed
+Then The user see an error message "Error occurred during submission".......failed
+]]></system-out>
+</testcase>
+<testcase classname="Array page features" name="The user clicks Run on Python Editor of Max Consecutive Ones Practice Page without entering code" time="4.837">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Array..........passed
+Given The user is on the "question/2" Page..................................passed
+When The user clicks "run" with code "false"................................passed
+Then Error message "false"..................................................passed
+And Ouput Displayed "false".................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Array page features" name="The user clicks Run on Python Editor of Max Consecutive Ones Practice Page by enterering invalid code" time="5.103">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Array..........passed
+Given The user is on the "question/2" Page..................................passed
+When The user writes "invalid" code for "2".................................passed
+And The user clicks "run" with code "true"..................................passed
+Then Error message "true"...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Array page features" name="The user clicks Run on Python Editor of Max Consecutive Ones Practice Page and entering valid code" time="7.853">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Array..........passed
+Given The user is on the "question/2" Page..................................passed
+When The user writes "valid" code for "2"...................................passed
+And The user clicks "run" with code "true"..................................passed
+Then Error message "false"..................................................passed
+Then Ouput Displayed "true".................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Array page features" name="The user clicks Submit on Python Editor of Max Consecutive Ones Practice Page and entering valid code" time="8.174">
+<failure type="java.lang.AssertionError" message="expected [true] but found [false]">
+<![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at stepdefinitions.ArrayPageSteps.the_user_see_an_error_message(ArrayPageSteps.java:149)
+	at ✽.The user see an error message "Error occurred during submission"(file:///C:/Users/14255/OneDrive/Desktop/School/ds%20algo/NoviceNinjas/src/test/resources/AppFeatures/ArrayPage.feature:288)
+]]>
+</failure>
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Array..........passed
+Given The user is on the "question/2" Page..................................passed
+When The user writes "valid" code for "2"...................................passed
+And The user clicks "submit" with code "true"...............................passed
+Then The user see an error message "Error occurred during submission".......failed
+]]></system-out>
+</testcase>
+<testcase classname="Array page features" name="The user clicks Run on Python Editor of Find Numbers with Even Number of Digits Practice Page without entering code" time="5.097">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Array..........passed
+Given The user is on the "question/3" Page..................................passed
+When The user clicks "run" with code "false"................................passed
+Then Error message "false"..................................................passed
+And Ouput Displayed "false".................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Array page features" name="The user clicks Run on Python Editor of Find Numbers with Even Number of Digits Practice Page by enterering invalid code" time="4.95">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Array..........passed
+Given The user is on the "question/3" Page..................................passed
+When The user writes "invalid" code for "3".................................passed
+And The user clicks "run" with code "true"..................................passed
+Then Error message "true"...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Array page features" name="The user clicks Run on Python Editor of Find Numbers with Even Number of Digits Practice Page and entering valid code" time="7.949">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Array..........passed
+Given The user is on the "question/3" Page..................................passed
+When The user writes "valid" code for "3"...................................passed
+And The user clicks "run" with code "true"..................................passed
+Then Error message "false"..................................................passed
+Then Ouput Displayed "true".................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Array page features" name="The user clicks Submit on Python Editor of Find Numbers with Even Number of Digits Practice Page and entering valid code" time="8.227">
+<failure type="java.lang.AssertionError" message="expected [true] but found [false]">
+<![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at stepdefinitions.ArrayPageSteps.the_user_see_an_error_message(ArrayPageSteps.java:149)
+	at ✽.The user see an error message "Error occurred during submission"(file:///C:/Users/14255/OneDrive/Desktop/School/ds%20algo/NoviceNinjas/src/test/resources/AppFeatures/ArrayPage.feature:319)
+]]>
+</failure>
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Array..........passed
+Given The user is on the "question/3" Page..................................passed
+When The user writes "valid" code for "3"...................................passed
+And The user clicks "submit" with code "true"...............................passed
+Then The user see an error message "Error occurred during submission".......failed
+]]></system-out>
+</testcase>
+<testcase classname="Array page features" name="The user clicks Run on Python Editor of Squares of a Sorted Array Practice Page without entering code" time="5.073">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Array..........passed
+Given The user is on the "question/4" Page..................................passed
+When The user clicks "run" with code "false"................................passed
+Then Error message "false"..................................................passed
+And Ouput Displayed "false".................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Array page features" name="The user clicks Run on Python Editor of Squares of a Sorted Array Practice Page by enterering invalid code" time="5.177">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Array..........passed
+Given The user is on the "question/4" Page..................................passed
+When The user writes "invalid" code for "4".................................passed
+And The user clicks "run" with code "true"..................................passed
+Then Error message "true"...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Array page features" name="The user clicks Run on Python Editor of Squares of a Sorted Array Practice Page and entering valid code" time="9.158">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Array..........passed
+Given The user is on the "question/4" Page..................................passed
+When The user writes "valid" code for "4"...................................passed
+And The user clicks "run" with code "true"..................................passed
+Then Error message "false"..................................................passed
+Then Ouput Displayed "true".................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Array page features" name="The user clicks Submit on Python Editor of Squares of a Sorted Array Practice Page and entering valid code" time="9.246">
+<failure type="java.lang.AssertionError" message="expected [true] but found [false]">
+<![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at stepdefinitions.ArrayPageSteps.the_user_see_an_error_message(ArrayPageSteps.java:149)
+	at ✽.The user see an error message "Error occurred during submission"(file:///C:/Users/14255/OneDrive/Desktop/School/ds%20algo/NoviceNinjas/src/test/resources/AppFeatures/ArrayPage.feature:350)
+]]>
+</failure>
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Array..........passed
+Given The user is on the "question/4" Page..................................passed
+When The user writes "valid" code for "4"...................................passed
+And The user clicks "submit" with code "true"...............................passed
+Then The user see an error message "Error occurred during submission".......failed
+]]></system-out>
+</testcase>
+<testcase classname="Graph page features" name="Graph page url" time="3.879">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Graph..........passed
+Given The user is on the Graph Page after logged in.........................passed
+Then The URL of the page should contain "graph".............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Graph page features" name="Graph Link" time="4.486">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Graph..........passed
+Given The user is on the Graph Page after logged in.........................passed
+When The user clicks a "Graph" link in graph................................passed
+Then The user should be redirected to "graph/graph" Page in graph...........passed
+]]></system-out>
+</testcase>
+<testcase classname="Graph page features" name="Graph Link" time="4.346">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Graph..........passed
+Given The user is on the Graph Page after logged in.........................passed
+When The user clicks a "Graph Representations" link in graph................passed
+Then The user should be redirected to "graph/graph-representations" Page in graph.passed
+]]></system-out>
+</testcase>
+<testcase classname="Graph page features" name="The user clicks Run on Graph Page without entering code" time="5.718">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Graph..........passed
+Given The user is on the "graph/graph/" Page in graph.......................passed
+And The user clicks Try Here button of "Graph" Page in graph................passed
+And The user is on the "tryEditor" Page in graph............................passed
+When The user clicks "run" with code "false" in graph.......................passed
+Then Ouput Displayed "false" in graph.......................................passed
+And Error message "false" in graph..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Graph page features" name="The user clicks Run on Python Editor of Graph by enterering invalid code" time="5.693">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Graph..........passed
+Given The user is on the "graph/graph/" Page in graph.......................passed
+And The user clicks Try Here button of "Graph" Page in graph................passed
+And The user is on the "tryEditor" Page in graph............................passed
+When The user writes "invalid" code for "1" in graph........................passed
+And The user clicks "run" with code "true" in graph.........................passed
+Then Error message "true" in graph..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Graph page features" name="The user clicks Run on Python Editor of Graph and entering valid code" time="12.864">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Graph..........passed
+Given The user is on the "graph/graph/" Page in graph.......................passed
+And The user clicks Try Here button of "Graph" Page in graph................passed
+And The user is on the "tryEditor" Page in graph............................passed
+When The user writes "valid" code for "1" in graph..........................passed
+And The user clicks "run" with code "true" in graph.........................passed
+Then Ouput Displayed "true" in graph........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Graph page features" name="Try Here button of Graph in Python Page" time="5.051">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Graph..........passed
+Given The user is on the "graph/graph/" Page in graph.......................passed
+When The user clicks Try Here button of "Graph" Page in graph...............passed
+Then The user should be redirected to "https://dsportalapp.herokuapp.com/tryEditor" Page in graph.passed
+And The Page should have Python Editor in graph.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Graph page features" name="The user clicks Run on Graph Representations Page without entering code" time="6.161">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Graph..........passed
+Given The user is on the "graph/graph-representations/" Page in graph.......passed
+And The user clicks Try Here button of "Graph Representations" Page in graph.passed
+And The user is on the "tryEditor" Page in graph............................passed
+When The user clicks "run" with code "false" in graph.......................passed
+Then Ouput Displayed "false" in graph.......................................passed
+And Error message "false" in graph..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Graph page features" name="The user clicks Run on Python Editor of Graph Representations Page by enterering invalid code" time="6.153">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Graph..........passed
+Given The user is on the "graph/graph-representations/" Page in graph.......passed
+And The user clicks Try Here button of "Graph Representations" Page in graph.passed
+And The user is on the "tryEditor" Page in graph............................passed
+When The user writes "invalid" code for "1" in graph........................passed
+And The user clicks "run" with code "true" in graph.........................passed
+Then Error message "true" in graph..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Graph page features" name="The user clicks Run on Python Editor of Graph Representations Page and entering valid code" time="12.628">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Graph..........passed
+Given The user is on the "graph/graph-representations/" Page in graph.......passed
+And The user clicks Try Here button of "Graph Representations" Page in graph.passed
+And The user is on the "tryEditor" Page in graph............................passed
+When The user writes "valid" code for "1" in graph..........................passed
+And The user clicks "run" with code "true" in graph.........................passed
+Then Ouput Displayed "true" in graph........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Graph page features" name="Try Here button of Graph Representations in Python Page" time="5.369">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Graph..........passed
+Given The user is on the "graph/graph-representations/" Page in graph.......passed
+When The user clicks Try Here button of "Graph Representations" Page in graph.passed
+Then The user should be redirected to "https://dsportalapp.herokuapp.com/tryEditor" Page in graph.passed
+And The Page should have Python Editor in graph.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Graph page features" name="Practice question page with links" time="4.235">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Graph..........passed
+Given The user is on the "graph/graph/" Page in graph.......................passed
+When The user clicks a "Practice Questions" link in graph...................passed
+Then The user should be redirected to "graph/practice" Page in graph........passed
+]]></system-out>
+</testcase>
+<testcase classname="Graph page features" name="Alert of Graph Page by enterering invalid code" time="6.989">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Graph..........passed
+Given The user is on the "graph/graph/" Page in graph.......................passed
+And The user clicks Try Here button of "Graph" Page in graph................passed
+And The user is on the "tryEditor" Page in graph............................passed
+When The user writes "invalid" code for "1" in graph........................passed
+And The user clicks "run" with code "true" in graph.........................passed
+And Error message "true" in graph...........................................passed
+And The user clicks ok on alert.............................................passed
+Then The user is on the "graph/graph/" Page in graph........................passed
+And No change in code.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Graph page features" name="Alert of Graph Representations Page by enterering invalid code" time="7.296">
+<system-out><![CDATA[
+Given the user has already logged in the home page using for Graph..........passed
+Given The user is on the "graph/graph-representations/" Page in graph.......passed
+And The user clicks Try Here button of "Graph Representations" Page in graph.passed
+And The user is on the "tryEditor" Page in graph............................passed
+When The user writes "invalid" code for "1" in graph........................passed
+And The user clicks "run" with code "true" in graph.........................passed
+And Error message "true" in graph...........................................passed
+And The user clicks ok on alert.............................................passed
+Then The user is on the "graph/graph-representations/" Page in graph........passed
+And No change in code.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Home Page Features" name="The user clicks get started button on DS Algo Portal" time="2.999">
+<system-out><![CDATA[
+Given The user opens DS Algo portal link....................................passed
+When The user clicks the Get Started button.................................passed
+Then The URL of the page should contain "home"..............................passed
+And The user should see 6 panes with different data structires..............passed
+And Register Link is displayed..............................................passed
+And Sign In Link is displayed...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Home Page Features" name="The user clicks Get Started without loggin in" time="3.464">
+<system-out><![CDATA[
+Given The user opens Home Page without loggin in............................passed
+When The user clicks any of the Get Started buttons below the data structures.passed
+Then It should alert the user with a message You are not logged in..........passed
+]]></system-out>
+</testcase>
+<testcase classname="Home Page Features" name="The user selects any data structures item from the drop down without loggin in" time="3.616">
+<system-out><![CDATA[
+Given The user opens Home Page without loggin in............................passed
+When The user selects any data structures item from the drop down menu......passed
+Then It should alert the user with a message You are not logged in..........passed
+]]></system-out>
+</testcase>
+<testcase classname="Home Page Features" name="The user clicks sign in button" time="3.214">
+<system-out><![CDATA[
+Given The user opens Home Page without loggin in............................passed
+When The user clicks Sign in................................................passed
+Then The user should be redirected to Sign in page..........................passed
+And The URL of the page should contain "login"..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Queue page features" name="Queue page url" time="3.768">
+<system-out><![CDATA[
+Given The user has already logged in the home page using....................passed
+Given The user is on the Queue Page after logged in.........................passed
+Then The URL of the page should contain "queue".............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Queue page features" name="Queue page check links for topics covered" time="3.818">
+<system-out><![CDATA[
+Given The user has already logged in the home page using....................passed
+Given The user is on the Queue Page after logged in.........................passed
+Then user gets the following links to explore Queue page....................passed
+And The count of the links should be 4......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sign In Page Features" name="Logging in with correct credentials" time="4.181">
+<system-out><![CDATA[
+Given The User has clicked on the sign in button from the home page.........passed
+Given The user is in the Sign In page.......................................passed
+When User eneters the username "Pratiksha"..................................passed
+And The user eneters the password as "Aggarwal".............................passed
+And user clicks on login button.............................................passed
+And The user is alerted with message that "You are logged in"...............passed
+And Sign Out link is displayed..............................................passed
+And The URL of the page should contain "home"...............................passed
+]]></system-out>
+</testcase>
+</testsuite>
