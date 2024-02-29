@@ -1,0 +1,10 @@
+[INFO ] 2024-02-23 12:27:31.298 [main] LoggerLoad - in the_user_clicks_a_page_link url: https://dsportalapp.herokuapp.com/array/arrays-in-python/
+[INFO ] 2024-02-23 12:27:35.521 [main] LoggerLoad - in the_user_is_on_the_python_page current url: https://dsportalapp.herokuapp.com/array/applications-of-array/
+[INFO ] 2024-02-23 12:27:35.522 [main] LoggerLoad - The user is on array/applications-of-array/ page
+[INFO ] 2024-02-23 12:27:35.533 [main] LoggerLoad - in try here current url: https://dsportalapp.herokuapp.com/array/applications-of-array/
+[INFO ] 2024-02-23 12:27:41.139 [main] LoggerLoad - in the_user_is_on_the_python_page current url: https://dsportalapp.herokuapp.com/array/arrays-in-python/
+[INFO ] 2024-02-23 12:27:41.140 [main] LoggerLoad - The user is on array/arrays-in-python/ page
+[INFO ] 2024-02-23 12:27:41.504 [main] LoggerLoad - in the_user_clicks_a_page_link url: https://dsportalapp.herokuapp.com/array/arrays-using-list/
+[INFO ] 2024-02-23 12:27:45.724 [main] LoggerLoad - in the_user_is_on_the_python_page current url: https://dsportalapp.herokuapp.com/array/arrays-using-list/
+[INFO ] 2024-02-23 12:27:45.725 [main] LoggerLoad - The user is on array/arrays-using-list page
+[INFO ] 2024-02-23 12:27:45.739 [main] LoggerLoad - in try here current url: https://dsportalapp.herokuapp.com/array/arrays-using-list/

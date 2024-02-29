@@ -1,0 +1,88 @@
+{
+"array":{
+	"1":[
+       {"spaces":"0", "code":"def search(input_list, num):"},
+       {"spaces":"0", "code":"if num in input_list:"},
+       {"spaces":"0", "code":"return \"Element Found\""},
+       {"spaces":"0", "code":"else:"},
+       {"spaces":"0", "code":"return \"Not Found\""},
+       {"spaces":"2", "code":"input_list = [12, 23, 45, 67, 6, 90]"},
+       {"spaces":"0", "code":"value_to_search = 12"},
+       {"spaces":"0", "code":"result = search(input_list, value_to_search)"},
+       {"spaces":"0", "code":"print(result)"}
+   ],
+   	"2":[
+       {"spaces":"0", "code":"def findMaxConsecutiveOnes(nums):"},
+       {"spaces":"0", "code":"max_count, current_count = 0, 0"},
+       {"spaces":"0", "code":"for num in nums:"},
+       {"spaces":"0", "code":"if num == 1:"},
+       {"spaces":"0", "code":"current_count += 1"},
+       {"spaces":"0", "code":"max_count = max(max_count, current_count)"},
+       {"spaces":"2", "code":"else:"},
+       {"spaces":"0", "code":"current_count = 0"},
+       {"spaces":"2", "code":"return max_count"},
+       {"spaces":"2", "code":"input_nums = [1, 0, 1, 1, 0, 1]"},
+       {"spaces":"0", "code":"result = findMaxConsecutiveOnes(input_nums)"},
+       {"spaces":"0", "code":"print(result)"}
+   ],
+   	"3":[
+       {"spaces":"0", "code":"def count_even_digits(nums):"},
+       {"spaces":"0", "code":"def get_digit_count(num):"},
+       {"spaces":"0", "code":"return len(str(num))"},
+       {"spaces":"0", "code":"even_digit_count = 0"},
+       {"spaces":"0", "code":"for num in nums:"},
+       {"spaces":"0", "code":"if get_digit_count(num) % 2 == 0:"},
+       {"spaces":"0", "code":"even_digit_count += 1"},
+       {"spaces":"4", "code":"return even_digit_count"},
+       {"spaces":"0", "code":"input_nums1 = [555,901,482,1771]"},
+       {"spaces":"0", "code":"result1 = count_even_digits(input_nums1)"},
+       {"spaces":"0", "code":"print(result1)"}
+   ],
+    "4":[
+       {"spaces":"0", "code":"def sorted_squares(nums):"},
+       {"spaces":"0", "code":"n = len(nums)"},
+       {"spaces":"0", "code":"result = [0] * n"},
+       {"spaces":"0", "code":"left, right = 0, n - 1"},
+       {"spaces":"0", "code":"index = n - 1"},
+       {"spaces":"0", "code":"while left <= right:"},
+       {"spaces":"0", "code":"left_square = nums[left] ** 2"},
+       {"spaces":"0", "code":"right_square = nums[right] ** 2"},
+       {"spaces":"0", "code":"if left_square >= right_square:"},
+       {"spaces":"0", "code":"result[index] = left_square"},
+       {"spaces":"0", "code":"left += 1"},
+       {"spaces":"2", "code":"else:"},
+       {"spaces":"0", "code":"result[index] = right_square"},
+       {"spaces":"0", "code":"right -= 1"},
+       {"spaces":"0", "code":"index -= 1"},
+       {"spaces":"2", "code":"return result"},
+       {"spaces":"2", "code":"input_nums1 = [-7,-3,2,3,11]"},
+       {"spaces":"0", "code":"print sorted_squares(input_nums1)"}
+   ]
+},
+"graph":{
+	"1":[
+	   {"spaces":"0", "code":"class Graph:"},
+       {"spaces":"0", "code":"def __init__(self, num_of_nodes, directed=True):"},
+       {"spaces":"0", "code":"self.m_num_of_nodes = num_of_nodes"},
+       {"spaces":"0", "code":"self.m_directed = directed"},
+       {"spaces":"0", "code":"self.m_list_of_edges = []"},
+       {"spaces":"2", "code":"def add_edge(self, node1, node2, weight=1):"},
+       {"spaces":"0", "code":"self.m_list_of_edges.append([node1, node2, weight])"},
+       {"spaces":"0", "code":"if not self.m_directed:"},
+       {"spaces":"0", "code":"self.m_list_of_edges.append([node1, node2, weight])"},
+       {"spaces":"4", "code":"def print_edge_list(self):"},
+       {"spaces":"0", "code":"num_of_edges = len(self.m_list_of_edges)"},
+       {"spaces":"0", "code":"for i in range(num_of_edges):"},
+       {"spaces":"0", "code":"print(\"edge \", i+1, \": \", self.m_list_of_edges[i])"},
+       {"spaces":"6", "code":"graph = Graph(5)"},
+       {"spaces":"0", "code":"graph.add_edge(0, 0, 25)"},
+       {"spaces":"0", "code":"graph.add_edge(0, 1, 5)"},
+       {"spaces":"0", "code":"graph.add_edge(0, 2, 3)"},
+       {"spaces":"0", "code":"graph.add_edge(1, 3, 1)"},
+       {"spaces":"0", "code":"graph.add_edge(1, 4, 15)"},
+       {"spaces":"0", "code":"graph.add_edge(4, 2, 7)"},
+       {"spaces":"0", "code":"graph.add_edge(4, 3, 11)"},
+       {"spaces":"0", "code":"graph.print_edge_list() "}
+   ]
+}
+}
