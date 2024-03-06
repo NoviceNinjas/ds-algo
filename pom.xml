@@ -219,30 +219,7 @@
 			</plugin>
 
 
-            <plugin>
-                <groupId>net.masterthought</groupId>
-                <artifactId>maven-cucumber-reporting</artifactId>
-                <version>7.15.0</version>
-                <executions>
-                    <execution>
-                        <id>execution</id>
-                        <phase>verify</phase>
-                        <goals>
-                            <goal>generate</goal>
-                        </goals>
-                        <configuration>
-                            <projectName>NoviceNinjas</projectName>
-                            <!-- optional, per documentation set this to "true" to bypass generation of Cucumber Reports entirely, defaults to false if not specified -->
-                            <!-- output directory for the generated report -->
-                            <outputDirectory>${project.build.directory}/cucumber-JVM-reports</outputDirectory>
-                            <!-- optional, defaults to outputDirectory if not specified -->
-                            <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
-							<skippedFails>true</skippedFails>
-							<enableFlashCharts>true</enableFlashCharts>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
+
 
 		</plugins>
 	</build>
