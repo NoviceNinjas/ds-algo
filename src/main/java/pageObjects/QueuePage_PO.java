@@ -14,6 +14,12 @@ public class QueuePage_PO {
 	//1. private By locators
 	
 	private By queueLinks = By.xpath("//div[not(@class = 'navbar-nav')]/ul/a");
+	private By runButton = By.xpath("//button[contains(text(),'Run')]");
+	private By tryHere = By.xpath("//a[contains(text(),'Try here')]");
+	private By tryEditorInput = By.xpath("//div/div/textarea");
+	private By tryEditorOutput = By.xpath("//pre[@id='output']");
+	
+	
 	
 	//2. public page constructor
 	
@@ -44,5 +50,62 @@ public class QueuePage_PO {
 			myQueueList.add(text);
 		}
 		return myQueueList;
+	}
+	
+	
+	public String doGetLinkByStringNameAndClick(String str)
+	{
+//		String myText = driver.findElement(By.partialLinkText(str)).getText();
+//		System.out.println("The href located is: " + myText);
+		driver.findElement(By.partialLinkText(str)).click();
+		String myTitle = driver.getCurrentUrl();
+		//System.out.println("The url inside PO is: " + myTitle);
+		return myTitle;
+	}
+	
+	public void doClickOnPageByString(String str1)
+	{
+		
+		driver.findElement(By.linkText(str1)).click();
+		driver.findElement(tryHere).click();
+		
+		
+	}
+	
+
+	public String doGetUrlOfCurrentPage()
+	{
+		System.out.println("The url of the page inside po is: " + driver.getCurrentUrl());
+		return driver.getCurrentUrl();
+	}
+	
+	public boolean isButtonDisplayed()
+	{
+		return driver.findElement(runButton).isDisplayed();
+	}
+	
+	public void DoSendKeys(String str)
+	{
+		driver.findElement(tryEditorInput).sendKeys(str);
+	}
+	
+	public void doButtonClick()
+	{
+		driver.findElement(runButton).click();
+	}
+	
+	public String doCaptureAlertText()
+	{
+		return driver.switchTo().alert().getText();
+	}
+	
+	public void doAcceptAlertBox()
+	{
+		driver.switchTo().alert().accept();
+	}
+	
+	public String doGetOutput()
+	{
+		return driver.findElement(tryEditorOutput).getText();
 	}
 }

@@ -1,22 +1,20 @@
 package stepdefinitions;
 
-
-
 import org.junit.Assert;
+
 import com.qa.factory.DriverFactory;
+
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pageObjects.HomePage_PO;
 
-
 public class HomePageSteps {
 	private HomePage_PO homePage = new HomePage_PO(DriverFactory.getDriver());
 	
 	public static String withoutSignedInMsg;
 	public static String pageUrl;
-	public static String currentUrl;
 	
 	
 	@Given("The user opens DS Algo portal link")
@@ -87,9 +85,8 @@ public class HomePageSteps {
 
 	@Then("The user should be redirected to Sign in page")
 	public void the_user_should_be_redirected_to_sign_in_page() {
-	    System.out.println("The user is redirected to the sign in page: ");
+	    System.out.println("The user is redirected to the sig in page: ");
 	    
 	}
-	
 
 }

@@ -22,14 +22,7 @@ public class HomePage_PO {
 	private static By signinLink = By.linkText("Sign in");
 	private By dropdownItemclick = By.xpath("//div/a[@class='nav-link dropdown-toggle']");
 	private By dropDownItem = By.xpath("//a[@class='dropdown-item']");
-	private By arrayGetStartedButton = By.xpath("//div[2]/div[2]/div/div/a");
 	
-
-	//2. public page constructor
-	
-	public HomePage_PO(WebDriver driver) {
-		this.driver = driver;
-	}
 	private static Map<String, By> linkMap; 
     static
     { 
@@ -37,6 +30,13 @@ public class HomePage_PO {
     	linkMap.put("register", regLink); 
     	linkMap.put("signin", signinLink);
     } 
+	
+	//2. public page constructor
+	
+	public HomePage_PO(WebDriver driver) {
+		this.driver = driver;
+	}
+	
 	//3. public page actions
 	public String getHomePageTitle()
 	{
@@ -76,20 +76,9 @@ public class HomePage_PO {
 		driver.findElement(dropdownItemclick).click();
 		String attrName = driver.findElements(dropDownItem).get(2).getText();
 		driver.findElements(dropDownItem).get(2).click();
-		System.out.println("The name of the text for the get started button is: " + attrName );
+		System.out.println("The name of the text for the get started buuton is: " + attrName );
 		System.out.println(driver.findElement(notLoggedIn).getText());
 		return  driver.findElement(notLoggedIn).getText();
-	}
-	
-	public void doClickArrayGetStarted() throws InterruptedException
-	{
-		//Thread.sleep(10000);
-		driver.findElement(arrayGetStartedButton).click();
-		//String attrName = driver.findElements(dropDownItem).get(2).getText();
-		//driver.findElements(dropDownItem).get(2).click();
-		//System.out.println("The name of the text for the get started buuton is: " + attrName );
-		//System.out.println(driver.findElement(notLoggedIn).getText());
-		//return  driver.findElement(notLoggedIn).getText();
 	}
 	
 	public boolean checkRegisterLinkIdDispalyed()
@@ -120,5 +109,4 @@ public class HomePage_PO {
 		}
 		return new SignInPage_PO(driver);
 	}
-	
 }
