@@ -218,10 +218,11 @@
 				</configuration>
 			</plugin>
 
+
             <plugin>
                 <groupId>net.masterthought</groupId>
                 <artifactId>maven-cucumber-reporting</artifactId>
-                <version>5.7.8</version>
+                <version>7.15.0</version>
                 <executions>
                     <execution>
                         <id>execution</id>
@@ -235,16 +236,13 @@
                             <!-- output directory for the generated report -->
                             <outputDirectory>${project.build.directory}/cucumber-JVM-reports</outputDirectory>
                             <!-- optional, defaults to outputDirectory if not specified -->
-                            <jsonFiles>
-                                <!-- supports wildcard or name pattern -->
-                                <param>/target/Cucumber.json</param>
-                            </jsonFiles>
-                        
+                            <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
+							<skippedFails>true</skippedFails>
+							<enableFlashCharts>true</enableFlashCharts>
                         </configuration>
                     </execution>
                 </executions>
             </plugin>
-
 
 		</plugins>
 	</build>
