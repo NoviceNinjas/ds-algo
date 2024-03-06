@@ -1,6 +1,8 @@
 package pageObjects;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -16,19 +18,25 @@ public class HomePage_PO {
 	private By dropDownMenu = By.xpath("//div/a[@class='dropdown-item']");
 	private By getStartedmoduleBtns = By.linkText("Get Started");
 	private By notLoggedIn = By.xpath("//div[@role='alert']");
-	private By regLink = By.partialLinkText("Register");
-	private By signinLink = By.linkText("Sign in");
+	private static By regLink = By.partialLinkText("Register");
+	private static By signinLink = By.linkText("Sign in");
 	private By dropdownItemclick = By.xpath("//div/a[@class='nav-link dropdown-toggle']");
 	private By dropDownItem = By.xpath("//a[@class='dropdown-item']");
 	private By arrayGetStartedButton = By.xpath("//div[2]/div[2]/div/div/a");
 	
-	
+
 	//2. public page constructor
 	
 	public HomePage_PO(WebDriver driver) {
 		this.driver = driver;
 	}
-	
+	private static Map<String, By> linkMap; 
+    static
+    { 
+    	linkMap = new HashMap<>(); 
+    	linkMap.put("register", regLink); 
+    	linkMap.put("signin", signinLink);
+    } 
 	//3. public page actions
 	public String getHomePageTitle()
 	{
@@ -103,10 +111,13 @@ public class HomePage_PO {
 		return new SignInPage_PO(driver);
 	}
 	
-	public SignInPage_PO clickGetstartedfromPortal()
+	public Object clickGetstartedfromPortal(String element)
 	{
 		driver.findElement(getStartedBtn).click();
-		driver.findElement(signinLink).click();
+		driver.findElement(linkMap.get(element)).click();
+		if(element.equals("register")) {
+			return new RegistrationPage_PO(driver);
+		}
 		return new SignInPage_PO(driver);
 	}
 	

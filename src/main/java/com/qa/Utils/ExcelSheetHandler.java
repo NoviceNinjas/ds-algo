@@ -7,7 +7,6 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
@@ -60,26 +59,27 @@ public class ExcelSheetHandler {
 		File Excelfile = new File(path);
 		
 		FileInputStream Fis = new FileInputStream(Excelfile);
-		XSSFWorkbook workbook = new XSSFWorkbook(Fis);
-		XSSFSheet sheet = workbook.getSheet(moduleName);
-		
-		Map<String,List<String>> codeMap=new HashMap<String,List<String>>();
-		
-		int firstRow = sheet.getFirstRowNum();
-		int lastRow = sheet.getLastRowNum();
-		for (int index = firstRow + 1; index <= lastRow; index++) {
-		    Row row = sheet.getRow(index);
-		    List<String> codeList=new ArrayList<String>();
-		    for (int cellIndex = row.getFirstCellNum(); cellIndex < row.getLastCellNum(); cellIndex++) {
-		        Cell cell = row.getCell(cellIndex, Row.MissingCellPolicy.CREATE_NULL_AS_BLANK);
-		        String cellValue=getCellValue(cell);
-		        codeList.add(cellValue);
-		    }
-		    codeMap.put(String.valueOf(index), codeList);
+		try (XSSFWorkbook workbook = new XSSFWorkbook(Fis)) {
+			XSSFSheet sheet = workbook.getSheet(moduleName);
+			
+			Map<String,List<String>> codeMap=new HashMap<String,List<String>>();
+			
+			int firstRow = sheet.getFirstRowNum();
+			int lastRow = sheet.getLastRowNum();
+			for (int index = firstRow + 1; index <= lastRow; index++) {
+			    Row row = sheet.getRow(index);
+			    List<String> codeList=new ArrayList<String>();
+			    for (int cellIndex = row.getFirstCellNum(); cellIndex < row.getLastCellNum(); cellIndex++) {
+			        Cell cell = row.getCell(cellIndex, Row.MissingCellPolicy.CREATE_NULL_AS_BLANK);
+			        String cellValue=getCellValue(cell);
+			        codeList.add(cellValue);
+			    }
+			    codeMap.put(String.valueOf(index), codeList);
+			}
+			
+			
+			return codeMap;
 		}
-		
-		
-		return codeMap;
 		
 		
 	}

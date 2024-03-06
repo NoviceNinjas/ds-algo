@@ -13,8 +13,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.interactions.Actions;
-
 import com.qa.Utils.ElementUtil;
 
 public class GraphPage_PO {
@@ -25,15 +23,12 @@ public class GraphPage_PO {
 	private static By practiceQuestionsLink= By.linkText("Practice Questions");
 	private static By editor=By.xpath("//form[@id='answer_form']/div/div/div/*");
 	private static By pythonEditor=By.xpath("//*[@id=\"answer_form\"]/div");
-	private static By inputAfter=By.xpath("//*[@id=\"answer_form\"]/div/div/div[6]/div[1]/div/div/div/div[5]/div/pre/span/span");
 	private static By run = By.xpath("//*[@id=\"answer_form\"]/button");
 	private static By submit = By.xpath("//*[@id=\"answer_form\"]/input[2]");
 	private static By question = By.id("questionText");
 	private static By output = By.id("output");
-	private static By tryHere = By.xpath("//div[2]/div/div[2]/a");
-//	private static By codePath=By.xpath("//*[@id=\"answer_form\"]//div[6]/div[1]//div[5]/div/pre/span/span");
+	private static By tryHere = By.partialLinkText("Try here");
 	private static By codePath=By.xpath("//*[@class=\"CodeMirror-linenumber CodeMirror-gutter-elt\"][1]");
-	//*[@class="CodeMirror-linenumber CodeMirror-gutter-elt"][1]
     static
     { 
     	pageNamemap = new HashMap<>(); 
@@ -184,7 +179,6 @@ public class GraphPage_PO {
 	}
 	
 	public boolean isCodePresent() {
-		String code=driver.findElement(editor).getText();
 		try {
 		    driver.findElement(codePath);
 		    return true;

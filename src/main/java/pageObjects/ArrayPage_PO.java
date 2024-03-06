@@ -15,8 +15,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
+
 //import org.python.util.PythonInterpreter;
 
 import com.qa.Utils.ElementUtil;
@@ -41,19 +40,14 @@ private WebDriver driver;
 	private static By maxConsecutiveOnesLink= By.linkText("Max Consecutive Ones");
 	private static By evenNoDigitsLink= By.linkText("Find Numbers with Even Number of Digits");
 	private static By sqOfSortedArrayLink= By.linkText("Squares of a Sorted Array");
-	//Try this driver.findElement(By.xpath("//form[@id='answer_form']/div/div/div/textarea")).sendKeys("print 'hello';");
-   // Thread.sleep(3000);
-    //driver.findElement(By.xpath("//*[@id=\"answer_form\"]/button")).click();
-    //Thread.sleep(3000);
-	//private static By editor = By.id("//*[@id=\"answer_form\"]//div[6]/div[1]//div[4]");
 	private static By editor=By.xpath("//form[@id='answer_form']/div/div/div/*");
 	private static By pythonEditor=By.xpath("//*[@id=\"answer_form\"]/div");
-	private static By inputAfter=By.xpath("//*[@id=\"answer_form\"]/div/div/div[6]/div[1]/div/div/div/div[5]/div/pre/span/span");
 	private static By run = By.xpath("//*[@id=\"answer_form\"]/button");
 	private static By submit = By.xpath("//*[@id=\"answer_form\"]/input[2]");
 	private static By question = By.id("questionText");
 	private static By output = By.id("output");
-	private static By tryHere = By.xpath("//div[2]/div/div[2]/a");
+	private static By tryHere = By.partialLinkText("Try here");
+	//private static By tryHere = By.xpath("//div[2]/div/div[2]/a");
 	private static Map<String, By> pageNamemap; 
     static
     { 
@@ -279,4 +273,6 @@ private WebDriver driver;
 		}
 		return true;
 	}
+	
+	
 }

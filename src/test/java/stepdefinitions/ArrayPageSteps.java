@@ -50,7 +50,7 @@ public class ArrayPageSteps {
 		LoggerLoad.info("in the_user_clicks_a_page_link url: "+ arrayPage.getCurrentURL());
 	}
 	@Then("The user should be redirected to {string} Page")
-	public void the_user_should_be_redirected_to_string_page(String link) {
+	public void the_user_should_be_redirected_to_string_page(String link) throws InterruptedException {
 	    String currentURL=arrayPage.getCurrentURL();
 	    System.out.println("in the_user_should_be_redirected_to_string_page url: "+ arrayPage.getCurrentURL());
 	    assertTrue(currentURL.contains(link), "User redirected to " +link+" page");
@@ -62,6 +62,7 @@ public class ArrayPageSteps {
 		DriverFactory.getDriver().get("https://dsportalapp.herokuapp.com/"+pageName);
 		LoggerLoad.info("in the_user_is_on_the_python_page current url: "+ arrayPage.getCurrentURL());
 		LoggerLoad.info("The user is on " +pageName+" page");
+		
 	}
 	@When("The user clicks Try Here button of {string} Page")
 	public void the_user_clicks_try_here_button_of_in_a_page(String pageName) {

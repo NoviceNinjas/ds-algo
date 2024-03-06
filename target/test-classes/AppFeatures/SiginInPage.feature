@@ -1,7 +1,7 @@
 Feature: Sign In Page Features
  
 Background:
-Given The User has clicked on the sign in button from the home page
+Given The User has clicked on the "signin" button from the home page
     
 
 @signinpage 

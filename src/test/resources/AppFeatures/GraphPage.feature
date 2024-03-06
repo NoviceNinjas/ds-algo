@@ -40,7 +40,7 @@ Scenario: The user clicks Run on Python Editor of Graph by enterering invalid co
 Given The user is on the "graph/graph/" Page in graph
 And The user clicks Try Here button of "Graph" Page in graph
 And The user is on the "tryEditor" Page in graph
-When The user writes "invalid" code for "1" in graph
+When The user writes "invalid" code for "2" in graph
 And The user clicks "run" with code "true" in graph
 Then Error message "true" in graph
 
@@ -75,7 +75,7 @@ Scenario: The user clicks Run on Python Editor of Graph Representations Page by 
 Given The user is on the "graph/graph-representations/" Page in graph
 And The user clicks Try Here button of "Graph Representations" Page in graph
 And The user is on the "tryEditor" Page in graph
-When The user writes "invalid" code for "1" in graph
+When The user writes "invalid" code for "2" in graph
 And The user clicks "run" with code "true" in graph
 Then Error message "true" in graph
 
@@ -84,7 +84,7 @@ Scenario: The user clicks Run on Python Editor of Graph Representations Page and
 Given The user is on the "graph/graph-representations/" Page in graph
 And The user clicks Try Here button of "Graph Representations" Page in graph
 And The user is on the "tryEditor" Page in graph
-When The user writes "valid" code for "1" in graph
+When The user writes "valid" code for "2" in graph
 And The user clicks "run" with code "true" in graph
 Then Ouput Displayed "true" in graph
 
@@ -107,7 +107,7 @@ Scenario: Alert of Graph Page by enterering invalid code
 Given The user is on the "graph/graph/" Page in graph
 And The user clicks Try Here button of "Graph" Page in graph
 And The user is on the "tryEditor" Page in graph
-When The user writes "invalid" code for "1" in graph
+When The user writes "invalid" code for "2" in graph
 And The user clicks "run" with code "true" in graph
 And Error message "true" in graph
 And The user clicks ok on alert
@@ -121,7 +121,7 @@ Scenario: Alert of Graph Representations Page by enterering invalid code
 Given The user is on the "graph/graph-representations/" Page in graph
 And The user clicks Try Here button of "Graph Representations" Page in graph
 And The user is on the "tryEditor" Page in graph
-When The user writes "invalid" code for "1" in graph
+When The user writes "invalid" code for "2" in graph
 And The user clicks "run" with code "true" in graph
 And Error message "true" in graph
 And The user clicks ok on alert

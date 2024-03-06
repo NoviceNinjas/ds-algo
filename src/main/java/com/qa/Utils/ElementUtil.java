@@ -11,13 +11,10 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException; 
-import java.io.PrintWriter; 
-import java.util.LinkedHashMap; 
-import java.util.Map; 
+
 import org.json.simple.JSONArray; 
 import org.json.simple.JSONObject;
 
-import java.io.FileReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
 
@@ -108,47 +105,11 @@ public static WebDriver driver;
 	public JSONArray readCodeFromJSON(String moduleName,String qNo) throws FileNotFoundException, IOException, ParseException {
 		   JSONParser parser = new JSONParser();
 		   JSONObject moduleObj =  (JSONObject) parser.parse(new InputStreamReader(new FileInputStream("C:\\Users\\14255\\OneDrive\\Desktop\\School\\ds algo\\NoviceNinjas\\test_input\\pythonCode.json"))); 
-        
-        // typecasting obj to JSONObject 
-        //JSONObject jo = (JSONObject) obj; 
-        
-        //JSONObject innerObject = outerObject.getJSONObject("JObjects");
-       // JSONObject moduleObj = (JSONObject) obj; 
-        JSONObject questionsObject = (JSONObject) moduleObj.get(moduleName);
-        //JSONObject innerObject = outerObject.getJSONObject("JObjects");
-        JSONArray codeLines = (JSONArray)questionsObject.get(qNo);
+           JSONObject questionsObject = (JSONObject) moduleObj.get(moduleName);
+           JSONArray codeLines = (JSONArray)questionsObject.get(qNo);
         return codeLines;
-/*		for (Object qNo : questionsObject.keySet()) {
-			JSONArray codeLines = (JSONArray)questionsObject.get(qNo);
-			System.out.println(qNo + ": " + codeLines);
-			for(Object codeLine:codeLines) {
-				JSONObject codeObj=(JSONObject)codeLine;
-				String noOfSpaces=(String) codeObj.get("spaces");
-				String code=(String)codeObj.get("code");
-				System.out.println(noOfSpaces+"=="+code);
-			}
-			}*/
 	}
 
-	public static void main(String[] args) throws FileNotFoundException, IOException, ParseException {
-		
-
-        Object obj = new JSONParser().parse(new FileReader("C:\\Users\\14255\\OneDrive\\Desktop\\School\\ds algo\\NoviceNinjas\\test_input\\pythonCode.json")); 
-          
-        // typecasting obj to JSONObject 
-        JSONObject moduleObj = (JSONObject) obj; 
-        JSONObject questionsObject = (JSONObject) moduleObj.get("array");
-        //JSONObject innerObject = outerObject.getJSONObject("JObjects");
-		for (Object qNo : questionsObject.keySet()) {
-			JSONArray codeLines = (JSONArray)questionsObject.get(qNo);
-			System.out.println(qNo + ": " + codeLines);
-			for(Object codeLine:codeLines) {
-				JSONObject codeObj=(JSONObject)codeLine;
-				String noOfSpaces=(String) codeObj.get("spaces");
-				String code=(String)codeObj.get("code");
-				System.out.println(noOfSpaces+"=="+code);
-			}
-			}
-
-	}
+	
+	
 }

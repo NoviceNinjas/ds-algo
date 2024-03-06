@@ -20,10 +20,10 @@ public class SignInPageSteps {
 	String actLogInMesg;
 	String actPageUrl;
 	
-	@Given("The User has clicked on the sign in button from the home page")
-	public void the_user_has_clicked_on_the_sign_in_button_from_the_home_page() {
+	@Given("The User has clicked on the {string} button from the home page")
+	public void the_user_has_clicked_on_the_sign_in_button_from_the_home_page(String element) {
 		DriverFactory.getDriver().get("https://dsportalapp.herokuapp.com/");
-		sigInPage = homePage.clickGetstartedfromPortal();
+		sigInPage = (SignInPage_PO) homePage.clickGetstartedfromPortal(element);
 	}
 
 	@Given("The user is in the Sign In page")

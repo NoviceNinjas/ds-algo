@@ -84,5 +84,13 @@
        {"spaces":"0", "code":"graph.add_edge(4, 3, 11)"},
        {"spaces":"0", "code":"graph.print_edge_list() "}
    ]
+   	"2":[
+       {"spaces":"0", "code":"print(\"Hello World \");"},
+   ]
+},
+"tree":{
+	"1":[
+	   {"spaces":"0", "code":"print(\"Hello World \");"},
+   ]
 }
 }

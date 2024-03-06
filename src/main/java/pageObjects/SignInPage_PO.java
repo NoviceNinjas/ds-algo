@@ -25,6 +25,9 @@ public class SignInPage_PO {
     private static By queuePageGetStarted = By.xpath("//a[@href='queue']");
 	private static By arrayPageGetStarted = By.xpath("//a[@href='array']");
 	private static By graphPageGetStarted = By.xpath("//a[@href='graph']");
+	private static By treePageGetStarted = By.xpath("//a[@href='tree']");
+	private static By linkedListPageGetStarted = By.xpath("//a[@href='linked-list']");
+	private static By stackPageGetStarted = By.xpath("//a[@href='stack']");
 
 	/*static
     { 
@@ -33,7 +36,7 @@ public class SignInPage_PO {
     	pageGetStartedmap.put("array", arrayPageGetStarted);
     } */
 	
-	
+
 	
 	public SignInPage_PO(WebDriver driver)
 	{
@@ -98,7 +101,36 @@ public class SignInPage_PO {
 		driver.findElement(graphPageGetStarted).click();
 		return new GraphPage_PO(driver);
 	}
-	
+	public TreePage_PO doLoginTreePage(String u, String p)
+	{
+		System.out.println("login with uname: "+ u+" and passwd: "+p);
+		driver.findElement(usrName).sendKeys(u);
+		driver.findElement(passwd).sendKeys(p);
+		driver.findElement(lgnBtn).click();
+		
+		driver.findElement(treePageGetStarted).click();
+		return new TreePage_PO(driver);
+	}
+	public LinkedList_PO doLoginLinkedListPage(String u, String p)
+	{
+		System.out.println("login with uname: "+ u+" and passwd: "+p);
+		driver.findElement(usrName).sendKeys(u);
+		driver.findElement(passwd).sendKeys(p);
+		driver.findElement(lgnBtn).click();
+		
+		driver.findElement(linkedListPageGetStarted).click();
+		return new LinkedList_PO(driver);
+	}
+	public StackPage_PO doLoginStackPage(String u, String p)
+	{
+		System.out.println("login with uname: "+ u+" and passwd: "+p);
+		driver.findElement(usrName).sendKeys(u);
+		driver.findElement(passwd).sendKeys(p);
+		driver.findElement(lgnBtn).click();
+		
+		driver.findElement(stackPageGetStarted).click();
+		return new StackPage_PO(driver);
+	}
 	public String getHomePageURL()
 	{
 		return driver.getCurrentUrl();
