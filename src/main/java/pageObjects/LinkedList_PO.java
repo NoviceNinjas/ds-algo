@@ -21,7 +21,6 @@ public class LinkedList_PO
 	private By tryHere = By.xpath("//a[contains(text(),'Try here')]");
 	private By tryEditorInput = By.xpath("//div/div/textarea");
 	private By tryEditorOutput = By.xpath("//pre[@id='output']");
-	//private By PracticeQuestions = By.xpath("//a[text()='Practice Questions']");
 	private By introduction= By.xpath("//a[text()='Introduction']");
 	private By creatingLL= By.xpath("//a[text()='Creating Linked LIst']");
 	private By typeofLL= By.xpath("//a[text()='Types of Linked List']");

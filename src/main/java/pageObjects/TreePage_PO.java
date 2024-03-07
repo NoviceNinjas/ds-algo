@@ -40,11 +40,8 @@ public class TreePage_PO {
 	private static By submit = By.xpath("//*[@id=\"answer_form\"]/input[2]");
 	private static By question = By.id("questionText");
 	private static By output = By.id("output");
-	//private static By tryHere = By.xpath("//div[2]/div/div[2]/a");
 	private static By tryHere = By.partialLinkText("Try here");
-//	private static By codePath=By.xpath("//*[@id=\"answer_form\"]//div[6]/div[1]//div[5]/div/pre/span/span");
 	private static By codePath=By.xpath("//*[@class=\"CodeMirror-linenumber CodeMirror-gutter-elt\"][1]");
-	//*[@class="CodeMirror-linenumber CodeMirror-gutter-elt"][1]
     static
     { 
     	pageNamemap = new HashMap<>(); 
@@ -133,17 +130,6 @@ public class TreePage_PO {
 				i++;
 			}
 			driver.findElement(elementMap.get("editor")).sendKeys(code);
-			
-			
-			// Actions action = new Actions(driver);
-		       // Keys cmdCtrl = Platform.getCurrent().is(Platform.MAC) ? Keys.COMMAND : Keys.CONTROL;
-				/*
-				 * for(int i=1;i<=codeLine;i++) {
-				 * action.sendKeys(Keys.ARROW_UP).keyUp(Keys.SHIFT).perform(); for(int
-				 * j=1;j<=space;j++) { if(i==1 && flag)
-				 * action.sendKeys(Keys.BACK_SPACE).perform(); else
-				 * action.sendKeys(Keys.DELETE).perform(); } }
-				 */
 			}
 		}
 		else {
@@ -215,12 +201,6 @@ public class TreePage_PO {
 		    // Element does not exist
 			return false;
 		}
-		/*
-		 * //Actions action = new Actions(driver);
-		 * 
-		 * System.out.println("code"+code); if(code.isEmpty()) { return false; } return
-		 * true;
-		 */
 	}
 	
 }

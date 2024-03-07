@@ -1,11 +1,11 @@
 package stepdefinitions;
 
-import static org.testng.Assert.assertTrue;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
 import org.json.simple.parser.ParseException;
+import org.junit.Assert;
 
 import com.qa.factory.DriverFactory;
 
@@ -49,11 +49,8 @@ public class RegistrationPageSteps {
 	
 	@Then("The error {string} appears below {string}")
 	public void user_eneters_the_username(String msg,String element) {
-		
 		String errorMsg=registerPage.getMessage(element);	  
-		System.out.println("errorMsg"+errorMsg);
-		System.out.println("msg"+msg);
-		assertTrue(errorMsg.contains(msg));
+		Assert.assertTrue(errorMsg.contains(msg));
 	}
 	@Then("The {string} message {string} appears")
 	public void warning_appears(String element,String msg) {
@@ -61,7 +58,7 @@ public class RegistrationPageSteps {
 		String alertMsg=registerPage.getAlert(element);	  
 		System.out.println("alertMsg"+alertMsg);
 		System.out.println("msg"+msg);
-		assertTrue(alertMsg.contains(msg));
+		Assert.assertTrue(alertMsg.contains(msg));
 	}
 	
 

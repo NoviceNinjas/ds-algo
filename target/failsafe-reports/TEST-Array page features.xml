@@ -1,0 +1,1142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="Array page features" time="564.062" tests="41" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\14255\.cache\selenium\chromedriver\win64\122.0.6261.94\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\14255\OneDrive\Desktop\School\ds algo\NoviceNinjas\target\test-classes;C:\Users\14255\OneDrive\Desktop\School\ds algo\NoviceNinjas\target\NoviceNinjaslocalFeatureFileParallel-0.0.1-SNAPSHOT.jar;C:\Users\14255\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.2.1\maven-surefire-plugin-3.2.1.jar;C:\Users\14255\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.2.1\maven-surefire-common-3.2.1.jar;C:\Users\14255\.m2\repository\org\apache\maven\surefire\surefire-api\3.2.1\surefire-api-3.2.1.jar;C:\Users\14255\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.2.1\surefire-logger-api-3.2.1.jar;C:\Users\14255\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.2.1\surefire-extensions-api-3.2.1.jar;C:\Users\14255\.m2\repository\org\apache\maven\surefire\surefire-booter\3.2.1\surefire-booter-3.2.1.jar;C:\Users\14255\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.2.1\surefire-extensions-spi-3.2.1.jar;C:\Users\14255\.m2\repository\org\eclipse\aether\aether-util\1.0.0.v20140518\aether-util-1.0.0.v20140518.jar;C:\Users\14255\.m2\repository\org\eclipse\aether\aether-api\1.0.0.v20140518\aether-api-1.0.0.v20140518.jar;C:\Users\14255\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.1.1\maven-common-artifact-filters-3.1.1.jar;C:\Users\14255\.m2\repository\org\apache\maven\maven-artifact\3.1.0\maven-artifact-3.1.0.jar;C:\Users\14255\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.10\plexus-utils-3.0.10.jar;C:\Users\14255\.m2\repository\org\apache\maven\maven-core\3.1.0\maven-core-3.1.0.jar;C:\Users\14255\.m2\repository\org\apache\maven\maven-settings\3.1.0\maven-settings-3.1.0.jar;C:\Users\14255\.m2\repository\org\apache\maven\maven-settings-builder\3.1.0\maven-settings-builder-3.1.0.jar;C:\Users\14255\.m2\repository\org\apache\maven\maven-repository-metadata\3.1.0\maven-repository-metadata-3.1.0.jar;C:\Users\14255\.m2\repository\org\apache\maven\maven-model-builder\3.1.0\maven-model-builder-3.1.0.jar;C:\Users\14255\.m2\repository\org\apache\maven\maven-aether-provider\3.1.0\maven-aether-provider-3.1.0.jar;C:\Users\14255\.m2\repository\org\eclipse\aether\aether-spi\0.9.0.M2\aether-spi-0.9.0.M2.jar;C:\Users\14255\.m2\repository\org\eclipse\aether\aether-impl\0.9.0.M2\aether-impl-0.9.0.M2.jar;C:\Users\14255\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.0.0.M2a\org.eclipse.sisu.plexus-0.0.0.M2a.jar;C:\Users\14255\.m2\repository\javax\enterprise\cdi-api\1.0\cdi-api-1.0.jar;C:\Users\14255\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar;C:\Users\14255\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\14255\.m2\repository\org\sonatype\sisu\sisu-guice\3.1.0\sisu-guice-3.1.0-no_aop.jar;C:\Users\14255\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\14255\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.0.0.M2a\org.eclipse.sisu.inject-0.0.0.M2a.jar;C:\Users\14255\.m2\repository\asm\asm\3.3.1\asm-3.3.1.jar;C:\Users\14255\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.16\plexus-interpolation-1.16.jar;C:\Users\14255\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.4.2\plexus-classworlds-2.4.2.jar;C:\Users\14255\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\14255\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Users\14255\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\14255\.m2\repository\org\apache\maven\maven-plugin-api\3.1.0\maven-plugin-api-3.1.0.jar;C:\Users\14255\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\14255\.m2\repository\org\codehaus\plexus\plexus-java\1.1.2\plexus-java-1.1.2.jar;C:\Users\14255\.m2\repository\org\ow2\asm\asm\9.4\asm-9.4.jar;C:\Users\14255\.m2\repository\com\thoughtworks\qdox\qdox\2.0.3\qdox-2.0.3.jar;C:\Users\14255\.m2\repository\org\codehaus\plexus\plexus-xml\4.0.0\plexus-xml-4.0.0.jar;C:\Users\14255\.m2\repository\org\apache\maven\maven-xml-impl\4.0.0-alpha-5\maven-xml-impl-4.0.0-alpha-5.jar;C:\Users\14255\.m2\repository\org\apache\maven\maven-api-xml\4.0.0-alpha-5\maven-api-xml-4.0.0-alpha-5.jar;C:\Users\14255\.m2\repository\org\apache\maven\maven-api-meta\4.0.0-alpha-5\maven-api-meta-4.0.0-alpha-5.jar;C:\Users\14255\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.2.1\surefire-shared-utils-3.2.1.jar;C:\Users\14255\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\14255\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\14255\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\14255\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\14255\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\14255\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\14255\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\14255\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\14255\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\14255\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\14255\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\14255\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\14255\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\14255\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\14255\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\14255\.m2\repository\io\cucumber\cucumber-junit\7.14.0\cucumber-junit-7.14.0.jar;C:\Users\14255\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\14255\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\14255\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\14255\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\14255\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\14255\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\14255\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\14255\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\14255\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\14255\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\14255\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\14255\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\14255\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\14255\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\14255\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\14255\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\14255\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\14255\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\14255\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\14255\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\14255\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\14255\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\14255\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\14255\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\14255\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\14255\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\14255\.m2\repository\io\github\bonigarcia\webdrivermanager\5.5.3\webdrivermanager-5.5.3.jar;C:\Users\14255\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\14255\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\14255\.m2\repository\com\github\docker-java\docker-java\3.3.3\docker-java-3.3.3.jar;C:\Users\14255\.m2\repository\com\github\docker-java\docker-java-core\3.3.3\docker-java-core-3.3.3.jar;C:\Users\14255\.m2\repository\com\github\docker-java\docker-java-api\3.3.3\docker-java-api-3.3.3.jar;C:\Users\14255\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\14255\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\14255\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\14255\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.75\bcpkix-jdk18on-1.75.jar;C:\Users\14255\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.75\bcprov-jdk18on-1.75.jar;C:\Users\14255\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.75\bcutil-jdk18on-1.75.jar;C:\Users\14255\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\14255\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.3\docker-java-transport-httpclient5-3.3.3.jar;C:\Users\14255\.m2\repository\com\github\docker-java\docker-java-transport\3.3.3\docker-java-transport-3.3.3.jar;C:\Users\14255\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\14255\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\14255\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\14255\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\14255\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\14255\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\14255\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\14255\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\14255\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\14255\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\14255\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\14255\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\14255\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\14255\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\14255\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\14255\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\14255\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\14255\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\14255\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\14255\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\14255\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\14255\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\14255\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\14255\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\14255\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\14255\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\14255\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\14255\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\14255\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\14255\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\14255\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\14255\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\14255\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;C:\Users\14255\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\14255\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\14255\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\14255\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\14255\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\14255\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\14255\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\14255\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\14255\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\14255\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\14255\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\14255\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\14255\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.2\log4j-core-2.17.2.jar;C:\Users\14255\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.6.4\spring-boot-starter-data-jpa-2.6.4.jar;C:\Users\14255\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.6.4\spring-boot-starter-aop-2.6.4.jar;C:\Users\14255\.m2\repository\org\springframework\boot\spring-boot-starter\2.6.4\spring-boot-starter-2.6.4.jar;C:\Users\14255\.m2\repository\org\springframework\boot\spring-boot\2.6.4\spring-boot-2.6.4.jar;C:\Users\14255\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.6.4\spring-boot-autoconfigure-2.6.4.jar;C:\Users\14255\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.6.4\spring-boot-starter-logging-2.6.4.jar;C:\Users\14255\.m2\repository\ch\qos\logback\logback-classic\1.2.10\logback-classic-1.2.10.jar;C:\Users\14255\.m2\repository\ch\qos\logback\logback-core\1.2.10\logback-core-1.2.10.jar;C:\Users\14255\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.17.1\log4j-to-slf4j-2.17.1.jar;C:\Users\14255\.m2\repository\org\slf4j\jul-to-slf4j\1.7.36\jul-to-slf4j-1.7.36.jar;C:\Users\14255\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\14255\.m2\repository\org\springframework\spring-aop\5.3.16\spring-aop-5.3.16.jar;C:\Users\14255\.m2\repository\org\aspectj\aspectjweaver\1.9.7\aspectjweaver-1.9.7.jar;C:\Users\14255\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\2.6.4\spring-boot-starter-jdbc-2.6.4.jar;C:\Users\14255\.m2\repository\com\zaxxer\HikariCP\4.0.3\HikariCP-4.0.3.jar;C:\Users\14255\.m2\repository\org\springframework\spring-jdbc\5.3.16\spring-jdbc-5.3.16.jar;C:\Users\14255\.m2\repository\jakarta\transaction\jakarta.transaction-api\1.3.3\jakarta.transaction-api-1.3.3.jar;C:\Users\14255\.m2\repository\jakarta\persistence\jakarta.persistence-api\2.2.3\jakarta.persistence-api-2.2.3.jar;C:\Users\14255\.m2\repository\org\hibernate\hibernate-core\5.6.5.Final\hibernate-core-5.6.5.Final.jar;C:\Users\14255\.m2\repository\org\jboss\logging\jboss-logging\3.4.3.Final\jboss-logging-3.4.3.Final.jar;C:\Users\14255\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\14255\.m2\repository\org\jboss\jandex\2.4.2.Final\jandex-2.4.2.Final.jar;C:\Users\14255\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\14255\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.2.Final\hibernate-commons-annotations-5.1.2.Final.jar;C:\Users\14255\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar;C:\Users\14255\.m2\repository\org\glassfish\jaxb\txw2\2.3.1\txw2-2.3.1.jar;C:\Users\14255\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.7\istack-commons-runtime-3.0.7.jar;C:\Users\14255\.m2\repository\org\jvnet\staxex\stax-ex\1.8\stax-ex-1.8.jar;C:\Users\14255\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.15\FastInfoset-1.2.15.jar;C:\Users\14255\.m2\repository\org\springframework\data\spring-data-jpa\2.6.2\spring-data-jpa-2.6.2.jar;C:\Users\14255\.m2\repository\org\springframework\data\spring-data-commons\2.6.2\spring-data-commons-2.6.2.jar;C:\Users\14255\.m2\repository\org\springframework\spring-orm\5.3.16\spring-orm-5.3.16.jar;C:\Users\14255\.m2\repository\org\springframework\spring-context\5.3.16\spring-context-5.3.16.jar;C:\Users\14255\.m2\repository\org\springframework\spring-expression\5.3.16\spring-expression-5.3.16.jar;C:\Users\14255\.m2\repository\org\springframework\spring-tx\5.3.16\spring-tx-5.3.16.jar;C:\Users\14255\.m2\repository\org\springframework\spring-beans\5.3.16\spring-beans-5.3.16.jar;C:\Users\14255\.m2\repository\org\springframework\spring-core\5.3.16\spring-core-5.3.16.jar;C:\Users\14255\.m2\repository\org\springframework\spring-jcl\5.3.16\spring-jcl-5.3.16.jar;C:\Users\14255\.m2\repository\org\springframework\spring-aspects\5.3.16\spring-aspects-5.3.16.jar;C:\Users\14255\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\14255\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\14255\AppData\Local\Temp\surefire2126474960735238826\surefirebooter-20240306183507779_3.jar C:\Users\14255\AppData\Local\Temp\surefire2126474960735238826 2024-03-06T18-35-05_551-jvmRun1 surefire-20240306183507779_1tmp surefire_0-20240306183507779_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\14255\OneDrive\Desktop\School\ds algo\NoviceNinjas\target\test-classes;C:\Users\14255\OneDrive\Desktop\School\ds algo\NoviceNinjas\target\NoviceNinjaslocalFeatureFileParallel-0.0.1-SNAPSHOT.jar;C:\Users\14255\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.2.1\maven-surefire-plugin-3.2.1.jar;C:\Users\14255\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.2.1\maven-surefire-common-3.2.1.jar;C:\Users\14255\.m2\repository\org\apache\maven\surefire\surefire-api\3.2.1\surefire-api-3.2.1.jar;C:\Users\14255\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.2.1\surefire-logger-api-3.2.1.jar;C:\Users\14255\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.2.1\surefire-extensions-api-3.2.1.jar;C:\Users\14255\.m2\repository\org\apache\maven\surefire\surefire-booter\3.2.1\surefire-booter-3.2.1.jar;C:\Users\14255\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.2.1\surefire-extensions-spi-3.2.1.jar;C:\Users\14255\.m2\repository\org\eclipse\aether\aether-util\1.0.0.v20140518\aether-util-1.0.0.v20140518.jar;C:\Users\14255\.m2\repository\org\eclipse\aether\aether-api\1.0.0.v20140518\aether-api-1.0.0.v20140518.jar;C:\Users\14255\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.1.1\maven-common-artifact-filters-3.1.1.jar;C:\Users\14255\.m2\repository\org\apache\maven\maven-artifact\3.1.0\maven-artifact-3.1.0.jar;C:\Users\14255\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.10\plexus-utils-3.0.10.jar;C:\Users\14255\.m2\repository\org\apache\maven\maven-core\3.1.0\maven-core-3.1.0.jar;C:\Users\14255\.m2\repository\org\apache\maven\maven-settings\3.1.0\maven-settings-3.1.0.jar;C:\Users\14255\.m2\repository\org\apache\maven\maven-settings-builder\3.1.0\maven-settings-builder-3.1.0.jar;C:\Users\14255\.m2\repository\org\apache\maven\maven-repository-metadata\3.1.0\maven-repository-metadata-3.1.0.jar;C:\Users\14255\.m2\repository\org\apache\maven\maven-model-builder\3.1.0\maven-model-builder-3.1.0.jar;C:\Users\14255\.m2\repository\org\apache\maven\maven-aether-provider\3.1.0\maven-aether-provider-3.1.0.jar;C:\Users\14255\.m2\repository\org\eclipse\aether\aether-spi\0.9.0.M2\aether-spi-0.9.0.M2.jar;C:\Users\14255\.m2\repository\org\eclipse\aether\aether-impl\0.9.0.M2\aether-impl-0.9.0.M2.jar;C:\Users\14255\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.0.0.M2a\org.eclipse.sisu.plexus-0.0.0.M2a.jar;C:\Users\14255\.m2\repository\javax\enterprise\cdi-api\1.0\cdi-api-1.0.jar;C:\Users\14255\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar;C:\Users\14255\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\14255\.m2\repository\org\sonatype\sisu\sisu-guice\3.1.0\sisu-guice-3.1.0-no_aop.jar;C:\Users\14255\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\14255\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.0.0.M2a\org.eclipse.sisu.inject-0.0.0.M2a.jar;C:\Users\14255\.m2\repository\asm\asm\3.3.1\asm-3.3.1.jar;C:\Users\14255\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.16\plexus-interpolation-1.16.jar;C:\Users\14255\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.4.2\plexus-classworlds-2.4.2.jar;C:\Users\14255\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\14255\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Users\14255\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\14255\.m2\repository\org\apache\maven\maven-plugin-api\3.1.0\maven-plugin-api-3.1.0.jar;C:\Users\14255\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\14255\.m2\repository\org\codehaus\plexus\plexus-java\1.1.2\plexus-java-1.1.2.jar;C:\Users\14255\.m2\repository\org\ow2\asm\asm\9.4\asm-9.4.jar;C:\Users\14255\.m2\repository\com\thoughtworks\qdox\qdox\2.0.3\qdox-2.0.3.jar;C:\Users\14255\.m2\repository\org\codehaus\plexus\plexus-xml\4.0.0\plexus-xml-4.0.0.jar;C:\Users\14255\.m2\repository\org\apache\maven\maven-xml-impl\4.0.0-alpha-5\maven-xml-impl-4.0.0-alpha-5.jar;C:\Users\14255\.m2\repository\org\apache\maven\maven-api-xml\4.0.0-alpha-5\maven-api-xml-4.0.0-alpha-5.jar;C:\Users\14255\.m2\repository\org\apache\maven\maven-api-meta\4.0.0-alpha-5\maven-api-meta-4.0.0-alpha-5.jar;C:\Users\14255\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.2.1\surefire-shared-utils-3.2.1.jar;C:\Users\14255\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\14255\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\14255\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\14255\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\14255\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\14255\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\14255\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\14255\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\14255\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\14255\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\14255\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\14255\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\14255\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\14255\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\14255\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\14255\.m2\repository\io\cucumber\cucumber-junit\7.14.0\cucumber-junit-7.14.0.jar;C:\Users\14255\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\14255\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\14255\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\14255\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\14255\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\14255\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\14255\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\14255\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\14255\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\14255\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\14255\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\14255\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\14255\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\14255\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\14255\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\14255\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\14255\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\14255\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\14255\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\14255\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\14255\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\14255\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\14255\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\14255\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\14255\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\14255\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\14255\.m2\repository\io\github\bonigarcia\webdrivermanager\5.5.3\webdrivermanager-5.5.3.jar;C:\Users\14255\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\14255\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\14255\.m2\repository\com\github\docker-java\docker-java\3.3.3\docker-java-3.3.3.jar;C:\Users\14255\.m2\repository\com\github\docker-java\docker-java-core\3.3.3\docker-java-core-3.3.3.jar;C:\Users\14255\.m2\repository\com\github\docker-java\docker-java-api\3.3.3\docker-java-api-3.3.3.jar;C:\Users\14255\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\14255\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\14255\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\14255\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.75\bcpkix-jdk18on-1.75.jar;C:\Users\14255\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.75\bcprov-jdk18on-1.75.jar;C:\Users\14255\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.75\bcutil-jdk18on-1.75.jar;C:\Users\14255\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\14255\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.3\docker-java-transport-httpclient5-3.3.3.jar;C:\Users\14255\.m2\repository\com\github\docker-java\docker-java-transport\3.3.3\docker-java-transport-3.3.3.jar;C:\Users\14255\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\14255\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\14255\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\14255\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\14255\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\14255\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\14255\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\14255\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\14255\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\14255\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\14255\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\14255\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\14255\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\14255\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\14255\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\14255\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\14255\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\14255\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\14255\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\14255\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\14255\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\14255\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\14255\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\14255\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\14255\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\14255\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\14255\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\14255\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\14255\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\14255\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\14255\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\14255\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\14255\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;C:\Users\14255\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\14255\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\14255\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\14255\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\14255\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\14255\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\14255\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\14255\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\14255\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\14255\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\14255\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\14255\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\14255\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.2\log4j-core-2.17.2.jar;C:\Users\14255\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.6.4\spring-boot-starter-data-jpa-2.6.4.jar;C:\Users\14255\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.6.4\spring-boot-starter-aop-2.6.4.jar;C:\Users\14255\.m2\repository\org\springframework\boot\spring-boot-starter\2.6.4\spring-boot-starter-2.6.4.jar;C:\Users\14255\.m2\repository\org\springframework\boot\spring-boot\2.6.4\spring-boot-2.6.4.jar;C:\Users\14255\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.6.4\spring-boot-autoconfigure-2.6.4.jar;C:\Users\14255\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.6.4\spring-boot-starter-logging-2.6.4.jar;C:\Users\14255\.m2\repository\ch\qos\logback\logback-classic\1.2.10\logback-classic-1.2.10.jar;C:\Users\14255\.m2\repository\ch\qos\logback\logback-core\1.2.10\logback-core-1.2.10.jar;C:\Users\14255\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.17.1\log4j-to-slf4j-2.17.1.jar;C:\Users\14255\.m2\repository\org\slf4j\jul-to-slf4j\1.7.36\jul-to-slf4j-1.7.36.jar;C:\Users\14255\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\14255\.m2\repository\org\springframework\spring-aop\5.3.16\spring-aop-5.3.16.jar;C:\Users\14255\.m2\repository\org\aspectj\aspectjweaver\1.9.7\aspectjweaver-1.9.7.jar;C:\Users\14255\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\2.6.4\spring-boot-starter-jdbc-2.6.4.jar;C:\Users\14255\.m2\repository\com\zaxxer\HikariCP\4.0.3\HikariCP-4.0.3.jar;C:\Users\14255\.m2\repository\org\springframework\spring-jdbc\5.3.16\spring-jdbc-5.3.16.jar;C:\Users\14255\.m2\repository\jakarta\transaction\jakarta.transaction-api\1.3.3\jakarta.transaction-api-1.3.3.jar;C:\Users\14255\.m2\repository\jakarta\persistence\jakarta.persistence-api\2.2.3\jakarta.persistence-api-2.2.3.jar;C:\Users\14255\.m2\repository\org\hibernate\hibernate-core\5.6.5.Final\hibernate-core-5.6.5.Final.jar;C:\Users\14255\.m2\repository\org\jboss\logging\jboss-logging\3.4.3.Final\jboss-logging-3.4.3.Final.jar;C:\Users\14255\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\14255\.m2\repository\org\jboss\jandex\2.4.2.Final\jandex-2.4.2.Final.jar;C:\Users\14255\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\14255\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.2.Final\hibernate-commons-annotations-5.1.2.Final.jar;C:\Users\14255\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar;C:\Users\14255\.m2\repository\org\glassfish\jaxb\txw2\2.3.1\txw2-2.3.1.jar;C:\Users\14255\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.7\istack-commons-runtime-3.0.7.jar;C:\Users\14255\.m2\repository\org\jvnet\staxex\stax-ex\1.8\stax-ex-1.8.jar;C:\Users\14255\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.15\FastInfoset-1.2.15.jar;C:\Users\14255\.m2\repository\org\springframework\data\spring-data-jpa\2.6.2\spring-data-jpa-2.6.2.jar;C:\Users\14255\.m2\repository\org\springframework\data\spring-data-commons\2.6.2\spring-data-commons-2.6.2.jar;C:\Users\14255\.m2\repository\org\springframework\spring-orm\5.3.16\spring-orm-5.3.16.jar;C:\Users\14255\.m2\repository\org\springframework\spring-context\5.3.16\spring-context-5.3.16.jar;C:\Users\14255\.m2\repository\org\springframework\spring-expression\5.3.16\spring-expression-5.3.16.jar;C:\Users\14255\.m2\repository\org\springframework\spring-tx\5.3.16\spring-tx-5.3.16.jar;C:\Users\14255\.m2\repository\org\springframework\spring-beans\5.3.16\spring-beans-5.3.16.jar;C:\Users\14255\.m2\repository\org\springframework\spring-core\5.3.16\spring-core-5.3.16.jar;C:\Users\14255\.m2\repository\org\springframework\spring-jcl\5.3.16\spring-jcl-5.3.16.jar;C:\Users\14255\.m2\repository\org\springframework\spring-aspects\5.3.16\spring-aspects-5.3.16.jar;C:\Users\14255\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\14255"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="C:\Users\14255\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Users\14255\OneDrive\Desktop\School\ds algo\NoviceNinjas"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\14255\AppData\Local\Temp\surefire2126474960735238826\surefirebooter-20240306183507779_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.9+9"/>
+    <property name="user.name" value="14255"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.9+9"/>
+    <property name="localRepository" value="C:\Users\14255\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\14255\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.9"/>
+    <property name="user.dir" value="C:\Users\14255\OneDrive\Desktop\School\ds algo\NoviceNinjas"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\14255\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-21/bin/server;C:/Program Files/Java/jdk-21/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PostgreSQL\16\bin;C:\Program Files\Git\cmd;C:\Users\14255\AppData\Local\Microsoft\WindowsApps;C:\Users\14255\OneDrive\Documents\Drive\libcblite-3.0.2\bin;;C:\WINDOWS\system32;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.9+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Array page url" classname="Array page features" time="37.789">
+    <system-out><![CDATA[
+@arraypage
+Scenario: Array page url                                             &amp#27;[90m# src/test/resources/AppFeatures/ArrayPage.feature:10&amp#27;[0m
+Browser name is: chrome
+login with uname: Pratiksha and passwd: Aggarwal
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has already logged in the home page using for Array&amp#27;[0m &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_has_already_logged_in_the_home_page_using_for_Array(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | username  | password |
+    | Pratiksha | Aggarwal |
+The user is in the Array Page after logging in with correct credentials
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user is on the Array Page after logged in&amp#27;[0m                &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_Array_page_after_logged_in()&amp#27;[0m
+The actual URL of the page is: https://dsportalapp.herokuapp.com/array/
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe URL of the page should contain &amp#27;[0m&amp#27;[32m&amp#27;[1m"array"&amp#27;[0m                    &amp#27;[90m# stepdefinitions.HomePageSteps.the_url_of_the_page_should_contain(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Arrays in Python Link" classname="Array page features" time="15.147">
+    <system-out><![CDATA[
+@arraypage
+Scenario: Arrays in Python Link                                      &amp#27;[90m# src/test/resources/AppFeatures/ArrayPage.feature:16&amp#27;[0m
+Browser name is: chrome
+login with uname: Pratiksha and passwd: Aggarwal
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has already logged in the home page using for Array&amp#27;[0m &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_has_already_logged_in_the_home_page_using_for_Array(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | username  | password |
+    | Pratiksha | Aggarwal |
+The user is in the Array Page after logging in with correct credentials
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user is on the Array Page after logged in&amp#27;[0m                &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_Array_page_after_logged_in()&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/array/arrays-in-python/
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user clicks a &amp#27;[0m&amp#27;[32m&amp#27;[1m"Arrays in Python"&amp#27;[0m&amp#27;[32m link&amp#27;[0m                     &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_a_page_link(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/array/arrays-in-python/
+curentURL:https://dsportalapp.herokuapp.com/array/arrays-in-python/
+in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokuapp.com/array/arrays-in-python/
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user should be redirected to &amp#27;[0m&amp#27;[32m&amp#27;[1m"arrays-in-python"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m      &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_should_be_redirected_to_string_page(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Try Here button of Array in Python Page" classname="Array page features" time="18.286">
+    <system-out><![CDATA[
+@arraypage
+Scenario: Try Here button of Array in Python Page                                          &amp#27;[90m# src/test/resources/AppFeatures/ArrayPage.feature:24&amp#27;[0m
+Browser name is: chrome
+login with uname: Pratiksha and passwd: Aggarwal
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has already logged in the home page using for Array&amp#27;[0m                       &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_has_already_logged_in_the_home_page_using_for_Array(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | username  | password |
+    | Pratiksha | Aggarwal |
+curentURL:https://dsportalapp.herokuapp.com/array/applications-of-array/
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"array/applications-of-array/"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                             &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/array/applications-of-array/
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user clicks Try Here button of &amp#27;[0m&amp#27;[32m&amp#27;[1m"Array in Python"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                           &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_try_here_button_of_in_a_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/tryEditor
+curentURL:https://dsportalapp.herokuapp.com/tryEditor
+in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokuapp.com/tryEditor
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user should be redirected to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://dsportalapp.herokuapp.com/tryEditor"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_should_be_redirected_to_string_page(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe Page should have Python Editor&amp#27;[0m                                                   &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_page_should_have_python_editor()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Arrays Using List link from Array in Python Page" classname="Array page features" time="20.223">
+    <system-out><![CDATA[
+@arraypage
+Scenario: Arrays Using List link from Array in Python Page           &amp#27;[90m# src/test/resources/AppFeatures/ArrayPage.feature:31&amp#27;[0m
+Browser name is: chrome
+login with uname: Pratiksha and passwd: Aggarwal
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has already logged in the home page using for Array&amp#27;[0m &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_has_already_logged_in_the_home_page_using_for_Array(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | username  | password |
+    | Pratiksha | Aggarwal |
+curentURL:https://dsportalapp.herokuapp.com/array/arrays-in-python/
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"array/arrays-in-python/"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m            &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/array/arrays-using-list/
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user clicks a &amp#27;[0m&amp#27;[32m&amp#27;[1m"Arrays Using List"&amp#27;[0m&amp#27;[32m link&amp#27;[0m                    &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_a_page_link(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/array/arrays-using-list/
+curentURL:https://dsportalapp.herokuapp.com/array/arrays-using-list/
+in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokuapp.com/array/arrays-using-list/
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user should be redirected to &amp#27;[0m&amp#27;[32m&amp#27;[1m"arrays-using-list"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m     &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_should_be_redirected_to_string_page(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Try Here button of Array Using List Page" classname="Array page features" time="22.907">
+    <system-out><![CDATA[
+@arraypage
+Scenario: Try Here button of Array Using List Page                                         &amp#27;[90m# src/test/resources/AppFeatures/ArrayPage.feature:37&amp#27;[0m
+Browser name is: chrome
+login with uname: Pratiksha and passwd: Aggarwal
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has already logged in the home page using for Array&amp#27;[0m                       &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_has_already_logged_in_the_home_page_using_for_Array(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | username  | password |
+    | Pratiksha | Aggarwal |
+curentURL:https://dsportalapp.herokuapp.com/array/arrays-using-list/
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"array/arrays-using-list"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                  &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/array/arrays-using-list/
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user clicks Try Here button of &amp#27;[0m&amp#27;[32m&amp#27;[1m"Array Using List"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                          &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_try_here_button_of_in_a_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/tryEditor
+curentURL:https://dsportalapp.herokuapp.com/tryEditor
+in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokuapp.com/tryEditor
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user should be redirected to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://dsportalapp.herokuapp.com/tryEditor"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_should_be_redirected_to_string_page(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe Page should have Python Editor&amp#27;[0m                                                   &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_page_should_have_python_editor()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Basic Operations in Lists Page from Array Using List Page" classname="Array page features" time="16.01">
+    <system-out><![CDATA[
+@arraypage
+Scenario: Basic Operations in Lists Page from Array Using List Page      &amp#27;[90m# src/test/resources/AppFeatures/ArrayPage.feature:44&amp#27;[0m
+Browser name is: chrome
+login with uname: Pratiksha and passwd: Aggarwal
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has already logged in the home page using for Array&amp#27;[0m     &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_has_already_logged_in_the_home_page_using_for_Array(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | username  | password |
+    | Pratiksha | Aggarwal |
+curentURL:https://dsportalapp.herokuapp.com/array/arrays-using-list/
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"array/arrays-using-list"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/array/basic-operations-in-lists/
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user clicks a &amp#27;[0m&amp#27;[32m&amp#27;[1m"Basic Operations in Lists"&amp#27;[0m&amp#27;[32m link&amp#27;[0m                &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_a_page_link(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/array/basic-operations-in-lists/
+curentURL:https://dsportalapp.herokuapp.com/array/basic-operations-in-lists/
+in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokuapp.com/array/basic-operations-in-lists/
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user should be redirected to &amp#27;[0m&amp#27;[32m&amp#27;[1m"basic-operations-in-lists"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_should_be_redirected_to_string_page(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Try Here button of Basic Operations in Lists Page" classname="Array page features" time="16.59">
+    <system-out><![CDATA[
+@arraypage
+Scenario: Try Here button of Basic Operations in Lists Page                                &amp#27;[90m# src/test/resources/AppFeatures/ArrayPage.feature:50&amp#27;[0m
+Browser name is: chrome
+login with uname: Pratiksha and passwd: Aggarwal
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has already logged in the home page using for Array&amp#27;[0m                       &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_has_already_logged_in_the_home_page_using_for_Array(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | username  | password |
+    | Pratiksha | Aggarwal |
+curentURL:https://dsportalapp.herokuapp.com/array/basic-operations-in-lists/
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"array/basic-operations-in-lists"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                          &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/array/basic-operations-in-lists/
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user clicks Try Here button of &amp#27;[0m&amp#27;[32m&amp#27;[1m"Basic Operations in Lists"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                 &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_try_here_button_of_in_a_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/tryEditor
+curentURL:https://dsportalapp.herokuapp.com/tryEditor
+in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokuapp.com/tryEditor
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user should be redirected to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://dsportalapp.herokuapp.com/tryEditor"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_should_be_redirected_to_string_page(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe Page should have Python Editor&amp#27;[0m                                                   &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_page_should_have_python_editor()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Applications of Array Page from Basic Operations in Lists Page" classname="Array page features" time="13.63">
+    <system-out><![CDATA[
+@arraypage
+Scenario: Applications of Array Page from Basic Operations in Lists Page &amp#27;[90m# src/test/resources/AppFeatures/ArrayPage.feature:57&amp#27;[0m
+Browser name is: chrome
+login with uname: Pratiksha and passwd: Aggarwal
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has already logged in the home page using for Array&amp#27;[0m     &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_has_already_logged_in_the_home_page_using_for_Array(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | username  | password |
+    | Pratiksha | Aggarwal |
+curentURL:https://dsportalapp.herokuapp.com/array/basic-operations-in-lists/
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"array/basic-operations-in-lists"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m        &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/array/applications-of-array/
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user clicks a &amp#27;[0m&amp#27;[32m&amp#27;[1m"Applications of Array"&amp#27;[0m&amp#27;[32m link&amp#27;[0m                    &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_a_page_link(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/array/applications-of-array/
+curentURL:https://dsportalapp.herokuapp.com/array/applications-of-array/
+in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokuapp.com/array/applications-of-array/
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user should be redirected to &amp#27;[0m&amp#27;[32m&amp#27;[1m"applications-of-array"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m     &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_should_be_redirected_to_string_page(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Practice question page with links" classname="Array page features" time="16.477">
+    <system-out><![CDATA[
+@arraypage
+Scenario: Practice question page with links                          &amp#27;[90m# src/test/resources/AppFeatures/ArrayPage.feature:64&amp#27;[0m
+Browser name is: chrome
+login with uname: Pratiksha and passwd: Aggarwal
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has already logged in the home page using for Array&amp#27;[0m &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_has_already_logged_in_the_home_page_using_for_Array(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | username  | password |
+    | Pratiksha | Aggarwal |
+curentURL:https://dsportalapp.herokuapp.com/array/applications-of-array/
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"array/applications-of-array/"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m       &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/array/practice
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user clicks a &amp#27;[0m&amp#27;[32m&amp#27;[1m"Practice Questions"&amp#27;[0m&amp#27;[32m link&amp#27;[0m                   &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_a_page_link(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/array/practice
+curentURL:https://dsportalapp.herokuapp.com/array/practice
+in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokuapp.com/array/practice
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user should be redirected to &amp#27;[0m&amp#27;[32m&amp#27;[1m"array/practice"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m        &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_should_be_redirected_to_string_page(java.lang.String)&amp#27;[0m
+The Practice links: Search the array
+The Practice links: Max Consecutive Ones
+The Practice links: Find Numbers with Even Number of Digits
+The Practice links: Squares of a Sorted Array
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser gets the following links to explore Practice page&amp#27;[0m         &amp#27;[90m# stepdefinitions.ArrayPageSteps.user_gets_the_following_links_to_explore_practice_page(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Search the array                        |
+    | Max Consecutive Ones                    |
+    | Find Numbers with Even Number of Digits |
+    | Squares of a Sorted Array               |
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe count of the practice links should be &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m                    &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_count_of_the_practice_links_should_be(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Elements on Practice Page #1" classname="Array page features" time="20.056">
+    <system-out><![CDATA[
+@arraypage
+Scenario: Elements on Practice Page                                  &amp#27;[90m# src/test/resources/AppFeatures/ArrayPage.feature:76&amp#27;[0m
+Browser name is: chrome
+login with uname: Pratiksha and passwd: Aggarwal
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has already logged in the home page using for Array&amp#27;[0m &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_has_already_logged_in_the_home_page_using_for_Array(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | username  | password |
+    | Pratiksha | Aggarwal |
+curentURL:https://dsportalapp.herokuapp.com/array/practice
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"array/practice"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                     &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/question/1
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user clicks a &amp#27;[0m&amp#27;[32m&amp#27;[1m"Search the array"&amp#27;[0m&amp#27;[32m link&amp#27;[0m                     &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_a_page_link(java.lang.String)&amp#27;[0m
+[]
+[Ljava.lang.Object;@7a7e2354
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe Page should have following elements&amp#27;[0m                       &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_page_should_have_the_elements(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | question     |
+    | pythonEditor |
+    | run          |
+    | submit       |
+]]></system-out>
+  </testcase>
+  <testcase name="Elements on Practice Page #2" classname="Array page features" time="18.626">
+    <system-out><![CDATA[
+@arraypage
+Scenario: Elements on Practice Page                                  &amp#27;[90m# src/test/resources/AppFeatures/ArrayPage.feature:86&amp#27;[0m
+Browser name is: chrome
+login with uname: Pratiksha and passwd: Aggarwal
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has already logged in the home page using for Array&amp#27;[0m &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_has_already_logged_in_the_home_page_using_for_Array(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | username  | password |
+    | Pratiksha | Aggarwal |
+curentURL:https://dsportalapp.herokuapp.com/array/practice
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"array/practice"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                     &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/question/2
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user clicks a &amp#27;[0m&amp#27;[32m&amp#27;[1m"Max Consecutive Ones"&amp#27;[0m&amp#27;[32m link&amp#27;[0m                 &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_a_page_link(java.lang.String)&amp#27;[0m
+[]
+[Ljava.lang.Object;@5cb37ae8
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe Page should have following elements&amp#27;[0m                       &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_page_should_have_the_elements(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | question     |
+    | pythonEditor |
+    | run          |
+    | submit       |
+]]></system-out>
+  </testcase>
+  <testcase name="Elements on Practice Page #3" classname="Array page features" time="14.41">
+    <system-out><![CDATA[
+@arraypage
+Scenario: Elements on Practice Page                                     &amp#27;[90m# src/test/resources/AppFeatures/ArrayPage.feature:96&amp#27;[0m
+Browser name is: chrome
+login with uname: Pratiksha and passwd: Aggarwal
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has already logged in the home page using for Array&amp#27;[0m    &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_has_already_logged_in_the_home_page_using_for_Array(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | username  | password |
+    | Pratiksha | Aggarwal |
+curentURL:https://dsportalapp.herokuapp.com/array/practice
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"array/practice"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                        &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/question/3
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user clicks a &amp#27;[0m&amp#27;[32m&amp#27;[1m"Find Numbers with Even Number of Digits"&amp#27;[0m&amp#27;[32m link&amp#27;[0m &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_a_page_link(java.lang.String)&amp#27;[0m
+[]
+[Ljava.lang.Object;@1bf1b8c7
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe Page should have following elements&amp#27;[0m                          &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_page_should_have_the_elements(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | question     |
+    | pythonEditor |
+    | run          |
+    | submit       |
+]]></system-out>
+  </testcase>
+  <testcase name="Elements on Practice Page #4" classname="Array page features" time="15.94">
+    <system-out><![CDATA[
+@arraypage
+Scenario: Elements on Practice Page                                  &amp#27;[90m# src/test/resources/AppFeatures/ArrayPage.feature:106&amp#27;[0m
+Browser name is: chrome
+login with uname: Pratiksha and passwd: Aggarwal
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has already logged in the home page using for Array&amp#27;[0m &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_has_already_logged_in_the_home_page_using_for_Array(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | username  | password |
+    | Pratiksha | Aggarwal |
+curentURL:https://dsportalapp.herokuapp.com/array/practice
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"array/practice"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                     &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/question/4
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user clicks a &amp#27;[0m&amp#27;[32m&amp#27;[1m"Squares of a Sorted Array"&amp#27;[0m&amp#27;[32m link&amp#27;[0m            &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_a_page_link(java.lang.String)&amp#27;[0m
+[]
+[Ljava.lang.Object;@6cdcc116
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe Page should have following elements&amp#27;[0m                       &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_page_should_have_the_elements(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | question     |
+    | pythonEditor |
+    | run          |
+    | submit       |
+]]></system-out>
+  </testcase>
+  <testcase name="The user clicks Run on Python Editor of Array In Python Page without entering code" classname="Array page features" time="16.346">
+    <system-out><![CDATA[
+@arraypage
+Scenario: The user clicks Run on Python Editor of Array In Python Page without entering code &amp#27;[90m# src/test/resources/AppFeatures/ArrayPage.feature:118&amp#27;[0m
+Browser name is: chrome
+login with uname: Pratiksha and passwd: Aggarwal
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has already logged in the home page using for Array&amp#27;[0m                         &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_has_already_logged_in_the_home_page_using_for_Array(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | username  | password |
+    | Pratiksha | Aggarwal |
+curentURL:https://dsportalapp.herokuapp.com/array/arrays-in-python/
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"array/arrays-in-python/"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                    &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/array/arrays-in-python/
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks Try Here button of &amp#27;[0m&amp#27;[32m&amp#27;[1m"Arrays In Python"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                             &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_try_here_button_of_in_a_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/tryEditor
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"tryEditor"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                                    &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/tryEditor
+in try here current url: https://dsportalapp.herokuapp.com/tryEditor
+clicking: run
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user clicks &amp#27;[0m&amp#27;[32m&amp#27;[1m"run"&amp#27;[0m&amp#27;[32m with code &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m                                               &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_element_in_a_page(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mOuput Displayed &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m                                                               &amp#27;[90m# stepdefinitions.ArrayPageSteps.output_is_seen_in_the_console(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m                                                                  &amp#27;[90m# stepdefinitions.ArrayPageSteps.no_error_message_is_displayed(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="The user clicks Run on Python Editor of Array In Python Page by enterering invalid code" classname="Array page features" time="13.477">
+    <system-out><![CDATA[
+@arraypage
+Scenario: The user clicks Run on Python Editor of Array In Python Page by enterering invalid code &amp#27;[90m# src/test/resources/AppFeatures/ArrayPage.feature:127&amp#27;[0m
+Browser name is: chrome
+login with uname: Pratiksha and passwd: Aggarwal
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has already logged in the home page using for Array&amp#27;[0m                              &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_has_already_logged_in_the_home_page_using_for_Array(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | username  | password |
+    | Pratiksha | Aggarwal |
+curentURL:https://dsportalapp.herokuapp.com/array/arrays-in-python/
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"array/arrays-in-python/"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                         &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/array/arrays-in-python/
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks Try Here button of &amp#27;[0m&amp#27;[32m&amp#27;[1m"Arrays In Python"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                  &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_try_here_button_of_in_a_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/tryEditor
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"tryEditor"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                                         &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/tryEditor
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user writes &amp#27;[0m&amp#27;[32m&amp#27;[1m"invalid"&amp#27;[0m&amp#27;[32m code for &amp#27;[0m&amp#27;[32m&amp#27;[1m"1"&amp#27;[0m                                                     &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_writes_invalid_code(java.lang.String,java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/tryEditor
+in try here current url: https://dsportalapp.herokuapp.com/tryEditor
+clicking: run
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks &amp#27;[0m&amp#27;[32m&amp#27;[1m"run"&amp#27;[0m&amp#27;[32m with code &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m                                                      &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_element_in_a_page(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m                                                                       &amp#27;[90m# stepdefinitions.ArrayPageSteps.no_error_message_is_displayed(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="The user clicks Run on Python Editor of Array In Python Page and entering valid code" classname="Array page features" time="19.815">
+    <system-out><![CDATA[
+@arraypage
+Scenario: The user clicks Run on Python Editor of Array In Python Page and entering valid code &amp#27;[90m# src/test/resources/AppFeatures/ArrayPage.feature:136&amp#27;[0m
+Browser name is: chrome
+login with uname: Pratiksha and passwd: Aggarwal
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has already logged in the home page using for Array&amp#27;[0m                           &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_has_already_logged_in_the_home_page_using_for_Array(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | username  | password |
+    | Pratiksha | Aggarwal |
+curentURL:https://dsportalapp.herokuapp.com/array/arrays-in-python/
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"array/arrays-in-python/"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                      &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/array/arrays-in-python/
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks Try Here button of &amp#27;[0m&amp#27;[32m&amp#27;[1m"Arrays In Python"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                               &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_try_here_button_of_in_a_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/tryEditor
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"tryEditor"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                                      &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/tryEditor
+0
+0
+0
+0
+0
+2
+0
+0
+0
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user writes &amp#27;[0m&amp#27;[32m&amp#27;[1m"valid"&amp#27;[0m&amp#27;[32m code for &amp#27;[0m&amp#27;[32m&amp#27;[1m"1"&amp#27;[0m                                                    &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_writes_invalid_code(java.lang.String,java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/tryEditor
+in try here current url: https://dsportalapp.herokuapp.com/tryEditor
+clicking: run
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks &amp#27;[0m&amp#27;[32m&amp#27;[1m"run"&amp#27;[0m&amp#27;[32m with code &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m                                                   &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_element_in_a_page(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mOuput Displayed &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m                                                                  &amp#27;[90m# stepdefinitions.ArrayPageSteps.output_is_seen_in_the_console(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="The user clicks Run on Python Editor of Arrays Using List Page without entering code" classname="Array page features" time="12.088">
+    <system-out><![CDATA[
+@arraypage
+Scenario: The user clicks Run on Python Editor of Arrays Using List Page without entering code &amp#27;[90m# src/test/resources/AppFeatures/ArrayPage.feature:146&amp#27;[0m
+Browser name is: chrome
+login with uname: Pratiksha and passwd: Aggarwal
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has already logged in the home page using for Array&amp#27;[0m                           &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_has_already_logged_in_the_home_page_using_for_Array(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | username  | password |
+    | Pratiksha | Aggarwal |
+curentURL:https://dsportalapp.herokuapp.com/array/arrays-using-list/
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"array/arrays-using-list/"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                     &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/array/arrays-using-list/
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks Try Here button of &amp#27;[0m&amp#27;[32m&amp#27;[1m"Arrays Using List"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                              &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_try_here_button_of_in_a_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/tryEditor
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"tryEditor"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                                      &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/tryEditor
+in try here current url: https://dsportalapp.herokuapp.com/tryEditor
+clicking: run
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user clicks &amp#27;[0m&amp#27;[32m&amp#27;[1m"run"&amp#27;[0m&amp#27;[32m with code &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m                                                 &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_element_in_a_page(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mOuput Displayed &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m                                                                 &amp#27;[90m# stepdefinitions.ArrayPageSteps.output_is_seen_in_the_console(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m                                                                    &amp#27;[90m# stepdefinitions.ArrayPageSteps.no_error_message_is_displayed(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="The user clicks Run on Python Editor of Arrays Using List Page by enterering invalid code" classname="Array page features" time="11.726">
+    <system-out><![CDATA[
+@arraypage
+Scenario: The user clicks Run on Python Editor of Arrays Using List Page by enterering invalid code &amp#27;[90m# src/test/resources/AppFeatures/ArrayPage.feature:155&amp#27;[0m
+Browser name is: chrome
+login with uname: Pratiksha and passwd: Aggarwal
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has already logged in the home page using for Array&amp#27;[0m                                &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_has_already_logged_in_the_home_page_using_for_Array(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | username  | password |
+    | Pratiksha | Aggarwal |
+curentURL:https://dsportalapp.herokuapp.com/array/arrays-using-list/
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"array/arrays-using-list/"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                          &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/array/arrays-using-list/
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks Try Here button of &amp#27;[0m&amp#27;[32m&amp#27;[1m"Arrays Using List"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                   &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_try_here_button_of_in_a_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/tryEditor
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"tryEditor"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                                           &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/tryEditor
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user writes &amp#27;[0m&amp#27;[32m&amp#27;[1m"invalid"&amp#27;[0m&amp#27;[32m code for &amp#27;[0m&amp#27;[32m&amp#27;[1m"1"&amp#27;[0m                                                       &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_writes_invalid_code(java.lang.String,java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/tryEditor
+in try here current url: https://dsportalapp.herokuapp.com/tryEditor
+clicking: run
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks &amp#27;[0m&amp#27;[32m&amp#27;[1m"run"&amp#27;[0m&amp#27;[32m with code &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m                                                        &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_element_in_a_page(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m                                                                         &amp#27;[90m# stepdefinitions.ArrayPageSteps.no_error_message_is_displayed(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="The user clicks Run on Python Editor of Arrays Using List Page and entering valid code" classname="Array page features" time="13.584">
+    <system-out><![CDATA[
+@arraypage
+Scenario: The user clicks Run on Python Editor of Arrays Using List Page and entering valid code &amp#27;[90m# src/test/resources/AppFeatures/ArrayPage.feature:164&amp#27;[0m
+Browser name is: chrome
+login with uname: Pratiksha and passwd: Aggarwal
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has already logged in the home page using for Array&amp#27;[0m                             &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_has_already_logged_in_the_home_page_using_for_Array(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | username  | password |
+    | Pratiksha | Aggarwal |
+curentURL:https://dsportalapp.herokuapp.com/array/arrays-using-list/
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"array/arrays-using-list/"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                       &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/array/arrays-using-list/
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks Try Here button of &amp#27;[0m&amp#27;[32m&amp#27;[1m"Arrays Using List"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_try_here_button_of_in_a_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/tryEditor
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"tryEditor"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                                        &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/tryEditor
+0
+0
+0
+0
+0
+2
+0
+0
+0
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user writes &amp#27;[0m&amp#27;[32m&amp#27;[1m"valid"&amp#27;[0m&amp#27;[32m code for &amp#27;[0m&amp#27;[32m&amp#27;[1m"1"&amp#27;[0m                                                      &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_writes_invalid_code(java.lang.String,java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/tryEditor
+in try here current url: https://dsportalapp.herokuapp.com/tryEditor
+clicking: run
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks &amp#27;[0m&amp#27;[32m&amp#27;[1m"run"&amp#27;[0m&amp#27;[32m with code &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m                                                     &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_element_in_a_page(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mOuput Displayed &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m                                                                    &amp#27;[90m# stepdefinitions.ArrayPageSteps.output_is_seen_in_the_console(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="The user clicks Run on Python Editor of Applications of Array Page without entering code" classname="Array page features" time="7.767">
+    <system-out><![CDATA[
+@arraypage
+Scenario: The user clicks Run on Python Editor of Applications of Array Page without entering code &amp#27;[90m# src/test/resources/AppFeatures/ArrayPage.feature:174&amp#27;[0m
+Browser name is: chrome
+login with uname: Pratiksha and passwd: Aggarwal
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has already logged in the home page using for Array&amp#27;[0m                               &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_has_already_logged_in_the_home_page_using_for_Array(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | username  | password |
+    | Pratiksha | Aggarwal |
+curentURL:https://dsportalapp.herokuapp.com/array/applications-of-array/
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"array/applications-of-array/"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                     &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/array/applications-of-array/
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks Try Here button of &amp#27;[0m&amp#27;[32m&amp#27;[1m"Applications of Array"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                              &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_try_here_button_of_in_a_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/tryEditor
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"tryEditor"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                                          &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/tryEditor
+in try here current url: https://dsportalapp.herokuapp.com/tryEditor
+clicking: run
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user clicks &amp#27;[0m&amp#27;[32m&amp#27;[1m"run"&amp#27;[0m&amp#27;[32m with code &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m                                                     &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_element_in_a_page(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mOuput Displayed &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m                                                                     &amp#27;[90m# stepdefinitions.ArrayPageSteps.output_is_seen_in_the_console(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m                                                                        &amp#27;[90m# stepdefinitions.ArrayPageSteps.no_error_message_is_displayed(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="The user clicks Run on Python Editor of Applications of Array Page by enterering invalid code" classname="Array page features" time="7.488">
+    <system-out><![CDATA[
+@arraypage
+Scenario: The user clicks Run on Python Editor of Applications of Array Page by enterering invalid code &amp#27;[90m# src/test/resources/AppFeatures/ArrayPage.feature:183&amp#27;[0m
+Browser name is: chrome
+login with uname: Pratiksha and passwd: Aggarwal
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has already logged in the home page using for Array&amp#27;[0m                                    &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_has_already_logged_in_the_home_page_using_for_Array(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | username  | password |
+    | Pratiksha | Aggarwal |
+curentURL:https://dsportalapp.herokuapp.com/array/applications-of-array/
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"array/applications-of-array/"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                          &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/array/applications-of-array/
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks Try Here button of &amp#27;[0m&amp#27;[32m&amp#27;[1m"Applications of Array"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                   &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_try_here_button_of_in_a_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/tryEditor
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"tryEditor"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                                               &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/tryEditor
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user writes &amp#27;[0m&amp#27;[32m&amp#27;[1m"invalid"&amp#27;[0m&amp#27;[32m code for &amp#27;[0m&amp#27;[32m&amp#27;[1m"1"&amp#27;[0m                                                           &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_writes_invalid_code(java.lang.String,java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/tryEditor
+in try here current url: https://dsportalapp.herokuapp.com/tryEditor
+clicking: run
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks &amp#27;[0m&amp#27;[32m&amp#27;[1m"run"&amp#27;[0m&amp#27;[32m with code &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m                                                            &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_element_in_a_page(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m                                                                             &amp#27;[90m# stepdefinitions.ArrayPageSteps.no_error_message_is_displayed(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="The user clicks Run on Python Editor of Applications of Array Page and entering valid code" classname="Array page features" time="12.766">
+    <system-out><![CDATA[
+@arraypage
+Scenario: The user clicks Run on Python Editor of Applications of Array Page and entering valid code &amp#27;[90m# src/test/resources/AppFeatures/ArrayPage.feature:192&amp#27;[0m
+Browser name is: chrome
+login with uname: Pratiksha and passwd: Aggarwal
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has already logged in the home page using for Array&amp#27;[0m                                 &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_has_already_logged_in_the_home_page_using_for_Array(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | username  | password |
+    | Pratiksha | Aggarwal |
+curentURL:https://dsportalapp.herokuapp.com/array/applications-of-array/
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"array/applications-of-array/"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                       &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/array/applications-of-array/
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks Try Here button of &amp#27;[0m&amp#27;[32m&amp#27;[1m"Applications of Array"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_try_here_button_of_in_a_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/tryEditor
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"tryEditor"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                                            &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/tryEditor
+0
+0
+0
+0
+0
+2
+0
+0
+0
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user writes &amp#27;[0m&amp#27;[32m&amp#27;[1m"valid"&amp#27;[0m&amp#27;[32m code for &amp#27;[0m&amp#27;[32m&amp#27;[1m"1"&amp#27;[0m                                                          &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_writes_invalid_code(java.lang.String,java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/tryEditor
+in try here current url: https://dsportalapp.herokuapp.com/tryEditor
+clicking: run
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks &amp#27;[0m&amp#27;[32m&amp#27;[1m"run"&amp#27;[0m&amp#27;[32m with code &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m                                                         &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_element_in_a_page(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mOuput Displayed &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m                                                                        &amp#27;[90m# stepdefinitions.ArrayPageSteps.output_is_seen_in_the_console(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="The user clicks Run on Python Editor of Basic Operations in Lists Page without entering code" classname="Array page features" time="8.32">
+    <system-out><![CDATA[
+@arraypage
+Scenario: The user clicks Run on Python Editor of Basic Operations in Lists Page without entering code &amp#27;[90m# src/test/resources/AppFeatures/ArrayPage.feature:202&amp#27;[0m
+Browser name is: chrome
+login with uname: Pratiksha and passwd: Aggarwal
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has already logged in the home page using for Array&amp#27;[0m                                   &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_has_already_logged_in_the_home_page_using_for_Array(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | username  | password |
+    | Pratiksha | Aggarwal |
+curentURL:https://dsportalapp.herokuapp.com/array/basic-operations-in-lists/
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"array/basic-operations-in-lists/"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                     &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/array/basic-operations-in-lists/
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks Try Here button of &amp#27;[0m&amp#27;[32m&amp#27;[1m"Basic Operations in Lists"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                              &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_try_here_button_of_in_a_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/tryEditor
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"tryEditor"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                                              &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/tryEditor
+in try here current url: https://dsportalapp.herokuapp.com/tryEditor
+clicking: run
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user clicks &amp#27;[0m&amp#27;[32m&amp#27;[1m"run"&amp#27;[0m&amp#27;[32m with code &amp#27;[0m&amp#27;[32m&amp#27;[1m"fales"&amp#27;[0m                                                         &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_element_in_a_page(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mOuput Displayed &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m                                                                         &amp#27;[90m# stepdefinitions.ArrayPageSteps.output_is_seen_in_the_console(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m                                                                            &amp#27;[90m# stepdefinitions.ArrayPageSteps.no_error_message_is_displayed(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="The user clicks Run on Python Editor of Basic Operations in Lists Page by enterering invalid code" classname="Array page features" time="8.144">
+    <system-out><![CDATA[
+@arraypage
+Scenario: The user clicks Run on Python Editor of Basic Operations in Lists Page by enterering invalid code &amp#27;[90m# src/test/resources/AppFeatures/ArrayPage.feature:211&amp#27;[0m
+Browser name is: chrome
+login with uname: Pratiksha and passwd: Aggarwal
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has already logged in the home page using for Array&amp#27;[0m                                        &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_has_already_logged_in_the_home_page_using_for_Array(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | username  | password |
+    | Pratiksha | Aggarwal |
+curentURL:https://dsportalapp.herokuapp.com/array/basic-operations-in-lists/
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"array/basic-operations-in-lists/"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                          &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/array/basic-operations-in-lists/
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks Try Here button of &amp#27;[0m&amp#27;[32m&amp#27;[1m"Basic Operations in Lists"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                   &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_try_here_button_of_in_a_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/tryEditor
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"tryEditor"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                                                   &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/tryEditor
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user writes &amp#27;[0m&amp#27;[32m&amp#27;[1m"invalid"&amp#27;[0m&amp#27;[32m code for &amp#27;[0m&amp#27;[32m&amp#27;[1m"1"&amp#27;[0m                                                               &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_writes_invalid_code(java.lang.String,java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/tryEditor
+in try here current url: https://dsportalapp.herokuapp.com/tryEditor
+clicking: run
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks &amp#27;[0m&amp#27;[32m&amp#27;[1m"run"&amp#27;[0m&amp#27;[32m with code &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m                                                                &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_element_in_a_page(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m                                                                                 &amp#27;[90m# stepdefinitions.ArrayPageSteps.no_error_message_is_displayed(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="The user clicks Run on Python Editor of Basic Operations in Lists Page and entering valid code" classname="Array page features" time="12.135">
+    <system-out><![CDATA[
+@arraypage
+Scenario: The user clicks Run on Python Editor of Basic Operations in Lists Page and entering valid code &amp#27;[90m# src/test/resources/AppFeatures/ArrayPage.feature:220&amp#27;[0m
+Browser name is: chrome
+login with uname: Pratiksha and passwd: Aggarwal
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has already logged in the home page using for Array&amp#27;[0m                                     &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_has_already_logged_in_the_home_page_using_for_Array(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | username  | password |
+    | Pratiksha | Aggarwal |
+curentURL:https://dsportalapp.herokuapp.com/array/basic-operations-in-lists/
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"array/basic-operations-in-lists/"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                       &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/array/basic-operations-in-lists/
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks Try Here button of &amp#27;[0m&amp#27;[32m&amp#27;[1m"Basic Operations in Lists"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_try_here_button_of_in_a_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/tryEditor
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"tryEditor"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                                                &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/tryEditor
+0
+0
+0
+0
+0
+2
+0
+0
+0
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user writes &amp#27;[0m&amp#27;[32m&amp#27;[1m"valid"&amp#27;[0m&amp#27;[32m code for &amp#27;[0m&amp#27;[32m&amp#27;[1m"1"&amp#27;[0m                                                              &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_writes_invalid_code(java.lang.String,java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/tryEditor
+in try here current url: https://dsportalapp.herokuapp.com/tryEditor
+clicking: run
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks &amp#27;[0m&amp#27;[32m&amp#27;[1m"run"&amp#27;[0m&amp#27;[32m with code &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m                                                             &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_element_in_a_page(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mOuput Displayed &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m                                                                            &amp#27;[90m# stepdefinitions.ArrayPageSteps.output_is_seen_in_the_console(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="The user clicks Run on Python Editor of Search the Array Practice Page without entering code" classname="Array page features" time="7.517">
+    <system-out><![CDATA[
+@arraypage
+Scenario: The user clicks Run on Python Editor of Search the Array Practice Page without entering code &amp#27;[90m# src/test/resources/AppFeatures/ArrayPage.feature:231&amp#27;[0m
+Browser name is: chrome
+login with uname: Pratiksha and passwd: Aggarwal
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has already logged in the home page using for Array&amp#27;[0m                                   &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_has_already_logged_in_the_home_page_using_for_Array(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | username  | password |
+    | Pratiksha | Aggarwal |
+curentURL:https://dsportalapp.herokuapp.com/question/1
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"question/1"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                                           &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/question/1
+in try here current url: https://dsportalapp.herokuapp.com/question/1
+clicking: run
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user clicks &amp#27;[0m&amp#27;[32m&amp#27;[1m"run"&amp#27;[0m&amp#27;[32m with code &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m                                                         &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_element_in_a_page(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m                                                                           &amp#27;[90m# stepdefinitions.ArrayPageSteps.no_error_message_is_displayed(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mOuput Displayed &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m                                                                          &amp#27;[90m# stepdefinitions.ArrayPageSteps.output_is_seen_in_the_console(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="The user clicks Run on Python Editor of Search the Array Practice Page by enterering invalid code" classname="Array page features" time="6.888">
+    <system-out><![CDATA[
+@arraypage
+Scenario: The user clicks Run on Python Editor of Search the Array Practice Page by enterering invalid code &amp#27;[90m# src/test/resources/AppFeatures/ArrayPage.feature:238&amp#27;[0m
+Browser name is: chrome
+login with uname: Pratiksha and passwd: Aggarwal
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has already logged in the home page using for Array&amp#27;[0m                                        &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_has_already_logged_in_the_home_page_using_for_Array(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | username  | password |
+    | Pratiksha | Aggarwal |
+curentURL:https://dsportalapp.herokuapp.com/question/1
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"question/1"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                                                &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/question/1
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user writes &amp#27;[0m&amp#27;[32m&amp#27;[1m"invalid"&amp#27;[0m&amp#27;[32m code for &amp#27;[0m&amp#27;[32m&amp#27;[1m"1"&amp#27;[0m                                                               &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_writes_invalid_code(java.lang.String,java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/question/1
+in try here current url: https://dsportalapp.herokuapp.com/question/1
+clicking: run
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks &amp#27;[0m&amp#27;[32m&amp#27;[1m"run"&amp#27;[0m&amp#27;[32m with code &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m                                                                &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_element_in_a_page(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m                                                                                 &amp#27;[90m# stepdefinitions.ArrayPageSteps.no_error_message_is_displayed(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="The user clicks Run on Python Editor of Search the Array Practice Page and entering valid code" classname="Array page features" time="11.819">
+    <system-out><![CDATA[
+@arraypage
+Scenario: The user clicks Run on Python Editor of Search the Array Practice Page and entering valid code &amp#27;[90m# src/test/resources/AppFeatures/ArrayPage.feature:245&amp#27;[0m
+Browser name is: chrome
+login with uname: Pratiksha and passwd: Aggarwal
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has already logged in the home page using for Array&amp#27;[0m                                     &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_has_already_logged_in_the_home_page_using_for_Array(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | username  | password |
+    | Pratiksha | Aggarwal |
+curentURL:https://dsportalapp.herokuapp.com/question/1
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"question/1"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                                             &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/question/1
+0
+0
+0
+0
+0
+2
+0
+0
+0
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user writes &amp#27;[0m&amp#27;[32m&amp#27;[1m"valid"&amp#27;[0m&amp#27;[32m code for &amp#27;[0m&amp#27;[32m&amp#27;[1m"1"&amp#27;[0m                                                              &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_writes_invalid_code(java.lang.String,java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/question/1
+in try here current url: https://dsportalapp.herokuapp.com/question/1
+clicking: run
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks &amp#27;[0m&amp#27;[32m&amp#27;[1m"run"&amp#27;[0m&amp#27;[32m with code &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m                                                             &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_element_in_a_page(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m                                                                             &amp#27;[90m# stepdefinitions.ArrayPageSteps.no_error_message_is_displayed(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mOuput Displayed &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m                                                                            &amp#27;[90m# stepdefinitions.ArrayPageSteps.output_is_seen_in_the_console(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="The user clicks Submit on Python Editor of Search the Array Practice Page and entering valid code" classname="Array page features" time="12.267">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefinitions.ArrayPageSteps.the_user_see_an_error_message(ArrayPageSteps.java:132)
+	at ✽.The user see an error message "Error occurred during submission"(file:///C:/Users/14255/OneDrive/Desktop/School/ds%20algo/NoviceNinjas/src/test/resources/AppFeatures/ArrayPage.feature:257)
+]]></failure>
+    <system-out><![CDATA[
+@arraypage
+Scenario: The user clicks Submit on Python Editor of Search the Array Practice Page and entering valid code &amp#27;[90m# src/test/resources/AppFeatures/ArrayPage.feature:253&amp#27;[0m
+Browser name is: chrome
+login with uname: Pratiksha and passwd: Aggarwal
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has already logged in the home page using for Array&amp#27;[0m                                        &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_has_already_logged_in_the_home_page_using_for_Array(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | username  | password |
+    | Pratiksha | Aggarwal |
+curentURL:https://dsportalapp.herokuapp.com/question/1
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"question/1"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                                                &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/question/1
+0
+0
+0
+0
+0
+2
+0
+0
+0
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user writes &amp#27;[0m&amp#27;[32m&amp#27;[1m"valid"&amp#27;[0m&amp#27;[32m code for &amp#27;[0m&amp#27;[32m&amp#27;[1m"1"&amp#27;[0m                                                                 &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_writes_invalid_code(java.lang.String,java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/question/1
+in try here current url: https://dsportalapp.herokuapp.com/question/1
+clicking: submit
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks &amp#27;[0m&amp#27;[32m&amp#27;[1m"submit"&amp#27;[0m&amp#27;[32m with code &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m                                                             &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_element_in_a_page(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mThe user see an error message &amp#27;[0m&amp#27;[31m&amp#27;[1m"Error occurred during submission"&amp#27;[0m                                     &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_see_an_error_message(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefinitions.ArrayPageSteps.the_user_see_an_error_message(ArrayPageSteps.java:132)
+	at âœ½.The user see an error message "Error occurred during submission"(file:///C:/Users/14255/OneDrive/Desktop/School/ds%20algo/NoviceNinjas/src/test/resources/AppFeatures/ArrayPage.feature:257)
+&amp#27;[0m
+The path for the screen shot is: [B@5acbfc16
+
+    Embedding The_user_clicks_Submit_on_Python_Editor_of_Search_the_Array_Practice_Page_and_entering_valid_code [image/png 37197 bytes]
+
+]]></system-out>
+  </testcase>
+  <testcase name="The user clicks Run on Python Editor of Max Consecutive Ones Practice Page without entering code" classname="Array page features" time="8.809">
+    <system-out><![CDATA[
+@arraypage
+Scenario: The user clicks Run on Python Editor of Max Consecutive Ones Practice Page without entering code &amp#27;[90m# src/test/resources/AppFeatures/ArrayPage.feature:262&amp#27;[0m
+Browser name is: chrome
+login with uname: Pratiksha and passwd: Aggarwal
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has already logged in the home page using for Array&amp#27;[0m                                       &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_has_already_logged_in_the_home_page_using_for_Array(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | username  | password |
+    | Pratiksha | Aggarwal |
+curentURL:https://dsportalapp.herokuapp.com/question/2
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"question/2"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                                               &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/question/2
+in try here current url: https://dsportalapp.herokuapp.com/question/2
+clicking: run
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user clicks &amp#27;[0m&amp#27;[32m&amp#27;[1m"run"&amp#27;[0m&amp#27;[32m with code &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m                                                             &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_element_in_a_page(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m                                                                               &amp#27;[90m# stepdefinitions.ArrayPageSteps.no_error_message_is_displayed(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mOuput Displayed &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m                                                                              &amp#27;[90m# stepdefinitions.ArrayPageSteps.output_is_seen_in_the_console(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="The user clicks Run on Python Editor of Max Consecutive Ones Practice Page by enterering invalid code" classname="Array page features" time="6.156">
+    <system-out><![CDATA[
+@arraypage
+Scenario: The user clicks Run on Python Editor of Max Consecutive Ones Practice Page by enterering invalid code &amp#27;[90m# src/test/resources/AppFeatures/ArrayPage.feature:269&amp#27;[0m
+Browser name is: chrome
+login with uname: Pratiksha and passwd: Aggarwal
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has already logged in the home page using for Array&amp#27;[0m                                            &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_has_already_logged_in_the_home_page_using_for_Array(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | username  | password |
+    | Pratiksha | Aggarwal |
+curentURL:https://dsportalapp.herokuapp.com/question/2
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"question/2"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                                                    &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/question/2
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user writes &amp#27;[0m&amp#27;[32m&amp#27;[1m"invalid"&amp#27;[0m&amp#27;[32m code for &amp#27;[0m&amp#27;[32m&amp#27;[1m"2"&amp#27;[0m                                                                   &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_writes_invalid_code(java.lang.String,java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/question/2
+in try here current url: https://dsportalapp.herokuapp.com/question/2
+clicking: run
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks &amp#27;[0m&amp#27;[32m&amp#27;[1m"run"&amp#27;[0m&amp#27;[32m with code &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m                                                                    &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_element_in_a_page(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m                                                                                     &amp#27;[90m# stepdefinitions.ArrayPageSteps.no_error_message_is_displayed(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="The user clicks Run on Python Editor of Max Consecutive Ones Practice Page and entering valid code" classname="Array page features" time="13.365">
+    <system-out><![CDATA[
+@arraypage
+Scenario: The user clicks Run on Python Editor of Max Consecutive Ones Practice Page and entering valid code &amp#27;[90m# src/test/resources/AppFeatures/ArrayPage.feature:276&amp#27;[0m
+Browser name is: chrome
+login with uname: Pratiksha and passwd: Aggarwal
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has already logged in the home page using for Array&amp#27;[0m                                         &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_has_already_logged_in_the_home_page_using_for_Array(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | username  | password |
+    | Pratiksha | Aggarwal |
+curentURL:https://dsportalapp.herokuapp.com/question/2
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"question/2"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                                                 &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/question/2
+0
+0
+0
+0
+0
+0
+2
+0
+2
+2
+0
+0
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user writes &amp#27;[0m&amp#27;[32m&amp#27;[1m"valid"&amp#27;[0m&amp#27;[32m code for &amp#27;[0m&amp#27;[32m&amp#27;[1m"2"&amp#27;[0m                                                                  &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_writes_invalid_code(java.lang.String,java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/question/2
+in try here current url: https://dsportalapp.herokuapp.com/question/2
+clicking: run
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks &amp#27;[0m&amp#27;[32m&amp#27;[1m"run"&amp#27;[0m&amp#27;[32m with code &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m                                                                 &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_element_in_a_page(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m                                                                                 &amp#27;[90m# stepdefinitions.ArrayPageSteps.no_error_message_is_displayed(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mOuput Displayed &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m                                                                                &amp#27;[90m# stepdefinitions.ArrayPageSteps.output_is_seen_in_the_console(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="The user clicks Submit on Python Editor of Max Consecutive Ones Practice Page and entering valid code" classname="Array page features" time="12.982">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefinitions.ArrayPageSteps.the_user_see_an_error_message(ArrayPageSteps.java:132)
+	at ✽.The user see an error message "Error occurred during submission"(file:///C:/Users/14255/OneDrive/Desktop/School/ds%20algo/NoviceNinjas/src/test/resources/AppFeatures/ArrayPage.feature:288)
+]]></failure>
+    <system-out><![CDATA[
+@arraypage
+Scenario: The user clicks Submit on Python Editor of Max Consecutive Ones Practice Page and entering valid code &amp#27;[90m# src/test/resources/AppFeatures/ArrayPage.feature:284&amp#27;[0m
+Browser name is: chrome
+login with uname: Pratiksha and passwd: Aggarwal
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has already logged in the home page using for Array&amp#27;[0m                                            &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_has_already_logged_in_the_home_page_using_for_Array(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | username  | password |
+    | Pratiksha | Aggarwal |
+curentURL:https://dsportalapp.herokuapp.com/question/2
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"question/2"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                                                    &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/question/2
+0
+0
+0
+0
+0
+0
+2
+0
+2
+2
+0
+0
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user writes &amp#27;[0m&amp#27;[32m&amp#27;[1m"valid"&amp#27;[0m&amp#27;[32m code for &amp#27;[0m&amp#27;[32m&amp#27;[1m"2"&amp#27;[0m                                                                     &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_writes_invalid_code(java.lang.String,java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/question/2
+in try here current url: https://dsportalapp.herokuapp.com/question/2
+clicking: submit
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks &amp#27;[0m&amp#27;[32m&amp#27;[1m"submit"&amp#27;[0m&amp#27;[32m with code &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m                                                                 &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_element_in_a_page(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mThe user see an error message &amp#27;[0m&amp#27;[31m&amp#27;[1m"Error occurred during submission"&amp#27;[0m                                         &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_see_an_error_message(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefinitions.ArrayPageSteps.the_user_see_an_error_message(ArrayPageSteps.java:132)
+	at âœ½.The user see an error message "Error occurred during submission"(file:///C:/Users/14255/OneDrive/Desktop/School/ds%20algo/NoviceNinjas/src/test/resources/AppFeatures/ArrayPage.feature:288)
+&amp#27;[0m
+The path for the screen shot is: [B@4e73f4c0
+
+    Embedding The_user_clicks_Submit_on_Python_Editor_of_Max_Consecutive_Ones_Practice_Page_and_entering_valid_code [image/png 27115 bytes]
+
+]]></system-out>
+  </testcase>
+  <testcase name="The user clicks Run on Python Editor of Find Numbers with Even Number of Digits Practice Page without entering code" classname="Array page features" time="6.857">
+    <system-out><![CDATA[
+@arraypage
+Scenario: The user clicks Run on Python Editor of Find Numbers with Even Number of Digits Practice Page without entering code &amp#27;[90m# src/test/resources/AppFeatures/ArrayPage.feature:293&amp#27;[0m
+Browser name is: chrome
+login with uname: Pratiksha and passwd: Aggarwal
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has already logged in the home page using for Array&amp#27;[0m                                                          &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_has_already_logged_in_the_home_page_using_for_Array(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | username  | password |
+    | Pratiksha | Aggarwal |
+curentURL:https://dsportalapp.herokuapp.com/question/3
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"question/3"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                                                                  &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/question/3
+in try here current url: https://dsportalapp.herokuapp.com/question/3
+clicking: run
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user clicks &amp#27;[0m&amp#27;[32m&amp#27;[1m"run"&amp#27;[0m&amp#27;[32m with code &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m                                                                                &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_element_in_a_page(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m                                                                                                  &amp#27;[90m# stepdefinitions.ArrayPageSteps.no_error_message_is_displayed(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mOuput Displayed &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m                                                                                                 &amp#27;[90m# stepdefinitions.ArrayPageSteps.output_is_seen_in_the_console(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="The user clicks Run on Python Editor of Find Numbers with Even Number of Digits Practice Page by enterering invalid code" classname="Array page features" time="8.217">
+    <system-out><![CDATA[
+@arraypage
+Scenario: The user clicks Run on Python Editor of Find Numbers with Even Number of Digits Practice Page by enterering invalid code &amp#27;[90m# src/test/resources/AppFeatures/ArrayPage.feature:300&amp#27;[0m
+Browser name is: chrome
+login with uname: Pratiksha and passwd: Aggarwal
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has already logged in the home page using for Array&amp#27;[0m                                                               &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_has_already_logged_in_the_home_page_using_for_Array(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | username  | password |
+    | Pratiksha | Aggarwal |
+curentURL:https://dsportalapp.herokuapp.com/question/3
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"question/3"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                                                                       &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/question/3
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user writes &amp#27;[0m&amp#27;[32m&amp#27;[1m"invalid"&amp#27;[0m&amp#27;[32m code for &amp#27;[0m&amp#27;[32m&amp#27;[1m"3"&amp#27;[0m                                                                                      &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_writes_invalid_code(java.lang.String,java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/question/3
+in try here current url: https://dsportalapp.herokuapp.com/question/3
+clicking: run
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks &amp#27;[0m&amp#27;[32m&amp#27;[1m"run"&amp#27;[0m&amp#27;[32m with code &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m                                                                                       &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_element_in_a_page(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m                                                                                                        &amp#27;[90m# stepdefinitions.ArrayPageSteps.no_error_message_is_displayed(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="The user clicks Run on Python Editor of Find Numbers with Even Number of Digits Practice Page and entering valid code" classname="Array page features" time="13.31">
+    <system-out><![CDATA[
+@arraypage
+Scenario: The user clicks Run on Python Editor of Find Numbers with Even Number of Digits Practice Page and entering valid code &amp#27;[90m# src/test/resources/AppFeatures/ArrayPage.feature:307&amp#27;[0m
+Browser name is: chrome
+login with uname: Pratiksha and passwd: Aggarwal
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has already logged in the home page using for Array&amp#27;[0m                                                            &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_has_already_logged_in_the_home_page_using_for_Array(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | username  | password |
+    | Pratiksha | Aggarwal |
+curentURL:https://dsportalapp.herokuapp.com/question/3
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"question/3"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                                                                    &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/question/3
+0
+0
+0
+0
+0
+0
+0
+4
+0
+0
+0
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user writes &amp#27;[0m&amp#27;[32m&amp#27;[1m"valid"&amp#27;[0m&amp#27;[32m code for &amp#27;[0m&amp#27;[32m&amp#27;[1m"3"&amp#27;[0m                                                                                     &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_writes_invalid_code(java.lang.String,java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/question/3
+in try here current url: https://dsportalapp.herokuapp.com/question/3
+clicking: run
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks &amp#27;[0m&amp#27;[32m&amp#27;[1m"run"&amp#27;[0m&amp#27;[32m with code &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m                                                                                    &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_element_in_a_page(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m                                                                                                    &amp#27;[90m# stepdefinitions.ArrayPageSteps.no_error_message_is_displayed(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mOuput Displayed &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m                                                                                                   &amp#27;[90m# stepdefinitions.ArrayPageSteps.output_is_seen_in_the_console(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="The user clicks Submit on Python Editor of Find Numbers with Even Number of Digits Practice Page and entering valid code" classname="Array page features" time="13.609">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefinitions.ArrayPageSteps.the_user_see_an_error_message(ArrayPageSteps.java:132)
+	at ✽.The user see an error message "Error occurred during submission"(file:///C:/Users/14255/OneDrive/Desktop/School/ds%20algo/NoviceNinjas/src/test/resources/AppFeatures/ArrayPage.feature:319)
+]]></failure>
+    <system-out><![CDATA[
+@arraypage
+Scenario: The user clicks Submit on Python Editor of Find Numbers with Even Number of Digits Practice Page and entering valid code &amp#27;[90m# src/test/resources/AppFeatures/ArrayPage.feature:315&amp#27;[0m
+Browser name is: chrome
+login with uname: Pratiksha and passwd: Aggarwal
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has already logged in the home page using for Array&amp#27;[0m                                                               &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_has_already_logged_in_the_home_page_using_for_Array(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | username  | password |
+    | Pratiksha | Aggarwal |
+curentURL:https://dsportalapp.herokuapp.com/question/3
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"question/3"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                                                                       &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/question/3
+0
+0
+0
+0
+0
+0
+0
+4
+0
+0
+0
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user writes &amp#27;[0m&amp#27;[32m&amp#27;[1m"valid"&amp#27;[0m&amp#27;[32m code for &amp#27;[0m&amp#27;[32m&amp#27;[1m"3"&amp#27;[0m                                                                                        &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_writes_invalid_code(java.lang.String,java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/question/3
+in try here current url: https://dsportalapp.herokuapp.com/question/3
+clicking: submit
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks &amp#27;[0m&amp#27;[32m&amp#27;[1m"submit"&amp#27;[0m&amp#27;[32m with code &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m                                                                                    &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_element_in_a_page(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mThe user see an error message &amp#27;[0m&amp#27;[31m&amp#27;[1m"Error occurred during submission"&amp#27;[0m                                                            &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_see_an_error_message(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefinitions.ArrayPageSteps.the_user_see_an_error_message(ArrayPageSteps.java:132)
+	at âœ½.The user see an error message "Error occurred during submission"(file:///C:/Users/14255/OneDrive/Desktop/School/ds%20algo/NoviceNinjas/src/test/resources/AppFeatures/ArrayPage.feature:319)
+&amp#27;[0m
+The path for the screen shot is: [B@5c71a06c
+
+    Embedding The_user_clicks_Submit_on_Python_Editor_of_Find_Numbers_with_Even_Number_of_Digits_Practice_Page_and_entering_valid_code [image/png 37085 bytes]
+
+]]></system-out>
+  </testcase>
+  <testcase name="The user clicks Run on Python Editor of Squares of a Sorted Array Practice Page without entering code" classname="Array page features" time="7.656">
+    <system-out><![CDATA[
+@arraypage
+Scenario: The user clicks Run on Python Editor of Squares of a Sorted Array Practice Page without entering code &amp#27;[90m# src/test/resources/AppFeatures/ArrayPage.feature:324&amp#27;[0m
+Browser name is: chrome
+login with uname: Pratiksha and passwd: Aggarwal
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has already logged in the home page using for Array&amp#27;[0m                                            &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_has_already_logged_in_the_home_page_using_for_Array(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | username  | password |
+    | Pratiksha | Aggarwal |
+curentURL:https://dsportalapp.herokuapp.com/question/4
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"question/4"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                                                    &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/question/4
+in try here current url: https://dsportalapp.herokuapp.com/question/4
+clicking: run
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user clicks &amp#27;[0m&amp#27;[32m&amp#27;[1m"run"&amp#27;[0m&amp#27;[32m with code &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m                                                                  &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_element_in_a_page(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m                                                                                    &amp#27;[90m# stepdefinitions.ArrayPageSteps.no_error_message_is_displayed(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mOuput Displayed &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m                                                                                   &amp#27;[90m# stepdefinitions.ArrayPageSteps.output_is_seen_in_the_console(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="The user clicks Run on Python Editor of Squares of a Sorted Array Practice Page by enterering invalid code" classname="Array page features" time="8.522">
+    <system-out><![CDATA[
+@arraypage
+Scenario: The user clicks Run on Python Editor of Squares of a Sorted Array Practice Page by enterering invalid code &amp#27;[90m# src/test/resources/AppFeatures/ArrayPage.feature:331&amp#27;[0m
+Browser name is: chrome
+login with uname: Pratiksha and passwd: Aggarwal
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has already logged in the home page using for Array&amp#27;[0m                                                 &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_has_already_logged_in_the_home_page_using_for_Array(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | username  | password |
+    | Pratiksha | Aggarwal |
+curentURL:https://dsportalapp.herokuapp.com/question/4
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"question/4"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                                                         &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/question/4
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user writes &amp#27;[0m&amp#27;[32m&amp#27;[1m"invalid"&amp#27;[0m&amp#27;[32m code for &amp#27;[0m&amp#27;[32m&amp#27;[1m"4"&amp#27;[0m                                                                        &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_writes_invalid_code(java.lang.String,java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/question/4
+in try here current url: https://dsportalapp.herokuapp.com/question/4
+clicking: run
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks &amp#27;[0m&amp#27;[32m&amp#27;[1m"run"&amp#27;[0m&amp#27;[32m with code &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m                                                                         &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_element_in_a_page(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m                                                                                          &amp#27;[90m# stepdefinitions.ArrayPageSteps.no_error_message_is_displayed(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="The user clicks Run on Python Editor of Squares of a Sorted Array Practice Page and entering valid code" classname="Array page features" time="17.48">
+    <system-out><![CDATA[
+@arraypage
+Scenario: The user clicks Run on Python Editor of Squares of a Sorted Array Practice Page and entering valid code &amp#27;[90m# src/test/resources/AppFeatures/ArrayPage.feature:338&amp#27;[0m
+Browser name is: chrome
+login with uname: Pratiksha and passwd: Aggarwal
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has already logged in the home page using for Array&amp#27;[0m                                              &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_has_already_logged_in_the_home_page_using_for_Array(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | username  | password |
+    | Pratiksha | Aggarwal |
+curentURL:https://dsportalapp.herokuapp.com/question/4
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"question/4"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                                                      &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/question/4
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+2
+0
+0
+0
+2
+2
+0
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user writes &amp#27;[0m&amp#27;[32m&amp#27;[1m"valid"&amp#27;[0m&amp#27;[32m code for &amp#27;[0m&amp#27;[32m&amp#27;[1m"4"&amp#27;[0m                                                                       &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_writes_invalid_code(java.lang.String,java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/question/4
+in try here current url: https://dsportalapp.herokuapp.com/question/4
+clicking: run
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks &amp#27;[0m&amp#27;[32m&amp#27;[1m"run"&amp#27;[0m&amp#27;[32m with code &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m                                                                      &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_element_in_a_page(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m                                                                                      &amp#27;[90m# stepdefinitions.ArrayPageSteps.no_error_message_is_displayed(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mOuput Displayed &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m                                                                                     &amp#27;[90m# stepdefinitions.ArrayPageSteps.output_is_seen_in_the_console(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="The user clicks Submit on Python Editor of Squares of a Sorted Array Practice Page and entering valid code" classname="Array page features" time="18.846">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefinitions.ArrayPageSteps.the_user_see_an_error_message(ArrayPageSteps.java:132)
+	at ✽.The user see an error message "Error occurred during submission"(file:///C:/Users/14255/OneDrive/Desktop/School/ds%20algo/NoviceNinjas/src/test/resources/AppFeatures/ArrayPage.feature:350)
+]]></failure>
+    <system-out><![CDATA[
+@arraypage
+Scenario: The user clicks Submit on Python Editor of Squares of a Sorted Array Practice Page and entering valid code &amp#27;[90m# src/test/resources/AppFeatures/ArrayPage.feature:346&amp#27;[0m
+Browser name is: chrome
+login with uname: Pratiksha and passwd: Aggarwal
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has already logged in the home page using for Array&amp#27;[0m                                                 &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_has_already_logged_in_the_home_page_using_for_Array(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | username  | password |
+    | Pratiksha | Aggarwal |
+curentURL:https://dsportalapp.herokuapp.com/question/4
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mThe user is on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"question/4"&amp#27;[0m&amp#27;[32m Page&amp#27;[0m                                                                         &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_is_on_the_python_page(java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/question/4
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+2
+0
+0
+0
+2
+2
+0
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe user writes &amp#27;[0m&amp#27;[32m&amp#27;[1m"valid"&amp#27;[0m&amp#27;[32m code for &amp#27;[0m&amp#27;[32m&amp#27;[1m"4"&amp#27;[0m                                                                          &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_writes_invalid_code(java.lang.String,java.lang.String)&amp#27;[0m
+curentURL:https://dsportalapp.herokuapp.com/question/4
+in try here current url: https://dsportalapp.herokuapp.com/question/4
+clicking: submit
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe user clicks &amp#27;[0m&amp#27;[32m&amp#27;[1m"submit"&amp#27;[0m&amp#27;[32m with code &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m                                                                      &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_clicks_element_in_a_page(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mThe user see an error message &amp#27;[0m&amp#27;[31m&amp#27;[1m"Error occurred during submission"&amp#27;[0m                                              &amp#27;[90m# stepdefinitions.ArrayPageSteps.the_user_see_an_error_message(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefinitions.ArrayPageSteps.the_user_see_an_error_message(ArrayPageSteps.java:132)
+	at âœ½.The user see an error message "Error occurred during submission"(file:///C:/Users/14255/OneDrive/Desktop/School/ds%20algo/NoviceNinjas/src/test/resources/AppFeatures/ArrayPage.feature:350)
+&amp#27;[0m
+The path for the screen shot is: [B@68227615
+
+    Embedding The_user_clicks_Submit_on_Python_Editor_of_Squares_of_a_Sorted_Array_Practice_Page_and_entering_valid_code [image/png 36699 bytes]
+
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -8,6 +8,7 @@ import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
@@ -33,8 +34,10 @@ public class DriverFactory {
 		
 		if(browserName.equalsIgnoreCase("chrome"))
 		{
+			 ChromeOptions options = new ChromeOptions();
+		        options.addArguments("--headless"); 
 			WebDriverManager.chromedriver().setup();
-			tlDriver.set(new ChromeDriver());
+			tlDriver.set(new ChromeDriver(options));
 		}
 		else if(browserName.equalsIgnoreCase("firefox"))
 		{
@@ -52,7 +55,7 @@ public class DriverFactory {
 		{
 			System.out.println("Please pass the right browser name "+ browserName);
 		}
-		getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+		//getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		getDriver().manage().deleteAllCookies();
 		getDriver().manage().window().maximize();
 		return getDriver();

@@ -27,8 +27,6 @@ public class ArrayPage_PO {
 private WebDriver driver;
 	
 	//1. private By locators
-	
-	//private By queueLinks = By.xpath("//div[not(@class = 'navbar-nav')]/ul/a");
     private By practiceLinks = By.xpath("//div[@class = 'list-group']/a");
 	//2. public page constructor
 	private static By arrayInPythonLink = By.linkText("Arrays in Python");
@@ -47,7 +45,6 @@ private WebDriver driver;
 	private static By question = By.id("questionText");
 	private static By output = By.id("output");
 	private static By tryHere = By.partialLinkText("Try here");
-	//private static By tryHere = By.xpath("//div[2]/div/div[2]/a");
 	private static Map<String, By> pageNamemap; 
     static
     { 
@@ -73,14 +70,7 @@ private WebDriver driver;
     	elementMap.put("tryHere", tryHere);
     	elementMap.put("pythonEditor", pythonEditor);
     	elementMap.put("editor", editor);
-    	//elementMap.put("input", );
     } 
-	/*
-	 * private static Map<String, String> codeMap; static { codeMap = new
-	 * HashMap<>(); codeMap.put("valid","print(\"This is valid code!!\")");
-	 * codeMap.put("invalid",";"); //elementMap.put("input", ); }
-	 */
-    ExcelSheetHandler esh=new ExcelSheetHandler();
    ElementUtil eleUtil=new ElementUtil();
 	
 	public ArrayPage_PO(WebDriver driver)
@@ -109,37 +99,6 @@ private WebDriver driver;
 		driver.findElement(elementMap.get("editor")).sendKeys(Keys.BACK_SPACE);
 	}
 
-	/*
-	 * public void doPutCode(String code,String qno) throws IOException,
-	 * InterruptedException { //Thread.sleep(3000);
-	 * //driver.findElement(inputBefore).click(); //Thread.sleep(10000);
-	 * clearCode(); //
-	 * driver.findElement(elementMap.get("editor")).sendKeys(Keys.chord(Keys.
-	 * CONTROL, "a")); //Thread.sleep(3000);
-	 * //eleUtil.TextIndentation(driver,driver.findElement(elementMap.get("editor"))
-	 * ,); //
-	 * driver.findElement(elementMap.get("editor")).sendKeys(Keys.BACK_SPACE);
-	 * //Thread.sleep(10000); //WebElement textBox =
-	 * driver.findElement(By.id("editClientName"));
-	 * //textBox.sendKeys(Keys.chord(Keys.CONTROL, "a")); // Select all text
-	 * //textBox.sendKeys(Keys.DELETE); // Delete selected text
-	 * 
-	 * Map<String,List<String>> codeMap=esh.getCodeMap("Array");
-	 * 
-	 * System.out.println("In do put code"+driver.findElement(elementMap.get(
-	 * "editor")).getText());
-	 * System.out.println("In do put code"+codeMap.get(qno).get(1));
-	 * if(code.equals("valid")) { //driver.findElement(By.xpath(
-	 * "//form[@id='answer_form']/div/div/div/textarea")).sendKeys("print 'hello';"
-	 * ); //Thread.sleep(3000); //driver.findElement(elementMap.get("editor")).
-	 * sendKeys("println(\"Hello world\")");
-	 * driver.findElement(elementMap.get("editor")).sendKeys(codeMap.get(qno).get(1)
-	 * ); Thread.sleep(3000); } else {
-	 * driver.findElement(elementMap.get("editor")).sendKeys(codeMap.get(qno).get(2)
-	 * ); Thread.sleep(3000); }
-	 * 
-	 * }
-	 */
 	public void doPutCode(String moduleName,String codeType,String qno)  throws IOException, InterruptedException, ParseException
 	{
 		clearCode();
@@ -149,35 +108,18 @@ private WebDriver driver;
 			JSONObject codeObj=(JSONObject)codeLine;
 			String noOfSpaces=(String) codeObj.get("spaces");
 			Integer spaceNum=Integer.parseInt(noOfSpaces);
-			String code=(String)codeObj.get("code");
-			System.out.println(noOfSpaces+"=="+code);
-			
+			String code=(String)codeObj.get("code");			
 			if(!code.contains("Hi")) { //contains def
 			driver.findElement(elementMap.get("editor")).sendKeys(Keys.ENTER);
-			//driver.findElement(elementMap.get("editor")).sendKeys(Keys.);
 			}
 			int i=0;
 			System.out.println(spaceNum);
-			while(i<spaceNum) {
-				System.out.println(i);
-				
-				//driver.findElement(elementMap.get("editor")).sendKeys(Keys.chord(Keys.CONTROL, Keys.SHIFT,"l"));
-			
+			while(i<spaceNum) {							
 				driver.findElement(elementMap.get("editor")).sendKeys(Keys.BACK_SPACE);
 				i++;
 			}
 			driver.findElement(elementMap.get("editor")).sendKeys(code);
 			
-			
-			// Actions action = new Actions(driver);
-		       // Keys cmdCtrl = Platform.getCurrent().is(Platform.MAC) ? Keys.COMMAND : Keys.CONTROL;
-				/*
-				 * for(int i=1;i<=codeLine;i++) {
-				 * action.sendKeys(Keys.ARROW_UP).keyUp(Keys.SHIFT).perform(); for(int
-				 * j=1;j<=space;j++) { if(i==1 && flag)
-				 * action.sendKeys(Keys.BACK_SPACE).perform(); else
-				 * action.sendKeys(Keys.DELETE).perform(); } }
-				 */
 			}
 		}
 		else {
@@ -227,9 +169,6 @@ private WebDriver driver;
 	}
 	public boolean isOutputDisplayed() throws InterruptedException
 	{
-		//Thread.sleep(10000);
-		System.out.println(driver.findElement(output).isDisplayed());
-		//Thread.sleep(10000);
 		if(!driver.findElement(output).isDisplayed()) {
 			return false;
 		}
@@ -255,7 +194,6 @@ private WebDriver driver;
 			alertText = alert.getText();
 			alert.dismiss();
 			return alertText;
-		// Click the Cancel button on the alert window
 		}
 		else {
 			String msg="No Alerts!!";

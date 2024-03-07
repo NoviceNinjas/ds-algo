@@ -6,11 +6,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.NumNin.Dsalgo</groupId>
-	<artifactId>com.NumNin.Dsalgo</artifactId>
+	<groupId>NoviceNinjaslocalFeatureFileParallel</groupId>
+	<artifactId>NoviceNinjaslocalFeatureFileParallel</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-	<name>com.NumNin.Dsalgo</name>
+	<name>NoviceNinjaslocalFeatureFileParallel</name>
 	<!-- FIXME change it to the project's website -->
 	<url>http://www.example.com</url>
 
@@ -73,7 +73,7 @@
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
-    <version>4.16.1</version>
+    <version>4.18.1</version>
 </dependency>
 
 
@@ -151,21 +151,11 @@
 			<version>4.1.2</version>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
-		<dependency>
-			<groupId>org.testng</groupId>
-			<artifactId>testng</artifactId>
-			<version>7.8.0</version>
-			<scope>test</scope>
-		</dependency>
+		
 
 
-		<dependency>
-			<groupId>io.cucumber</groupId>
-			<artifactId>cucumber-testng</artifactId>
-			<version>${cucumber.version}</version>
-			<scope>test</scope>
-		</dependency>
+
+		
 
 
 <dependency>
@@ -199,6 +189,8 @@
     <artifactId>json-simple</artifactId>
     <version>1.1.1</version>
 </dependency>
+
+
 	</dependencies>
 
 	<build>
@@ -216,13 +208,58 @@
 					<source>${java.version}</source>
 					<target>${java.version}</target>
 				</configuration>
+				<executions>
+                <execution>
+                    <phase>test-compile</phase>
+                    <goals>
+                        <goal>testCompile</goal>
+                    </goals>
+                </execution>
+            </executions>
 			</plugin>
 
 
+            
+            
+            
             <plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-failsafe-plugin</artifactId>
+				<version>3.2.5</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>integration-test</goal>
+							<goal>verify</goal>
+						</goals>
+						<configuration>
+							<includes>
+								<!-- UNCOMMENT - To add any exclusions if required -->
+								<!-- <excludes> <exclude>**/*IT*.java</exclude> </excludes> -->
+								<!-- UNCOMMENT BELOW LINE - To execute feature files with a single 
+									runner -->
+								<include>**/MyTestRunner.java</include>
+								<!-- UNCOMMENT BELOW LINE - To execute feature files with multiple 
+									runners -->
+								<!-- <include>**/*Runner.java</include> -->
+							</includes>
+							<!-- UNCOMMENT BELOW 3 LINES - To execute using parallel or combination 
+								option -->
+							<parallel>methods</parallel>
+							<threadCount>1</threadCount>
+							<perCoreThreadCount>true</perCoreThreadCount>
+							<!-- UNCOMMENT BELOW 3 LINES - To execute using forking or combination 
+								option -->
+							  <!--  <forkCount>9</forkCount> <reuseForks>true</reuseForks> <reportsDirectory>${project.build.directory}/failsafe-reports_${surefire.forkNumber}</reportsDirectory>--> 
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+                        <plugin>
                 <groupId>net.masterthought</groupId>
                 <artifactId>maven-cucumber-reporting</artifactId>
-                <version>7.15.0</version>
+                <version>5.7.8</version>
                 <executions>
                     <execution>
                         <id>execution</id>
@@ -236,13 +273,12 @@
                             <!-- output directory for the generated report -->
                             <outputDirectory>${project.build.directory}/cucumber-JVM-reports</outputDirectory>
                             <!-- optional, defaults to outputDirectory if not specified -->
-                            <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
-							<skippedFails>true</skippedFails>
-							<enableFlashCharts>true</enableFlashCharts>
+
                         </configuration>
                     </execution>
                 </executions>
             </plugin>
+            
 
 		</plugins>
 	</build>

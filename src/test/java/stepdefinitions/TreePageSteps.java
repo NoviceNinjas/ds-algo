@@ -1,13 +1,12 @@
 package stepdefinitions;
 
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertTrue;
 
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
 import org.json.simple.parser.ParseException;
+import org.junit.Assert;
 
 import com.qa.Utils.LoggerLoad;
 import com.qa.factory.DriverFactory;
@@ -50,7 +49,7 @@ public class TreePageSteps {
 	public void the_user_should_be_redirected_to_string_page_tree(String link) {
 	    String currentURL=treePage.getCurrentURL();
 	    System.out.println("in the_user_should_be_redirected_to_string_page url: "+ treePage.getCurrentURL());
-	    assertTrue(currentURL.contains(link), "User redirected to " +link+" page");
+	    Assert.assertTrue(currentURL.contains(link));
 	}
 	@Given("The user is on the {string} Page in tree")
 	public void the_user_is_on_the_python_page_in_tree(String pageName) throws InterruptedException {
@@ -85,19 +84,19 @@ public class TreePageSteps {
 	public void no_error_message_is_displayed_in_tree(String value) throws InterruptedException {
 		boolean displayStatus=Boolean.valueOf(value);
 		String message=treePage.getAlertMessage();
-		assertEquals(!message.contains("No Alert"),displayStatus);
+		Assert.assertEquals(!message.contains("No Alert"),displayStatus);
 	}
 	@Then("Ouput Displayed {string} in tree")
 	public void output_is_seen_in_the_console_in_tree(String os) throws InterruptedException {
 		boolean consoleStatus=Boolean.valueOf(os);
 		boolean outputDisplayed=treePage.isOutputDisplayed();
 		LoggerLoad.info("outputDisplayed: "+outputDisplayed);
-		assertEquals(outputDisplayed,consoleStatus);
+		Assert.assertEquals(outputDisplayed,consoleStatus);
 	}
 	@Then("The Page should have Python Editor in tree")
 	public void the_page_should_have_python_editor_in_tree() throws InterruptedException {
 	    //assertTrue(arrayPage.isEditorDisplayed(), "page has python editor");
-	    assertEquals(treePage.isEditorDisplayed("pythonEditor"), true);
+		Assert. assertEquals(treePage.isEditorDisplayed("pythonEditor"), true);
 	}
 	@When("The user clicks ok on alert in tree")
 	public void the_user_clicks_ok_on_alert() throws InterruptedException, IOException, ParseException {
@@ -107,6 +106,6 @@ public class TreePageSteps {
 	
 	@Then("No change in code in tree")
 	public void no_change_in_code_in_tree() throws InterruptedException, IOException, ParseException {
-		assertTrue(treePage.isCodePresent());
+		Assert.assertTrue(treePage.isCodePresent());
 	}
 }

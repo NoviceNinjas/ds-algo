@@ -14,7 +14,6 @@ public class DataStructPage_PO {
 	private By runButton = By.xpath("//button[contains(text(),'Run')]");
 	private By tryHere = By.xpath("//a[contains(text(),'Try here')]");
 	private By tryEditorInput = By.xpath("//div/div/textarea");
-	//private By tryEditorOutput = By.xpath("//pre[@id='output']");
 	private By practiceQuestionsList = By.xpath("//div/a[@class='list-group-item']");
 	
 	private By practiceQuesLink = By.partialLinkText("Practice Questions");

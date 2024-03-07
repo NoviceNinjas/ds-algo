@@ -29,14 +29,6 @@ public class SignInPage_PO {
 		this.driver = driver;
 	}
 	
-//	public String doSignIn(String uName, String pwd)
-//	{
-//		driver.findElement(usrName).sendKeys(uName);
-//		driver.findElement(passwd).sendKeys(pwd);
-//		driver.findElement(lgnBtn).click();
-//		return driver.findElement(signInMsg).getText();
-//	}
-	
 	public void enterUname(String uName)
 	{
 		driver.findElement(usrName).sendKeys(uName);
