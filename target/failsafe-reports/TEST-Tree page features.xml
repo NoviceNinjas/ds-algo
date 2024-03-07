@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="Tree page features" time="705.68" tests="92" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="Tree page features" time="677.625" tests="92" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="webdriver.chrome.driver" value="C:\Users\14255\.cache\selenium\chromedriver\win64\122.0.6261.94\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Users\14255\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\14255\AppData\Local\Temp\surefire2126474960735238826\surefirebooter-20240306183507779_3.jar C:\Users\14255\AppData\Local\Temp\surefire2126474960735238826 2024-03-06T18-35-05_551-jvmRun1 surefire-20240306183507779_1tmp surefire_0-20240306183507779_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\14255\AppData\Local\Temp\surefire17186695769331924990\surefirebooter-20240306193517747_3.jar C:\Users\14255\AppData\Local\Temp\surefire17186695769331924990 2024-03-06T19-35-16_817-jvmRun1 surefire-20240306193517747_1tmp surefire_0-20240306193517747_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\14255\OneDrive\Desktop\School\ds algo\NoviceNinjas\target\test-classes;C:\Users\14255\OneDrive\Desktop\School\ds algo\NoviceNinjas\target\NoviceNinjaslocalFeatureFileParallel-0.0.1-SNAPSHOT.jar;C:\Users\14255\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.2.1\maven-surefire-plugin-3.2.1.jar;C:\Users\14255\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.2.1\maven-surefire-common-3.2.1.jar;C:\Users\14255\.m2\repository\org\apache\maven\surefire\surefire-api\3.2.1\surefire-api-3.2.1.jar;C:\Users\14255\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.2.1\surefire-logger-api-3.2.1.jar;C:\Users\14255\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.2.1\surefire-extensions-api-3.2.1.jar;C:\Users\14255\.m2\repository\org\apache\maven\surefire\surefire-booter\3.2.1\surefire-booter-3.2.1.jar;C:\Users\14255\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.2.1\surefire-extensions-spi-3.2.1.jar;C:\Users\14255\.m2\repository\org\eclipse\aether\aether-util\1.0.0.v20140518\aether-util-1.0.0.v20140518.jar;C:\Users\14255\.m2\repository\org\eclipse\aether\aether-api\1.0.0.v20140518\aether-api-1.0.0.v20140518.jar;C:\Users\14255\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.1.1\maven-common-artifact-filters-3.1.1.jar;C:\Users\14255\.m2\repository\org\apache\maven\maven-artifact\3.1.0\maven-artifact-3.1.0.jar;C:\Users\14255\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.10\plexus-utils-3.0.10.jar;C:\Users\14255\.m2\repository\org\apache\maven\maven-core\3.1.0\maven-core-3.1.0.jar;C:\Users\14255\.m2\repository\org\apache\maven\maven-settings\3.1.0\maven-settings-3.1.0.jar;C:\Users\14255\.m2\repository\org\apache\maven\maven-settings-builder\3.1.0\maven-settings-builder-3.1.0.jar;C:\Users\14255\.m2\repository\org\apache\maven\maven-repository-metadata\3.1.0\maven-repository-metadata-3.1.0.jar;C:\Users\14255\.m2\repository\org\apache\maven\maven-model-builder\3.1.0\maven-model-builder-3.1.0.jar;C:\Users\14255\.m2\repository\org\apache\maven\maven-aether-provider\3.1.0\maven-aether-provider-3.1.0.jar;C:\Users\14255\.m2\repository\org\eclipse\aether\aether-spi\0.9.0.M2\aether-spi-0.9.0.M2.jar;C:\Users\14255\.m2\repository\org\eclipse\aether\aether-impl\0.9.0.M2\aether-impl-0.9.0.M2.jar;C:\Users\14255\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.0.0.M2a\org.eclipse.sisu.plexus-0.0.0.M2a.jar;C:\Users\14255\.m2\repository\javax\enterprise\cdi-api\1.0\cdi-api-1.0.jar;C:\Users\14255\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar;C:\Users\14255\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\14255\.m2\repository\org\sonatype\sisu\sisu-guice\3.1.0\sisu-guice-3.1.0-no_aop.jar;C:\Users\14255\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\14255\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.0.0.M2a\org.eclipse.sisu.inject-0.0.0.M2a.jar;C:\Users\14255\.m2\repository\asm\asm\3.3.1\asm-3.3.1.jar;C:\Users\14255\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.16\plexus-interpolation-1.16.jar;C:\Users\14255\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.4.2\plexus-classworlds-2.4.2.jar;C:\Users\14255\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\14255\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Users\14255\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\14255\.m2\repository\org\apache\maven\maven-plugin-api\3.1.0\maven-plugin-api-3.1.0.jar;C:\Users\14255\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\14255\.m2\repository\org\codehaus\plexus\plexus-java\1.1.2\plexus-java-1.1.2.jar;C:\Users\14255\.m2\repository\org\ow2\asm\asm\9.4\asm-9.4.jar;C:\Users\14255\.m2\repository\com\thoughtworks\qdox\qdox\2.0.3\qdox-2.0.3.jar;C:\Users\14255\.m2\repository\org\codehaus\plexus\plexus-xml\4.0.0\plexus-xml-4.0.0.jar;C:\Users\14255\.m2\repository\org\apache\maven\maven-xml-impl\4.0.0-alpha-5\maven-xml-impl-4.0.0-alpha-5.jar;C:\Users\14255\.m2\repository\org\apache\maven\maven-api-xml\4.0.0-alpha-5\maven-api-xml-4.0.0-alpha-5.jar;C:\Users\14255\.m2\repository\org\apache\maven\maven-api-meta\4.0.0-alpha-5\maven-api-meta-4.0.0-alpha-5.jar;C:\Users\14255\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.2.1\surefire-shared-utils-3.2.1.jar;C:\Users\14255\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\14255\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\14255\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\14255\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\14255\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\14255\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\14255\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\14255\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\14255\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\14255\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\14255\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\14255\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\14255\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\14255\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\14255\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\14255\.m2\repository\io\cucumber\cucumber-junit\7.14.0\cucumber-junit-7.14.0.jar;C:\Users\14255\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\14255\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\14255\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\14255\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\14255\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\14255\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\14255\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\14255\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\14255\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\14255\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\14255\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\14255\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\14255\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\14255\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\14255\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\14255\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\14255\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\14255\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\14255\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\14255\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\14255\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\14255\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\14255\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\14255\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\14255\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\14255\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\14255\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\14255\.m2\repository\io\github\bonigarcia\webdrivermanager\5.5.3\webdrivermanager-5.5.3.jar;C:\Users\14255\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\14255\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\14255\.m2\repository\com\github\docker-java\docker-java\3.3.3\docker-java-3.3.3.jar;C:\Users\14255\.m2\repository\com\github\docker-java\docker-java-core\3.3.3\docker-java-core-3.3.3.jar;C:\Users\14255\.m2\repository\com\github\docker-java\docker-java-api\3.3.3\docker-java-api-3.3.3.jar;C:\Users\14255\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\14255\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\14255\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\14255\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.75\bcpkix-jdk18on-1.75.jar;C:\Users\14255\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.75\bcprov-jdk18on-1.75.jar;C:\Users\14255\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.75\bcutil-jdk18on-1.75.jar;C:\Users\14255\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\14255\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.3\docker-java-transport-httpclient5-3.3.3.jar;C:\Users\14255\.m2\repository\com\github\docker-java\docker-java-transport\3.3.3\docker-java-transport-3.3.3.jar;C:\Users\14255\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\14255\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\14255\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\14255\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\14255\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\14255\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\14255\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\14255\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\14255\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\14255\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\14255\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\14255\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\14255\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\14255\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\14255\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\14255\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\14255\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\14255\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\14255\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\14255\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\14255\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\14255\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\14255\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\14255\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\14255\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\14255\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\14255\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\14255\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\14255\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\14255\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\14255\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\14255\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\14255\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;C:\Users\14255\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\14255\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\14255\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\14255\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\14255\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\14255\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\14255\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\14255\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\14255\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\14255\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\14255\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\14255\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\14255\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.2\log4j-core-2.17.2.jar;C:\Users\14255\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.6.4\spring-boot-starter-data-jpa-2.6.4.jar;C:\Users\14255\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.6.4\spring-boot-starter-aop-2.6.4.jar;C:\Users\14255\.m2\repository\org\springframework\boot\spring-boot-starter\2.6.4\spring-boot-starter-2.6.4.jar;C:\Users\14255\.m2\repository\org\springframework\boot\spring-boot\2.6.4\spring-boot-2.6.4.jar;C:\Users\14255\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.6.4\spring-boot-autoconfigure-2.6.4.jar;C:\Users\14255\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.6.4\spring-boot-starter-logging-2.6.4.jar;C:\Users\14255\.m2\repository\ch\qos\logback\logback-classic\1.2.10\logback-classic-1.2.10.jar;C:\Users\14255\.m2\repository\ch\qos\logback\logback-core\1.2.10\logback-core-1.2.10.jar;C:\Users\14255\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.17.1\log4j-to-slf4j-2.17.1.jar;C:\Users\14255\.m2\repository\org\slf4j\jul-to-slf4j\1.7.36\jul-to-slf4j-1.7.36.jar;C:\Users\14255\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\14255\.m2\repository\org\springframework\spring-aop\5.3.16\spring-aop-5.3.16.jar;C:\Users\14255\.m2\repository\org\aspectj\aspectjweaver\1.9.7\aspectjweaver-1.9.7.jar;C:\Users\14255\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\2.6.4\spring-boot-starter-jdbc-2.6.4.jar;C:\Users\14255\.m2\repository\com\zaxxer\HikariCP\4.0.3\HikariCP-4.0.3.jar;C:\Users\14255\.m2\repository\org\springframework\spring-jdbc\5.3.16\spring-jdbc-5.3.16.jar;C:\Users\14255\.m2\repository\jakarta\transaction\jakarta.transaction-api\1.3.3\jakarta.transaction-api-1.3.3.jar;C:\Users\14255\.m2\repository\jakarta\persistence\jakarta.persistence-api\2.2.3\jakarta.persistence-api-2.2.3.jar;C:\Users\14255\.m2\repository\org\hibernate\hibernate-core\5.6.5.Final\hibernate-core-5.6.5.Final.jar;C:\Users\14255\.m2\repository\org\jboss\logging\jboss-logging\3.4.3.Final\jboss-logging-3.4.3.Final.jar;C:\Users\14255\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\14255\.m2\repository\org\jboss\jandex\2.4.2.Final\jandex-2.4.2.Final.jar;C:\Users\14255\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\14255\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.2.Final\hibernate-commons-annotations-5.1.2.Final.jar;C:\Users\14255\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar;C:\Users\14255\.m2\repository\org\glassfish\jaxb\txw2\2.3.1\txw2-2.3.1.jar;C:\Users\14255\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.7\istack-commons-runtime-3.0.7.jar;C:\Users\14255\.m2\repository\org\jvnet\staxex\stax-ex\1.8\stax-ex-1.8.jar;C:\Users\14255\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.15\FastInfoset-1.2.15.jar;C:\Users\14255\.m2\repository\org\springframework\data\spring-data-jpa\2.6.2\spring-data-jpa-2.6.2.jar;C:\Users\14255\.m2\repository\org\springframework\data\spring-data-commons\2.6.2\spring-data-commons-2.6.2.jar;C:\Users\14255\.m2\repository\org\springframework\spring-orm\5.3.16\spring-orm-5.3.16.jar;C:\Users\14255\.m2\repository\org\springframework\spring-context\5.3.16\spring-context-5.3.16.jar;C:\Users\14255\.m2\repository\org\springframework\spring-expression\5.3.16\spring-expression-5.3.16.jar;C:\Users\14255\.m2\repository\org\springframework\spring-tx\5.3.16\spring-tx-5.3.16.jar;C:\Users\14255\.m2\repository\org\springframework\spring-beans\5.3.16\spring-beans-5.3.16.jar;C:\Users\14255\.m2\repository\org\springframework\spring-core\5.3.16\spring-core-5.3.16.jar;C:\Users\14255\.m2\repository\org\springframework\spring-jcl\5.3.16\spring-jcl-5.3.16.jar;C:\Users\14255\.m2\repository\org\springframework\spring-aspects\5.3.16\spring-aspects-5.3.16.jar;C:\Users\14255\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\14255\AppData\Local\Temp\surefire2126474960735238826\surefirebooter-20240306183507779_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\14255\AppData\Local\Temp\surefire17186695769331924990\surefirebooter-20240306193517747_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.9+9"/>
@@ -59,7 +59,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="Tree page url" classname="Tree page features" time="15.668">
+  <testcase name="Tree page url" classname="Tree page features" time="16.668">
     <system-out><![CDATA[
 @treepage
 Scenario: Tree page url                                             &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:10&amp#27;[0m
@@ -74,7 +74,7 @@ The actual URL of the page is: https://dsportalapp.herokuapp.com/tree/
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe URL of the page should contain &amp#27;[0m&amp#27;[32m&amp#27;[1m"tree"&amp#27;[0m                    &amp#27;[90m# stepdefinitions.HomePageSteps.the_url_of_the_page_should_contain(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Overview of Trees link" classname="Tree page features" time="16.409">
+  <testcase name="Overview of Trees link" classname="Tree page features" time="21.444">
     <system-out><![CDATA[
 @treepage
 Scenario: Overview of Trees link                                              &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:16&amp#27;[0m
@@ -93,7 +93,7 @@ in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokua
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user should be redirected to &amp#27;[0m&amp#27;[32m&amp#27;[1m"tree/overview-of-trees"&amp#27;[0m&amp#27;[32m Page in tree&amp#27;[0m &amp#27;[90m# stepdefinitions.TreePageSteps.the_user_should_be_redirected_to_string_page_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Terminologies Link" classname="Tree page features" time="15.003">
+  <testcase name="Terminologies Link" classname="Tree page features" time="11.409">
     <system-out><![CDATA[
 @treepage
 Scenario: Terminologies Link                                              &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:22&amp#27;[0m
@@ -112,7 +112,7 @@ in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokua
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user should be redirected to &amp#27;[0m&amp#27;[32m&amp#27;[1m"tree/terminologies"&amp#27;[0m&amp#27;[32m Page in tree&amp#27;[0m &amp#27;[90m# stepdefinitions.TreePageSteps.the_user_should_be_redirected_to_string_page_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Types of Trees Link" classname="Tree page features" time="14.971">
+  <testcase name="Types of Trees Link" classname="Tree page features" time="11.317">
     <system-out><![CDATA[
 @treepage
 Scenario: Types of Trees Link                                              &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:28&amp#27;[0m
@@ -131,7 +131,7 @@ in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokua
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user should be redirected to &amp#27;[0m&amp#27;[32m&amp#27;[1m"tree/types-of-trees"&amp#27;[0m&amp#27;[32m Page in tree&amp#27;[0m &amp#27;[90m# stepdefinitions.TreePageSteps.the_user_should_be_redirected_to_string_page_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Tree Traversals Link" classname="Tree page features" time="17.535">
+  <testcase name="Tree Traversals Link" classname="Tree page features" time="12.979">
     <system-out><![CDATA[
 @treepage
 Scenario: Tree Traversals Link                                              &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:34&amp#27;[0m
@@ -150,7 +150,7 @@ in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokua
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user should be redirected to &amp#27;[0m&amp#27;[32m&amp#27;[1m"tree/tree-traversals"&amp#27;[0m&amp#27;[32m Page in tree&amp#27;[0m &amp#27;[90m# stepdefinitions.TreePageSteps.the_user_should_be_redirected_to_string_page_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Traversals-Illustration Link" classname="Tree page features" time="16.763">
+  <testcase name="Traversals-Illustration Link" classname="Tree page features" time="12.246">
     <system-out><![CDATA[
 @treepage
 Scenario: Traversals-Illustration Link                                              &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:40&amp#27;[0m
@@ -169,7 +169,7 @@ in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokua
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user should be redirected to &amp#27;[0m&amp#27;[32m&amp#27;[1m"tree/traversals-illustration"&amp#27;[0m&amp#27;[32m Page in tree&amp#27;[0m &amp#27;[90m# stepdefinitions.TreePageSteps.the_user_should_be_redirected_to_string_page_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Binary Trees Link" classname="Tree page features" time="16.362">
+  <testcase name="Binary Trees Link" classname="Tree page features" time="12.229">
     <system-out><![CDATA[
 @treepage
 Scenario: Binary Trees Link                                              &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:46&amp#27;[0m
@@ -188,7 +188,7 @@ in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokua
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user should be redirected to &amp#27;[0m&amp#27;[32m&amp#27;[1m"tree/binary-trees"&amp#27;[0m&amp#27;[32m Page in tree&amp#27;[0m &amp#27;[90m# stepdefinitions.TreePageSteps.the_user_should_be_redirected_to_string_page_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Types of Binary Trees Link" classname="Tree page features" time="13.05">
+  <testcase name="Types of Binary Trees Link" classname="Tree page features" time="12.698">
     <system-out><![CDATA[
 @treepage
 Scenario: Types of Binary Trees Link                                              &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:52&amp#27;[0m
@@ -207,7 +207,7 @@ in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokua
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user should be redirected to &amp#27;[0m&amp#27;[32m&amp#27;[1m"tree/types-of-binary-trees"&amp#27;[0m&amp#27;[32m Page in tree&amp#27;[0m &amp#27;[90m# stepdefinitions.TreePageSteps.the_user_should_be_redirected_to_string_page_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Implementation in Python Link" classname="Tree page features" time="10.312">
+  <testcase name="Implementation in Python Link" classname="Tree page features" time="22.404">
     <system-out><![CDATA[
 @treepage
 Scenario: Implementation in Python Link                                              &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:58&amp#27;[0m
@@ -226,7 +226,7 @@ in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokua
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user should be redirected to &amp#27;[0m&amp#27;[32m&amp#27;[1m"tree/implementation-in-python"&amp#27;[0m&amp#27;[32m Page in tree&amp#27;[0m &amp#27;[90m# stepdefinitions.TreePageSteps.the_user_should_be_redirected_to_string_page_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Binary Tree Traversals Link" classname="Tree page features" time="11.026">
+  <testcase name="Binary Tree Traversals Link" classname="Tree page features" time="17.618">
     <system-out><![CDATA[
 @treepage
 Scenario: Binary Tree Traversals Link                                              &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:64&amp#27;[0m
@@ -245,7 +245,7 @@ in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokua
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user should be redirected to &amp#27;[0m&amp#27;[32m&amp#27;[1m"tree/binary-tree-traversals"&amp#27;[0m&amp#27;[32m Page in tree&amp#27;[0m &amp#27;[90m# stepdefinitions.TreePageSteps.the_user_should_be_redirected_to_string_page_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Implementation of Binary Trees Link" classname="Tree page features" time="12.313">
+  <testcase name="Implementation of Binary Trees Link" classname="Tree page features" time="12.347">
     <system-out><![CDATA[
 @treepage
 Scenario: Implementation of Binary Trees Link                                              &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:70&amp#27;[0m
@@ -264,7 +264,7 @@ in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokua
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user should be redirected to &amp#27;[0m&amp#27;[32m&amp#27;[1m"tree/implementation-of-binary-trees"&amp#27;[0m&amp#27;[32m Page in tree&amp#27;[0m &amp#27;[90m# stepdefinitions.TreePageSteps.the_user_should_be_redirected_to_string_page_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Applications of Binary trees Link" classname="Tree page features" time="12.311">
+  <testcase name="Applications of Binary trees Link" classname="Tree page features" time="10.123">
     <system-out><![CDATA[
 @treepage
 Scenario: Applications of Binary trees Link                                              &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:76&amp#27;[0m
@@ -283,7 +283,7 @@ in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokua
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user should be redirected to &amp#27;[0m&amp#27;[32m&amp#27;[1m"tree/applications-of-binary-trees"&amp#27;[0m&amp#27;[32m Page in tree&amp#27;[0m &amp#27;[90m# stepdefinitions.TreePageSteps.the_user_should_be_redirected_to_string_page_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Binary Search Trees Link" classname="Tree page features" time="10.353">
+  <testcase name="Binary Search Trees Link" classname="Tree page features" time="10.399">
     <system-out><![CDATA[
 @treepage
 Scenario: Binary Search Trees Link                                              &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:82&amp#27;[0m
@@ -302,7 +302,7 @@ in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokua
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user should be redirected to &amp#27;[0m&amp#27;[32m&amp#27;[1m"tree/binary-search-trees"&amp#27;[0m&amp#27;[32m Page in tree&amp#27;[0m &amp#27;[90m# stepdefinitions.TreePageSteps.the_user_should_be_redirected_to_string_page_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Implementation Of BST Link" classname="Tree page features" time="8.248">
+  <testcase name="Implementation Of BST Link" classname="Tree page features" time="8.842">
     <system-out><![CDATA[
 @treepage
 Scenario: Implementation Of BST Link                                              &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:88&amp#27;[0m
@@ -321,7 +321,7 @@ in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokua
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user should be redirected to &amp#27;[0m&amp#27;[32m&amp#27;[1m"tree/implementation-of-bst"&amp#27;[0m&amp#27;[32m Page in tree&amp#27;[0m &amp#27;[90m# stepdefinitions.TreePageSteps.the_user_should_be_redirected_to_string_page_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="The user clicks Run on Overview of Trees Page without entering code" classname="Tree page features" time="13.733">
+  <testcase name="The user clicks Run on Overview of Trees Page without entering code" classname="Tree page features" time="11.858">
     <system-out><![CDATA[
 @treepage
 Scenario: The user clicks Run on Overview of Trees Page without entering code &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:97&amp#27;[0m
@@ -345,7 +345,7 @@ false
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m&amp#27;[32m in tree&amp#27;[0m                                           &amp#27;[90m# stepdefinitions.TreePageSteps.no_error_message_is_displayed_in_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="The user clicks Run on Python Editor of Overview of Trees Page by enterering invalid code" classname="Tree page features" time="13.097">
+  <testcase name="The user clicks Run on Python Editor of Overview of Trees Page by enterering invalid code" classname="Tree page features" time="12.34">
     <system-out><![CDATA[
 @treepage
 Scenario: The user clicks Run on Python Editor of Overview of Trees Page by enterering invalid code &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:106&amp#27;[0m
@@ -369,7 +369,7 @@ clicking: run
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m&amp#27;[32m in tree&amp#27;[0m                                                                 &amp#27;[90m# stepdefinitions.TreePageSteps.no_error_message_is_displayed_in_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="The user clicks Run on Python Editor of Overview of Trees Page and entering valid code" classname="Tree page features" time="10.62">
+  <testcase name="The user clicks Run on Python Editor of Overview of Trees Page and entering valid code" classname="Tree page features" time="13.136">
     <system-out><![CDATA[
 @treepage
 Scenario: The user clicks Run on Python Editor of Overview of Trees Page and entering valid code &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:115&amp#27;[0m
@@ -396,7 +396,7 @@ true
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mOuput Displayed &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m&amp#27;[32m in tree&amp#27;[0m                                                            &amp#27;[90m# stepdefinitions.TreePageSteps.output_is_seen_in_the_console_in_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Try Here button of Overview of Trees in Python Page" classname="Tree page features" time="7.196">
+  <testcase name="Try Here button of Overview of Trees in Python Page" classname="Tree page features" time="9.152">
     <system-out><![CDATA[
 @treepage
 Scenario: Try Here button of Overview of Trees in Python Page                                      &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:124&amp#27;[0m
@@ -416,7 +416,7 @@ in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokua
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe Page should have Python Editor in tree&amp#27;[0m                                                   &amp#27;[90m# stepdefinitions.TreePageSteps.the_page_should_have_python_editor_in_tree()&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="The user clicks Run on Terminologies Page without entering code" classname="Tree page features" time="7.865">
+  <testcase name="The user clicks Run on Terminologies Page without entering code" classname="Tree page features" time="10.519">
     <system-out><![CDATA[
 @treepage
 Scenario: The user clicks Run on Terminologies Page without entering code &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:132&amp#27;[0m
@@ -440,7 +440,7 @@ false
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m&amp#27;[32m in tree&amp#27;[0m                                       &amp#27;[90m# stepdefinitions.TreePageSteps.no_error_message_is_displayed_in_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="The user clicks Run on Python Editor of Terminologies Page by enterering invalid code" classname="Tree page features" time="7.594">
+  <testcase name="The user clicks Run on Python Editor of Terminologies Page by enterering invalid code" classname="Tree page features" time="8.327">
     <system-out><![CDATA[
 @treepage
 Scenario: The user clicks Run on Python Editor of Terminologies Page by enterering invalid code &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:141&amp#27;[0m
@@ -464,7 +464,7 @@ clicking: run
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m&amp#27;[32m in tree&amp#27;[0m                                                             &amp#27;[90m# stepdefinitions.TreePageSteps.no_error_message_is_displayed_in_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="The user clicks Run on Python Editor of Terminologies Page and entering valid code" classname="Tree page features" time="8.927">
+  <testcase name="The user clicks Run on Python Editor of Terminologies Page and entering valid code" classname="Tree page features" time="9.401">
     <system-out><![CDATA[
 @treepage
 Scenario: The user clicks Run on Python Editor of Terminologies Page and entering valid code &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:150&amp#27;[0m
@@ -491,7 +491,7 @@ true
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mOuput Displayed &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m&amp#27;[32m in tree&amp#27;[0m                                                        &amp#27;[90m# stepdefinitions.TreePageSteps.output_is_seen_in_the_console_in_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Try Here button of Terminologies in Python Page" classname="Tree page features" time="7.748">
+  <testcase name="Try Here button of Terminologies in Python Page" classname="Tree page features" time="10.663">
     <system-out><![CDATA[
 @treepage
 Scenario: Try Here button of Terminologies in Python Page                                          &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:159&amp#27;[0m
@@ -511,7 +511,7 @@ in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokua
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe Page should have Python Editor in tree&amp#27;[0m                                                   &amp#27;[90m# stepdefinitions.TreePageSteps.the_page_should_have_python_editor_in_tree()&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="The user clicks Run on types-of-trees Page without entering code" classname="Tree page features" time="8.339">
+  <testcase name="The user clicks Run on types-of-trees Page without entering code" classname="Tree page features" time="8.881">
     <system-out><![CDATA[
 @treepage
 Scenario: The user clicks Run on types-of-trees Page without entering code &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:168&amp#27;[0m
@@ -535,7 +535,7 @@ false
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m&amp#27;[32m in tree&amp#27;[0m                                        &amp#27;[90m# stepdefinitions.TreePageSteps.no_error_message_is_displayed_in_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="The user clicks Run on Python Editor of Types of Trees Page by enterering invalid code" classname="Tree page features" time="8.181">
+  <testcase name="The user clicks Run on Python Editor of Types of Trees Page by enterering invalid code" classname="Tree page features" time="9.464">
     <system-out><![CDATA[
 @treepage
 Scenario: The user clicks Run on Python Editor of Types of Trees Page by enterering invalid code &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:177&amp#27;[0m
@@ -559,7 +559,7 @@ clicking: run
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m&amp#27;[32m in tree&amp#27;[0m                                                              &amp#27;[90m# stepdefinitions.TreePageSteps.no_error_message_is_displayed_in_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="The user clicks Run on Python Editor of Types of Trees Page and entering valid code" classname="Tree page features" time="8.476">
+  <testcase name="The user clicks Run on Python Editor of Types of Trees Page and entering valid code" classname="Tree page features" time="10.555">
     <system-out><![CDATA[
 @treepage
 Scenario: The user clicks Run on Python Editor of Types of Trees Page and entering valid code &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:186&amp#27;[0m
@@ -586,7 +586,7 @@ true
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mOuput Displayed &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m&amp#27;[32m in tree&amp#27;[0m                                                         &amp#27;[90m# stepdefinitions.TreePageSteps.output_is_seen_in_the_console_in_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Try Here button of Types of Trees in Python Page" classname="Tree page features" time="7.025">
+  <testcase name="Try Here button of Types of Trees in Python Page" classname="Tree page features" time="8.506">
     <system-out><![CDATA[
 @treepage
 Scenario: Try Here button of Types of Trees in Python Page                                         &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:195&amp#27;[0m
@@ -606,7 +606,7 @@ in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokua
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe Page should have Python Editor in tree&amp#27;[0m                                                   &amp#27;[90m# stepdefinitions.TreePageSteps.the_page_should_have_python_editor_in_tree()&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="The user clicks Run on tree-traversals Page without entering code" classname="Tree page features" time="8.585">
+  <testcase name="The user clicks Run on tree-traversals Page without entering code" classname="Tree page features" time="7.916">
     <system-out><![CDATA[
 @treepage
 Scenario: The user clicks Run on tree-traversals Page without entering code &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:203&amp#27;[0m
@@ -630,7 +630,7 @@ false
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m&amp#27;[32m in tree&amp#27;[0m                                         &amp#27;[90m# stepdefinitions.TreePageSteps.no_error_message_is_displayed_in_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="The user clicks Run on Python Editor of Tree Traversals Page by enterering invalid code" classname="Tree page features" time="7.627">
+  <testcase name="The user clicks Run on Python Editor of Tree Traversals Page by enterering invalid code" classname="Tree page features" time="7.853">
     <system-out><![CDATA[
 @treepage
 Scenario: The user clicks Run on Python Editor of Tree Traversals Page by enterering invalid code &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:212&amp#27;[0m
@@ -654,7 +654,7 @@ clicking: run
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m&amp#27;[32m in tree&amp#27;[0m                                                               &amp#27;[90m# stepdefinitions.TreePageSteps.no_error_message_is_displayed_in_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="The user clicks Run on Python Editor of Tree Traversals Page and entering valid code" classname="Tree page features" time="10.035">
+  <testcase name="The user clicks Run on Python Editor of Tree Traversals Page and entering valid code" classname="Tree page features" time="7.854">
     <system-out><![CDATA[
 @treepage
 Scenario: The user clicks Run on Python Editor of Tree Traversals Page and entering valid code &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:221&amp#27;[0m
@@ -681,7 +681,7 @@ true
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mOuput Displayed &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m&amp#27;[32m in tree&amp#27;[0m                                                          &amp#27;[90m# stepdefinitions.TreePageSteps.output_is_seen_in_the_console_in_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Try Here button of Tree Traversals in Python Page" classname="Tree page features" time="7.47">
+  <testcase name="Try Here button of Tree Traversals in Python Page" classname="Tree page features" time="6.356">
     <system-out><![CDATA[
 @treepage
 Scenario: Try Here button of Tree Traversals in Python Page                                        &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:230&amp#27;[0m
@@ -701,7 +701,7 @@ in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokua
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe Page should have Python Editor in tree&amp#27;[0m                                                   &amp#27;[90m# stepdefinitions.TreePageSteps.the_page_should_have_python_editor_in_tree()&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="The user clicks Run on traversals-illustration Page without entering code" classname="Tree page features" time="9.059">
+  <testcase name="The user clicks Run on traversals-illustration Page without entering code" classname="Tree page features" time="7.156">
     <system-out><![CDATA[
 @treepage
 Scenario: The user clicks Run on traversals-illustration Page without entering code &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:239&amp#27;[0m
@@ -725,7 +725,7 @@ false
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m&amp#27;[32m in tree&amp#27;[0m                                                 &amp#27;[90m# stepdefinitions.TreePageSteps.no_error_message_is_displayed_in_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="The user clicks Run on Python Editor of Traversals-Illustration Page by enterering invalid code" classname="Tree page features" time="8.544">
+  <testcase name="The user clicks Run on Python Editor of Traversals-Illustration Page by enterering invalid code" classname="Tree page features" time="8.288">
     <system-out><![CDATA[
 @treepage
 Scenario: The user clicks Run on Python Editor of Traversals-Illustration Page by enterering invalid code &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:248&amp#27;[0m
@@ -749,7 +749,7 @@ clicking: run
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m&amp#27;[32m in tree&amp#27;[0m                                                                       &amp#27;[90m# stepdefinitions.TreePageSteps.no_error_message_is_displayed_in_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="The user clicks Run on Python Editor of Traversals-Illustration Page and entering valid code" classname="Tree page features" time="8.366">
+  <testcase name="The user clicks Run on Python Editor of Traversals-Illustration Page and entering valid code" classname="Tree page features" time="7.084">
     <system-out><![CDATA[
 @treepage
 Scenario: The user clicks Run on Python Editor of Traversals-Illustration Page and entering valid code &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:257&amp#27;[0m
@@ -776,7 +776,7 @@ true
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mOuput Displayed &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m&amp#27;[32m in tree&amp#27;[0m                                                                  &amp#27;[90m# stepdefinitions.TreePageSteps.output_is_seen_in_the_console_in_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Try Here button of Traversals-Illustration in Python Page" classname="Tree page features" time="7.279">
+  <testcase name="Try Here button of Traversals-Illustration in Python Page" classname="Tree page features" time="5.748">
     <system-out><![CDATA[
 @treepage
 Scenario: Try Here button of Traversals-Illustration in Python Page                                &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:266&amp#27;[0m
@@ -796,7 +796,7 @@ in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokua
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe Page should have Python Editor in tree&amp#27;[0m                                                   &amp#27;[90m# stepdefinitions.TreePageSteps.the_page_should_have_python_editor_in_tree()&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="The user clicks Run on Binary Trees Page without entering code" classname="Tree page features" time="7.697">
+  <testcase name="The user clicks Run on Binary Trees Page without entering code" classname="Tree page features" time="6.277">
     <system-out><![CDATA[
 @treepage
 Scenario: The user clicks Run on Binary Trees Page without entering code &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:274&amp#27;[0m
@@ -820,7 +820,7 @@ false
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m&amp#27;[32m in tree&amp#27;[0m                                      &amp#27;[90m# stepdefinitions.TreePageSteps.no_error_message_is_displayed_in_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="The user clicks Run on Python Editor of Binary Trees Page by enterering invalid code" classname="Tree page features" time="8.523">
+  <testcase name="The user clicks Run on Python Editor of Binary Trees Page by enterering invalid code" classname="Tree page features" time="6.246">
     <system-out><![CDATA[
 @treepage
 Scenario: The user clicks Run on Python Editor of Binary Trees Page by enterering invalid code &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:283&amp#27;[0m
@@ -844,7 +844,7 @@ clicking: run
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m&amp#27;[32m in tree&amp#27;[0m                                                            &amp#27;[90m# stepdefinitions.TreePageSteps.no_error_message_is_displayed_in_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="The user clicks Run on Python Editor of Binary Trees Page and entering valid code" classname="Tree page features" time="9.212">
+  <testcase name="The user clicks Run on Python Editor of Binary Trees Page and entering valid code" classname="Tree page features" time="7.555">
     <system-out><![CDATA[
 @treepage
 Scenario: The user clicks Run on Python Editor of Binary Trees Page and entering valid code &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:292&amp#27;[0m
@@ -871,7 +871,7 @@ true
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mOuput Displayed &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m&amp#27;[32m in tree&amp#27;[0m                                                       &amp#27;[90m# stepdefinitions.TreePageSteps.output_is_seen_in_the_console_in_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Try Here button of Binary Trees in Python Page" classname="Tree page features" time="7.058">
+  <testcase name="Try Here button of Binary Trees in Python Page" classname="Tree page features" time="5.698">
     <system-out><![CDATA[
 @treepage
 Scenario: Try Here button of Binary Trees in Python Page                                           &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:301&amp#27;[0m
@@ -891,7 +891,7 @@ in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokua
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe Page should have Python Editor in tree&amp#27;[0m                                                   &amp#27;[90m# stepdefinitions.TreePageSteps.the_page_should_have_python_editor_in_tree()&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="The user clicks Run on Types of Binary Trees Page without entering code" classname="Tree page features" time="9.151">
+  <testcase name="The user clicks Run on Types of Binary Trees Page without entering code" classname="Tree page features" time="7.073">
     <system-out><![CDATA[
 @treepage
 Scenario: The user clicks Run on Types of Binary Trees Page without entering code &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:309&amp#27;[0m
@@ -915,7 +915,7 @@ false
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m&amp#27;[32m in tree&amp#27;[0m                                               &amp#27;[90m# stepdefinitions.TreePageSteps.no_error_message_is_displayed_in_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="The user clicks Run on Python Editor of Types of Binary Trees Page by enterering invalid code" classname="Tree page features" time="8.846">
+  <testcase name="The user clicks Run on Python Editor of Types of Binary Trees Page by enterering invalid code" classname="Tree page features" time="6.057">
     <system-out><![CDATA[
 @treepage
 Scenario: The user clicks Run on Python Editor of Types of Binary Trees Page by enterering invalid code &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:318&amp#27;[0m
@@ -939,7 +939,7 @@ clicking: run
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m&amp#27;[32m in tree&amp#27;[0m                                                                     &amp#27;[90m# stepdefinitions.TreePageSteps.no_error_message_is_displayed_in_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="The user clicks Run on Python Editor of Types of Binary Trees Page and entering valid code" classname="Tree page features" time="9.369">
+  <testcase name="The user clicks Run on Python Editor of Types of Binary Trees Page and entering valid code" classname="Tree page features" time="6.056">
     <system-out><![CDATA[
 @treepage
 Scenario: The user clicks Run on Python Editor of Types of Binary Trees Page and entering valid code &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:327&amp#27;[0m
@@ -966,7 +966,7 @@ true
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mOuput Displayed &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m&amp#27;[32m in tree&amp#27;[0m                                                                &amp#27;[90m# stepdefinitions.TreePageSteps.output_is_seen_in_the_console_in_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Try Here button of Types of Binary Trees in Python Page" classname="Tree page features" time="7.766">
+  <testcase name="Try Here button of Types of Binary Trees in Python Page" classname="Tree page features" time="7.837">
     <system-out><![CDATA[
 @treepage
 Scenario: Try Here button of Types of Binary Trees in Python Page                                  &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:336&amp#27;[0m
@@ -986,7 +986,7 @@ in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokua
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe Page should have Python Editor in tree&amp#27;[0m                                                   &amp#27;[90m# stepdefinitions.TreePageSteps.the_page_should_have_python_editor_in_tree()&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="The user clicks Run on Implementation in Python Page without entering code" classname="Tree page features" time="8.139">
+  <testcase name="The user clicks Run on Implementation in Python Page without entering code" classname="Tree page features" time="10.737">
     <system-out><![CDATA[
 @treepage
 Scenario: The user clicks Run on Implementation in Python Page without entering code &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:345&amp#27;[0m
@@ -1010,7 +1010,7 @@ false
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m&amp#27;[32m in tree&amp#27;[0m                                                  &amp#27;[90m# stepdefinitions.TreePageSteps.no_error_message_is_displayed_in_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="The user clicks Run on Python Editor of Implementation in Python Page by enterering invalid code" classname="Tree page features" time="9.681">
+  <testcase name="The user clicks Run on Python Editor of Implementation in Python Page by enterering invalid code" classname="Tree page features" time="8.005">
     <system-out><![CDATA[
 @treepage
 Scenario: The user clicks Run on Python Editor of Implementation in Python Page by enterering invalid code &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:354&amp#27;[0m
@@ -1034,7 +1034,7 @@ clicking: run
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m&amp#27;[32m in tree&amp#27;[0m                                                                        &amp#27;[90m# stepdefinitions.TreePageSteps.no_error_message_is_displayed_in_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="The user clicks Run on Python Editor of Implementation in Python Page and entering valid code" classname="Tree page features" time="9.002">
+  <testcase name="The user clicks Run on Python Editor of Implementation in Python Page and entering valid code" classname="Tree page features" time="5.753">
     <system-out><![CDATA[
 @treepage
 Scenario: The user clicks Run on Python Editor of Implementation in Python Page and entering valid code &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:363&amp#27;[0m
@@ -1061,7 +1061,7 @@ true
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mOuput Displayed &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m&amp#27;[32m in tree&amp#27;[0m                                                                   &amp#27;[90m# stepdefinitions.TreePageSteps.output_is_seen_in_the_console_in_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Try Here button of Implementation in Python in Python Page" classname="Tree page features" time="8.081">
+  <testcase name="Try Here button of Implementation in Python in Python Page" classname="Tree page features" time="4.255">
     <system-out><![CDATA[
 @treepage
 Scenario: Try Here button of Implementation in Python in Python Page                               &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:372&amp#27;[0m
@@ -1081,7 +1081,7 @@ in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokua
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe Page should have Python Editor in tree&amp#27;[0m                                                   &amp#27;[90m# stepdefinitions.TreePageSteps.the_page_should_have_python_editor_in_tree()&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="The user clicks Run on Binary Tree Traversals Page without entering code" classname="Tree page features" time="6.659">
+  <testcase name="The user clicks Run on Binary Tree Traversals Page without entering code" classname="Tree page features" time="4.743">
     <system-out><![CDATA[
 @treepage
 Scenario: The user clicks Run on Binary Tree Traversals Page without entering code &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:380&amp#27;[0m
@@ -1105,7 +1105,7 @@ false
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m&amp#27;[32m in tree&amp#27;[0m                                                &amp#27;[90m# stepdefinitions.TreePageSteps.no_error_message_is_displayed_in_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="The user clicks Run on Python Editor of Binary Tree Traversals Page by enterering invalid code" classname="Tree page features" time="6.785">
+  <testcase name="The user clicks Run on Python Editor of Binary Tree Traversals Page by enterering invalid code" classname="Tree page features" time="5.038">
     <system-out><![CDATA[
 @treepage
 Scenario: The user clicks Run on Python Editor of Binary Tree Traversals Page by enterering invalid code &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:389&amp#27;[0m
@@ -1129,7 +1129,7 @@ clicking: run
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m&amp#27;[32m in tree&amp#27;[0m                                                                      &amp#27;[90m# stepdefinitions.TreePageSteps.no_error_message_is_displayed_in_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="The user clicks Run on Python Editor of Binary Tree Traversals Page and entering valid code" classname="Tree page features" time="7.359">
+  <testcase name="The user clicks Run on Python Editor of Binary Tree Traversals Page and entering valid code" classname="Tree page features" time="5.243">
     <system-out><![CDATA[
 @treepage
 Scenario: The user clicks Run on Python Editor of Binary Tree Traversals Page and entering valid code &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:398&amp#27;[0m
@@ -1156,7 +1156,7 @@ true
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mOuput Displayed &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m&amp#27;[32m in tree&amp#27;[0m                                                                 &amp#27;[90m# stepdefinitions.TreePageSteps.output_is_seen_in_the_console_in_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Try Here button of Binary Tree Traversals in Python Page" classname="Tree page features" time="6.641">
+  <testcase name="Try Here button of Binary Tree Traversals in Python Page" classname="Tree page features" time="4.357">
     <system-out><![CDATA[
 @treepage
 Scenario: Try Here button of Binary Tree Traversals in Python Page                                 &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:407&amp#27;[0m
@@ -1176,7 +1176,7 @@ in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokua
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe Page should have Python Editor in tree&amp#27;[0m                                                   &amp#27;[90m# stepdefinitions.TreePageSteps.the_page_should_have_python_editor_in_tree()&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="The user clicks Run on Applications of Binary trees Page without entering code" classname="Tree page features" time="7.683">
+  <testcase name="The user clicks Run on Applications of Binary trees Page without entering code" classname="Tree page features" time="4.638">
     <system-out><![CDATA[
 @treepage
 Scenario: The user clicks Run on Applications of Binary trees Page without entering code &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:415&amp#27;[0m
@@ -1200,7 +1200,7 @@ false
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m&amp#27;[32m in tree&amp#27;[0m                                                      &amp#27;[90m# stepdefinitions.TreePageSteps.no_error_message_is_displayed_in_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="The user clicks Run on Python Editor of Applications of Binary trees Page by enterering invalid code" classname="Tree page features" time="7.82">
+  <testcase name="The user clicks Run on Python Editor of Applications of Binary trees Page by enterering invalid code" classname="Tree page features" time="4.672">
     <system-out><![CDATA[
 @treepage
 Scenario: The user clicks Run on Python Editor of Applications of Binary trees Page by enterering invalid code &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:424&amp#27;[0m
@@ -1224,7 +1224,7 @@ clicking: run
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m&amp#27;[32m in tree&amp#27;[0m                                                                            &amp#27;[90m# stepdefinitions.TreePageSteps.no_error_message_is_displayed_in_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="The user clicks Run on Python Editor of Applications of Binary trees Page and entering valid code" classname="Tree page features" time="6.942">
+  <testcase name="The user clicks Run on Python Editor of Applications of Binary trees Page and entering valid code" classname="Tree page features" time="4.89">
     <system-out><![CDATA[
 @treepage
 Scenario: The user clicks Run on Python Editor of Applications of Binary trees Page and entering valid code &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:433&amp#27;[0m
@@ -1251,7 +1251,7 @@ true
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mOuput Displayed &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m&amp#27;[32m in tree&amp#27;[0m                                                                       &amp#27;[90m# stepdefinitions.TreePageSteps.output_is_seen_in_the_console_in_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Try Here button of Applications of Binary trees in Python Page" classname="Tree page features" time="5.676">
+  <testcase name="Try Here button of Applications of Binary trees in Python Page" classname="Tree page features" time="4.233">
     <system-out><![CDATA[
 @treepage
 Scenario: Try Here button of Applications of Binary trees in Python Page                           &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:442&amp#27;[0m
@@ -1271,7 +1271,7 @@ in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokua
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe Page should have Python Editor in tree&amp#27;[0m                                                   &amp#27;[90m# stepdefinitions.TreePageSteps.the_page_should_have_python_editor_in_tree()&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="The user clicks Run on Implementation of Binary Trees Page without entering code" classname="Tree page features" time="7.095">
+  <testcase name="The user clicks Run on Implementation of Binary Trees Page without entering code" classname="Tree page features" time="4.724">
     <system-out><![CDATA[
 @treepage
 Scenario: The user clicks Run on Implementation of Binary Trees Page without entering code &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:451&amp#27;[0m
@@ -1295,7 +1295,7 @@ false
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m&amp#27;[32m in tree&amp#27;[0m                                                        &amp#27;[90m# stepdefinitions.TreePageSteps.no_error_message_is_displayed_in_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="The user clicks Run on Python Editor of Implementation of Binary Trees Page by enterering invalid code" classname="Tree page features" time="5.142">
+  <testcase name="The user clicks Run on Python Editor of Implementation of Binary Trees Page by enterering invalid code" classname="Tree page features" time="4.629">
     <system-out><![CDATA[
 @treepage
 Scenario: The user clicks Run on Python Editor of Implementation of Binary Trees Page by enterering invalid code &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:460&amp#27;[0m
@@ -1319,7 +1319,7 @@ clicking: run
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m&amp#27;[32m in tree&amp#27;[0m                                                                              &amp#27;[90m# stepdefinitions.TreePageSteps.no_error_message_is_displayed_in_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="The user clicks Run on Python Editor of Implementation of Binary Trees Page and entering valid code" classname="Tree page features" time="5.02">
+  <testcase name="The user clicks Run on Python Editor of Implementation of Binary Trees Page and entering valid code" classname="Tree page features" time="4.929">
     <system-out><![CDATA[
 @treepage
 Scenario: The user clicks Run on Python Editor of Implementation of Binary Trees Page and entering valid code &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:469&amp#27;[0m
@@ -1346,7 +1346,7 @@ true
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mOuput Displayed &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m&amp#27;[32m in tree&amp#27;[0m                                                                         &amp#27;[90m# stepdefinitions.TreePageSteps.output_is_seen_in_the_console_in_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Try Here button of Implementation of Binary Trees in Python Page" classname="Tree page features" time="4.314">
+  <testcase name="Try Here button of Implementation of Binary Trees in Python Page" classname="Tree page features" time="4.165">
     <system-out><![CDATA[
 @treepage
 Scenario: Try Here button of Implementation of Binary Trees in Python Page                         &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:478&amp#27;[0m
@@ -1366,7 +1366,7 @@ in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokua
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe Page should have Python Editor in tree&amp#27;[0m                                                   &amp#27;[90m# stepdefinitions.TreePageSteps.the_page_should_have_python_editor_in_tree()&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="The user clicks Run on Binary Search Trees Page without entering code" classname="Tree page features" time="4.928">
+  <testcase name="The user clicks Run on Binary Search Trees Page without entering code" classname="Tree page features" time="4.992">
     <system-out><![CDATA[
 @treepage
 Scenario: The user clicks Run on Binary Search Trees Page without entering code &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:486&amp#27;[0m
@@ -1390,7 +1390,7 @@ false
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m&amp#27;[32m in tree&amp#27;[0m                                             &amp#27;[90m# stepdefinitions.TreePageSteps.no_error_message_is_displayed_in_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="The user clicks Run on Python Editor of Binary Search Trees Page by enterering invalid code" classname="Tree page features" time="4.991">
+  <testcase name="The user clicks Run on Python Editor of Binary Search Trees Page by enterering invalid code" classname="Tree page features" time="4.99">
     <system-out><![CDATA[
 @treepage
 Scenario: The user clicks Run on Python Editor of Binary Search Trees Page by enterering invalid code &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:495&amp#27;[0m
@@ -1414,7 +1414,7 @@ clicking: run
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m&amp#27;[32m in tree&amp#27;[0m                                                                   &amp#27;[90m# stepdefinitions.TreePageSteps.no_error_message_is_displayed_in_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="The user clicks Run on Python Editor of Binary Search Trees Page and entering valid code" classname="Tree page features" time="5.274">
+  <testcase name="The user clicks Run on Python Editor of Binary Search Trees Page and entering valid code" classname="Tree page features" time="5.115">
     <system-out><![CDATA[
 @treepage
 Scenario: The user clicks Run on Python Editor of Binary Search Trees Page and entering valid code &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:504&amp#27;[0m
@@ -1441,7 +1441,7 @@ true
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mOuput Displayed &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m&amp#27;[32m in tree&amp#27;[0m                                                              &amp#27;[90m# stepdefinitions.TreePageSteps.output_is_seen_in_the_console_in_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Try Here button of Binary Search Trees in Python Page" classname="Tree page features" time="4.508">
+  <testcase name="Try Here button of Binary Search Trees in Python Page" classname="Tree page features" time="4.232">
     <system-out><![CDATA[
 @treepage
 Scenario: Try Here button of Binary Search Trees in Python Page                                    &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:513&amp#27;[0m
@@ -1461,7 +1461,7 @@ in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokua
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe Page should have Python Editor in tree&amp#27;[0m                                                   &amp#27;[90m# stepdefinitions.TreePageSteps.the_page_should_have_python_editor_in_tree()&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="The user clicks Run on Implementation Of BST Page without entering code" classname="Tree page features" time="4.917">
+  <testcase name="The user clicks Run on Implementation Of BST Page without entering code" classname="Tree page features" time="4.592">
     <system-out><![CDATA[
 @treepage
 Scenario: The user clicks Run on Implementation Of BST Page without entering code &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:521&amp#27;[0m
@@ -1485,7 +1485,7 @@ false
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m&amp#27;[32m in tree&amp#27;[0m                                               &amp#27;[90m# stepdefinitions.TreePageSteps.no_error_message_is_displayed_in_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="The user clicks Run on Python Editor of Implementation Of BST Page by enterering invalid code" classname="Tree page features" time="5.122">
+  <testcase name="The user clicks Run on Python Editor of Implementation Of BST Page by enterering invalid code" classname="Tree page features" time="4.587">
     <system-out><![CDATA[
 @treepage
 Scenario: The user clicks Run on Python Editor of Implementation Of BST Page by enterering invalid code &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:530&amp#27;[0m
@@ -1509,7 +1509,7 @@ clicking: run
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mError message &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m&amp#27;[32m in tree&amp#27;[0m                                                                     &amp#27;[90m# stepdefinitions.TreePageSteps.no_error_message_is_displayed_in_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="The user clicks Run on Python Editor of Implementation Of BST Page and entering valid code" classname="Tree page features" time="5.012">
+  <testcase name="The user clicks Run on Python Editor of Implementation Of BST Page and entering valid code" classname="Tree page features" time="5.036">
     <system-out><![CDATA[
 @treepage
 Scenario: The user clicks Run on Python Editor of Implementation Of BST Page and entering valid code &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:539&amp#27;[0m
@@ -1536,7 +1536,7 @@ true
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mOuput Displayed &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m&amp#27;[32m in tree&amp#27;[0m                                                                &amp#27;[90m# stepdefinitions.TreePageSteps.output_is_seen_in_the_console_in_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Try Here button of Implementation Of BST in Python Page" classname="Tree page features" time="4.219">
+  <testcase name="Try Here button of Implementation Of BST in Python Page" classname="Tree page features" time="4.232">
     <system-out><![CDATA[
 @treepage
 Scenario: Try Here button of Implementation Of BST in Python Page                                  &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:548&amp#27;[0m
@@ -1556,7 +1556,7 @@ in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokua
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mThe Page should have Python Editor in tree&amp#27;[0m                                                   &amp#27;[90m# stepdefinitions.TreePageSteps.the_page_should_have_python_editor_in_tree()&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Practice question page with links #1" classname="Tree page features" time="3.412">
+  <testcase name="Practice question page with links #1" classname="Tree page features" time="4.519">
     <system-out><![CDATA[
 @treepage
 Scenario: Practice question page with links                          &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:558&amp#27;[0m
@@ -1575,7 +1575,7 @@ in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokua
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user should be redirected to &amp#27;[0m&amp#27;[32m&amp#27;[1m"tree/practice"&amp#27;[0m&amp#27;[32m Page in tree&amp#27;[0m &amp#27;[90m# stepdefinitions.TreePageSteps.the_user_should_be_redirected_to_string_page_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Alert of tree Page by enterering invalid code #1" classname="Tree page features" time="6.027">
+  <testcase name="Alert of tree Page by enterering invalid code #1" classname="Tree page features" time="8.229">
     <system-out><![CDATA[
 @treepage
 Scenario: Alert of tree Page by enterering invalid code             &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:564&amp#27;[0m
@@ -1607,7 +1607,7 @@ curentURL:https://dsportalapp.herokuapp.com/tryEditor
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mNo change in code in tree&amp#27;[0m                                     &amp#27;[90m# stepdefinitions.TreePageSteps.no_change_in_code_in_tree()&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Practice question page with links #2" classname="Tree page features" time="3.448">
+  <testcase name="Practice question page with links #2" classname="Tree page features" time="5.399">
     <system-out><![CDATA[
 @treepage
 Scenario: Practice question page with links                          &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:580&amp#27;[0m
@@ -1626,7 +1626,7 @@ in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokua
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user should be redirected to &amp#27;[0m&amp#27;[32m&amp#27;[1m"tree/practice"&amp#27;[0m&amp#27;[32m Page in tree&amp#27;[0m &amp#27;[90m# stepdefinitions.TreePageSteps.the_user_should_be_redirected_to_string_page_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Alert of tree Page by enterering invalid code #2" classname="Tree page features" time="5.767">
+  <testcase name="Alert of tree Page by enterering invalid code #2" classname="Tree page features" time="7.175">
     <system-out><![CDATA[
 @treepage
 Scenario: Alert of tree Page by enterering invalid code             &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:586&amp#27;[0m
@@ -1658,7 +1658,7 @@ curentURL:https://dsportalapp.herokuapp.com/tryEditor
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mNo change in code in tree&amp#27;[0m                                     &amp#27;[90m# stepdefinitions.TreePageSteps.no_change_in_code_in_tree()&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Practice question page with links #3" classname="Tree page features" time="3.398">
+  <testcase name="Practice question page with links #3" classname="Tree page features" time="3.765">
     <system-out><![CDATA[
 @treepage
 Scenario: Practice question page with links                          &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:601&amp#27;[0m
@@ -1677,7 +1677,7 @@ in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokua
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user should be redirected to &amp#27;[0m&amp#27;[32m&amp#27;[1m"tree/practice"&amp#27;[0m&amp#27;[32m Page in tree&amp#27;[0m &amp#27;[90m# stepdefinitions.TreePageSteps.the_user_should_be_redirected_to_string_page_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Alert of tree Page by enterering invalid code #3" classname="Tree page features" time="6.037">
+  <testcase name="Alert of tree Page by enterering invalid code #3" classname="Tree page features" time="5.889">
     <system-out><![CDATA[
 @treepage
 Scenario: Alert of tree Page by enterering invalid code             &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:607&amp#27;[0m
@@ -1709,7 +1709,7 @@ curentURL:https://dsportalapp.herokuapp.com/tryEditor
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mNo change in code in tree&amp#27;[0m                                     &amp#27;[90m# stepdefinitions.TreePageSteps.no_change_in_code_in_tree()&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Practice question page with links #4" classname="Tree page features" time="3.545">
+  <testcase name="Practice question page with links #4" classname="Tree page features" time="3.114">
     <system-out><![CDATA[
 @treepage
 Scenario: Practice question page with links                          &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:622&amp#27;[0m
@@ -1728,7 +1728,7 @@ in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokua
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user should be redirected to &amp#27;[0m&amp#27;[32m&amp#27;[1m"tree/practice"&amp#27;[0m&amp#27;[32m Page in tree&amp#27;[0m &amp#27;[90m# stepdefinitions.TreePageSteps.the_user_should_be_redirected_to_string_page_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Alert of tree Page by enterering invalid code #4" classname="Tree page features" time="6.079">
+  <testcase name="Alert of tree Page by enterering invalid code #4" classname="Tree page features" time="5.965">
     <system-out><![CDATA[
 @treepage
 Scenario: Alert of tree Page by enterering invalid code             &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:628&amp#27;[0m
@@ -1760,7 +1760,7 @@ curentURL:https://dsportalapp.herokuapp.com/tryEditor
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mNo change in code in tree&amp#27;[0m                                     &amp#27;[90m# stepdefinitions.TreePageSteps.no_change_in_code_in_tree()&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Practice question page with links #5" classname="Tree page features" time="3.577">
+  <testcase name="Practice question page with links #5" classname="Tree page features" time="3.304">
     <system-out><![CDATA[
 @treepage
 Scenario: Practice question page with links                             &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:643&amp#27;[0m
@@ -1779,7 +1779,7 @@ in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokua
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user should be redirected to &amp#27;[0m&amp#27;[32m&amp#27;[1m"tree/practice"&amp#27;[0m&amp#27;[32m Page in tree&amp#27;[0m    &amp#27;[90m# stepdefinitions.TreePageSteps.the_user_should_be_redirected_to_string_page_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Alert of tree Page by enterering invalid code #5" classname="Tree page features" time="6.168">
+  <testcase name="Alert of tree Page by enterering invalid code #5" classname="Tree page features" time="5.702">
     <system-out><![CDATA[
 @treepage
 Scenario: Alert of tree Page by enterering invalid code                 &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:649&amp#27;[0m
@@ -1811,7 +1811,7 @@ curentURL:https://dsportalapp.herokuapp.com/tryEditor
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mNo change in code in tree&amp#27;[0m                                         &amp#27;[90m# stepdefinitions.TreePageSteps.no_change_in_code_in_tree()&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Practice question page with links #6" classname="Tree page features" time="3.373">
+  <testcase name="Practice question page with links #6" classname="Tree page features" time="3.371">
     <system-out><![CDATA[
 @treepage
 Scenario: Practice question page with links                          &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:664&amp#27;[0m
@@ -1830,7 +1830,7 @@ in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokua
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user should be redirected to &amp#27;[0m&amp#27;[32m&amp#27;[1m"tree/practice"&amp#27;[0m&amp#27;[32m Page in tree&amp#27;[0m &amp#27;[90m# stepdefinitions.TreePageSteps.the_user_should_be_redirected_to_string_page_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Alert of tree Page by enterering invalid code #6" classname="Tree page features" time="5.74">
+  <testcase name="Alert of tree Page by enterering invalid code #6" classname="Tree page features" time="5.954">
     <system-out><![CDATA[
 @treepage
 Scenario: Alert of tree Page by enterering invalid code             &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:670&amp#27;[0m
@@ -1862,7 +1862,7 @@ curentURL:https://dsportalapp.herokuapp.com/tryEditor
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mNo change in code in tree&amp#27;[0m                                     &amp#27;[90m# stepdefinitions.TreePageSteps.no_change_in_code_in_tree()&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Practice question page with links #7" classname="Tree page features" time="3.614">
+  <testcase name="Practice question page with links #7" classname="Tree page features" time="3.302">
     <system-out><![CDATA[
 @treepage
 Scenario: Practice question page with links                           &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:685&amp#27;[0m
@@ -1881,7 +1881,7 @@ in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokua
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user should be redirected to &amp#27;[0m&amp#27;[32m&amp#27;[1m"tree/practice"&amp#27;[0m&amp#27;[32m Page in tree&amp#27;[0m  &amp#27;[90m# stepdefinitions.TreePageSteps.the_user_should_be_redirected_to_string_page_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Alert of tree Page by enterering invalid code #7" classname="Tree page features" time="6.204">
+  <testcase name="Alert of tree Page by enterering invalid code #7" classname="Tree page features" time="5.856">
     <system-out><![CDATA[
 @treepage
 Scenario: Alert of tree Page by enterering invalid code               &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:691&amp#27;[0m
@@ -1913,7 +1913,7 @@ curentURL:https://dsportalapp.herokuapp.com/tryEditor
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mNo change in code in tree&amp#27;[0m                                       &amp#27;[90m# stepdefinitions.TreePageSteps.no_change_in_code_in_tree()&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Practice question page with links #8" classname="Tree page features" time="3.28">
+  <testcase name="Practice question page with links #8" classname="Tree page features" time="3.426">
     <system-out><![CDATA[
 @treepage
 Scenario: Practice question page with links                              &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:706&amp#27;[0m
@@ -1932,7 +1932,7 @@ in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokua
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user should be redirected to &amp#27;[0m&amp#27;[32m&amp#27;[1m"tree/practice"&amp#27;[0m&amp#27;[32m Page in tree&amp#27;[0m     &amp#27;[90m# stepdefinitions.TreePageSteps.the_user_should_be_redirected_to_string_page_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Alert of tree Page by enterering invalid code #8" classname="Tree page features" time="5.777">
+  <testcase name="Alert of tree Page by enterering invalid code #8" classname="Tree page features" time="7.772">
     <system-out><![CDATA[
 @treepage
 Scenario: Alert of tree Page by enterering invalid code                  &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:712&amp#27;[0m
@@ -1964,7 +1964,7 @@ curentURL:https://dsportalapp.herokuapp.com/tryEditor
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mNo change in code in tree&amp#27;[0m                                          &amp#27;[90m# stepdefinitions.TreePageSteps.no_change_in_code_in_tree()&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Practice question page with links #9" classname="Tree page features" time="3.449">
+  <testcase name="Practice question page with links #9" classname="Tree page features" time="3.351">
     <system-out><![CDATA[
 @treepage
 Scenario: Practice question page with links                            &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:727&amp#27;[0m
@@ -1983,7 +1983,7 @@ in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokua
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user should be redirected to &amp#27;[0m&amp#27;[32m&amp#27;[1m"tree/practice"&amp#27;[0m&amp#27;[32m Page in tree&amp#27;[0m   &amp#27;[90m# stepdefinitions.TreePageSteps.the_user_should_be_redirected_to_string_page_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Alert of tree Page by enterering invalid code #9" classname="Tree page features" time="5.847">
+  <testcase name="Alert of tree Page by enterering invalid code #9" classname="Tree page features" time="5.67">
     <system-out><![CDATA[
 @treepage
 Scenario: Alert of tree Page by enterering invalid code                &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:733&amp#27;[0m
@@ -2015,7 +2015,7 @@ curentURL:https://dsportalapp.herokuapp.com/tryEditor
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mNo change in code in tree&amp#27;[0m                                        &amp#27;[90m# stepdefinitions.TreePageSteps.no_change_in_code_in_tree()&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Practice question page with links #10" classname="Tree page features" time="3.464">
+  <testcase name="Practice question page with links #10" classname="Tree page features" time="3.758">
     <system-out><![CDATA[
 @treepage
 Scenario: Practice question page with links                                    &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:748&amp#27;[0m
@@ -2034,7 +2034,7 @@ in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokua
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user should be redirected to &amp#27;[0m&amp#27;[32m&amp#27;[1m"tree/practice"&amp#27;[0m&amp#27;[32m Page in tree&amp#27;[0m           &amp#27;[90m# stepdefinitions.TreePageSteps.the_user_should_be_redirected_to_string_page_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Alert of tree Page by enterering invalid code #10" classname="Tree page features" time="5.62">
+  <testcase name="Alert of tree Page by enterering invalid code #10" classname="Tree page features" time="5.625">
     <system-out><![CDATA[
 @treepage
 Scenario: Alert of tree Page by enterering invalid code                        &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:754&amp#27;[0m
@@ -2066,7 +2066,7 @@ curentURL:https://dsportalapp.herokuapp.com/tryEditor
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mNo change in code in tree&amp#27;[0m                                                &amp#27;[90m# stepdefinitions.TreePageSteps.no_change_in_code_in_tree()&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Practice question page with links #11" classname="Tree page features" time="3.284">
+  <testcase name="Practice question page with links #11" classname="Tree page features" time="3.135">
     <system-out><![CDATA[
 @treepage
 Scenario: Practice question page with links                                  &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:768&amp#27;[0m
@@ -2085,7 +2085,7 @@ in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokua
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user should be redirected to &amp#27;[0m&amp#27;[32m&amp#27;[1m"tree/practice"&amp#27;[0m&amp#27;[32m Page in tree&amp#27;[0m         &amp#27;[90m# stepdefinitions.TreePageSteps.the_user_should_be_redirected_to_string_page_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Alert of tree Page by enterering invalid code #11" classname="Tree page features" time="5.851">
+  <testcase name="Alert of tree Page by enterering invalid code #11" classname="Tree page features" time="6.079">
     <system-out><![CDATA[
 @treepage
 Scenario: Alert of tree Page by enterering invalid code                      &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:774&amp#27;[0m
@@ -2117,7 +2117,7 @@ curentURL:https://dsportalapp.herokuapp.com/tryEditor
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mNo change in code in tree&amp#27;[0m                                              &amp#27;[90m# stepdefinitions.TreePageSteps.no_change_in_code_in_tree()&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Practice question page with links #12" classname="Tree page features" time="3.525">
+  <testcase name="Practice question page with links #12" classname="Tree page features" time="3.265">
     <system-out><![CDATA[
 @treepage
 Scenario: Practice question page with links                          &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:789&amp#27;[0m
@@ -2136,7 +2136,7 @@ in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokua
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user should be redirected to &amp#27;[0m&amp#27;[32m&amp#27;[1m"tree/practice"&amp#27;[0m&amp#27;[32m Page in tree&amp#27;[0m &amp#27;[90m# stepdefinitions.TreePageSteps.the_user_should_be_redirected_to_string_page_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Alert of tree Page by enterering invalid code #12" classname="Tree page features" time="5.643">
+  <testcase name="Alert of tree Page by enterering invalid code #12" classname="Tree page features" time="5.47">
     <system-out><![CDATA[
 @treepage
 Scenario: Alert of tree Page by enterering invalid code             &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:795&amp#27;[0m
@@ -2166,7 +2166,7 @@ curentURL:https://dsportalapp.herokuapp.com/tryEditor
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mNo change in code in tree&amp#27;[0m                                     &amp#27;[90m# stepdefinitions.TreePageSteps.no_change_in_code_in_tree()&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Practice question page with links #13" classname="Tree page features" time="3.218">
+  <testcase name="Practice question page with links #13" classname="Tree page features" time="3.245">
     <system-out><![CDATA[
 @treepage
 Scenario: Practice question page with links                           &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:809&amp#27;[0m
@@ -2185,7 +2185,7 @@ in the_user_should_be_redirected_to_string_page url: https://dsportalapp.herokua
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user should be redirected to &amp#27;[0m&amp#27;[32m&amp#27;[1m"tree/practice"&amp#27;[0m&amp#27;[32m Page in tree&amp#27;[0m  &amp#27;[90m# stepdefinitions.TreePageSteps.the_user_should_be_redirected_to_string_page_tree(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Alert of tree Page by enterering invalid code #13" classname="Tree page features" time="5.596">
+  <testcase name="Alert of tree Page by enterering invalid code #13" classname="Tree page features" time="5.895">
     <system-out><![CDATA[
 @treepage
 Scenario: Alert of tree Page by enterering invalid code               &amp#27;[90m# src/test/resources/AppFeatures/TreePage.feature:815&amp#27;[0m

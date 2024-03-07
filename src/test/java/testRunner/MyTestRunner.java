@@ -13,6 +13,7 @@ import io.cucumber.junit.CucumberOptions;
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 				"timeline:test-output-thread/", "json:target/Cucumber.json","html:target/cucumber-html-report.html"
 				,"junit:target/cucumber.xml"
+
 		}
 		
 		)

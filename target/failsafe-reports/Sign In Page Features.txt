@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Sign In Page Features
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 98.14 s -- in Sign In Page Features
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 142.5 s -- in Sign In Page Features

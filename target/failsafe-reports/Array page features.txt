@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: Array page features
 -------------------------------------------------------------------------------
-Tests run: 41, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 564.1 s <<< FAILURE! -- in Array page features
-Array page features.The user clicks Submit on Python Editor of Search the Array Practice Page and entering valid code -- Time elapsed: 12.27 s <<< FAILURE!
+Tests run: 41, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 585.1 s <<< FAILURE! -- in Array page features
+Array page features.The user clicks Submit on Python Editor of Search the Array Practice Page and entering valid code -- Time elapsed: 11.72 s <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
 	at org.junit.Assert.assertTrue(Assert.java:42)
@@ -10,7 +10,7 @@ java.lang.AssertionError
 	at stepdefinitions.ArrayPageSteps.the_user_see_an_error_message(ArrayPageSteps.java:132)
 	at ✽.The user see an error message "Error occurred during submission"(file:///C:/Users/14255/OneDrive/Desktop/School/ds%20algo/NoviceNinjas/src/test/resources/AppFeatures/ArrayPage.feature:257)
 
-Array page features.The user clicks Submit on Python Editor of Max Consecutive Ones Practice Page and entering valid code -- Time elapsed: 12.98 s <<< FAILURE!
+Array page features.The user clicks Submit on Python Editor of Max Consecutive Ones Practice Page and entering valid code -- Time elapsed: 11.01 s <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
 	at org.junit.Assert.assertTrue(Assert.java:42)
@@ -18,7 +18,7 @@ java.lang.AssertionError
 	at stepdefinitions.ArrayPageSteps.the_user_see_an_error_message(ArrayPageSteps.java:132)
 	at ✽.The user see an error message "Error occurred during submission"(file:///C:/Users/14255/OneDrive/Desktop/School/ds%20algo/NoviceNinjas/src/test/resources/AppFeatures/ArrayPage.feature:288)
 
-Array page features.The user clicks Submit on Python Editor of Find Numbers with Even Number of Digits Practice Page and entering valid code -- Time elapsed: 13.61 s <<< FAILURE!
+Array page features.The user clicks Submit on Python Editor of Find Numbers with Even Number of Digits Practice Page and entering valid code -- Time elapsed: 9.431 s <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
 	at org.junit.Assert.assertTrue(Assert.java:42)
@@ -26,7 +26,7 @@ java.lang.AssertionError
 	at stepdefinitions.ArrayPageSteps.the_user_see_an_error_message(ArrayPageSteps.java:132)
 	at ✽.The user see an error message "Error occurred during submission"(file:///C:/Users/14255/OneDrive/Desktop/School/ds%20algo/NoviceNinjas/src/test/resources/AppFeatures/ArrayPage.feature:319)
 
-Array page features.The user clicks Submit on Python Editor of Squares of a Sorted Array Practice Page and entering valid code -- Time elapsed: 18.85 s <<< FAILURE!
+Array page features.The user clicks Submit on Python Editor of Squares of a Sorted Array Practice Page and entering valid code -- Time elapsed: 19.89 s <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
 	at org.junit.Assert.assertTrue(Assert.java:42)

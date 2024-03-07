@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: Register Page Features
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 153.0 s <<< FAILURE! -- in Register Page Features
-Register Page Features.Array page url #3 -- Time elapsed: 15.78 s <<< FAILURE!
+Tests run: 8, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 181.0 s <<< FAILURE! -- in Register Page Features
+Register Page Features.Array page url #3 -- Time elapsed: 21.17 s <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
 	at org.junit.Assert.assertTrue(Assert.java:42)
@@ -10,7 +10,7 @@ java.lang.AssertionError
 	at stepdefinitions.RegistrationPageSteps.user_eneters_the_username(RegistrationPageSteps.java:53)
 	at ✽.The error "invalid data" appears below "uName"(file:///C:/Users/14255/OneDrive/Desktop/School/ds%20algo/NoviceNinjas/src/test/resources/AppFeatures/RegistrationPage.feature:35)
 
-Register Page Features.Array page url #4 -- Time elapsed: 18.07 s <<< FAILURE!
+Register Page Features.Array page url #4 -- Time elapsed: 26.33 s <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
 	at org.junit.Assert.assertTrue(Assert.java:42)
@@ -18,7 +18,7 @@ java.lang.AssertionError
 	at stepdefinitions.RegistrationPageSteps.user_eneters_the_username(RegistrationPageSteps.java:53)
 	at ✽.The error "invalid data" appears below "password"(file:///C:/Users/14255/OneDrive/Desktop/School/ds%20algo/NoviceNinjas/src/test/resources/AppFeatures/RegistrationPage.feature:43)
 
-Register Page Features.Array page url #5 -- Time elapsed: 17.07 s <<< FAILURE!
+Register Page Features.Array page url #5 -- Time elapsed: 22.54 s <<< FAILURE!
 java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
 	at org.junit.Assert.assertTrue(Assert.java:42)
