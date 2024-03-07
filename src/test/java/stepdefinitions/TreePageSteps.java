@@ -48,7 +48,7 @@ public class TreePageSteps {
 	@Then("The user should be redirected to {string} Page in tree")
 	public void the_user_should_be_redirected_to_string_page_tree(String link) {
 	    String currentURL=treePage.getCurrentURL();
-	    System.out.println("in the_user_should_be_redirected_to_string_page url: "+ treePage.getCurrentURL());
+	 //   System.out.println("in the_user_should_be_redirected_to_string_page url: "+ treePage.getCurrentURL());
 	    Assert.assertTrue(currentURL.contains(link));
 	}
 	@Given("The user is on the {string} Page in tree")
@@ -66,8 +66,8 @@ public class TreePageSteps {
 	
 	@When("The user clicks {string} with code {string} in tree")
 	public void the_user_clicks_element_in_a_page_in_tree(String elementName,String withCode) {
-		System.out.println("in try here current url: "+ treePage.getCurrentURL());
-		System.out.println("clicking: "+elementName);
+		//System.out.println("in try here current url: "+ treePage.getCurrentURL());
+		//System.out.println("clicking: "+elementName);
 		if(withCode.equals("false")) 
 			treePage.clearCode();
 		

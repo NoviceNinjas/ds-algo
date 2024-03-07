@@ -52,7 +52,7 @@ public class StackPageSteps {
 	   @Then("The user should be directed to Operations in Stack Page")
 	   public void The_user_should_be_directed_to_Operations_in_Stack_Page() 
 	   {
-		   System.out.println("Operation in stack page is opened");
+		   //System.out.println("Operation in stack page is opened");
 	      //throw new io.cucumber.java.PendingException();
 	   }
 
@@ -75,7 +75,7 @@ public class StackPageSteps {
 	  public void The_user_should_be_redirected_to_a_page_having_an_tryEditor_with_a_Run_button_to_test()	
 	  {
 		  
-		  System.out.println ("user is on tryEditor with a Run button ");
+		 // System.out.println ("user is on tryEditor with a Run button ");
 	  }
 	  
 	  
@@ -125,17 +125,17 @@ public class StackPageSteps {
       public void User_is_not_able_to_see_the_output_in_console()
       {
     	 // stackpage.verifyoutput();
-    	  System.out.println ("AlertBox Message is:"+stackpage.doCaptureAlertText());
+    	  //System.out.println ("AlertBox Message is:"+stackpage.doCaptureAlertText());
       
       }
 
       @Given ("The user click the ok button in the alert window")
       public void The_user_click_the_ok_button_in_the_alert_window()
       {
-    	  System.out.println ("AlertBox Message is:"+stackpage.doCaptureAlertText());
+    	 // System.out.println ("AlertBox Message is:"+stackpage.doCaptureAlertText());
     	  stackpage.doAcceptAlertBox();
     	  stackpage.doGetOutput();
-    	  System.out.println ("AlertBox Message is:"+stackpage.doGetOutput());
+    	  //System.out.println ("AlertBox Message is:"+stackpage.doGetOutput());
       }
       
       @Then ("The user is on the same page having Editor and Run button")
@@ -146,13 +146,8 @@ public class StackPageSteps {
     	  
     	  boolean elementpresent= stackpage.existsElement("//button[contains(text(),'Run')]");
     	  
-    	  if(elementpresent==true)
-    	  {
-    	 	 System.out.println("Run button is present"); 
-    	 	System.out.println("The user is on the same page having Run button"); 
-    	  }
-    	  else 
-    	 	 System.out.println("Run button is NOT present"); 
+    	   
+    	 	// System.out.println("Run button is NOT present"); 
 
     	} 	
     	 	

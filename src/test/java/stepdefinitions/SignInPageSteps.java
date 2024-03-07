@@ -53,15 +53,15 @@ public class SignInPageSteps {
 	
 	@Then("The user is alerted with message that {string}")
 	public void the_user_is_alerted_with_message_that(String string) {
-		System.out.println("The alert message is: " + actLogInMesg); 
-		System.out.println("The message from feature file is: " + string);
+		//System.out.println("The alert message is: " + actLogInMesg); 
+		//System.out.println("The message from feature file is: " + string);
 		Assert.assertTrue(actLogInMesg.contains(string));
 	}
 
 	@And("Sign Out link is displayed")
 	public void sign_out_link_is_displayed() {
 		Boolean myFlag = sigInPage.checkSignOutLinkIdDispalyed();
-		System.out.println("Cheking if sign out link is dispalyed or not : "+ myFlag);
+		//System.out.println("Cheking if sign out link is dispalyed or not : "+ myFlag);
 	   Assert.assertTrue(myFlag);
 	}
 	///////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -73,7 +73,7 @@ public class SignInPageSteps {
 
 	@Then("The error message {string} appears below Username textbox")
 	public void the_error_message_appears_below_username_textbox(String string) {
-	   System.out.println("The message we get is: " + actLogInMesg);
+	   //System.out.println("The message we get is: " + actLogInMesg);
 	   Assert.assertTrue(actLogInMesg.contains(string));
 	}
 	
@@ -86,7 +86,7 @@ public class SignInPageSteps {
 
 	@Then("The error message {string} appears below Password textbox")
 	public void the_error_message_appears_below_password_textbox(String string) {
-		 System.out.println("The message we get is: " + actLogInMesg);
+		 //System.out.println("The message we get is: " + actLogInMesg);
 		   Assert.assertTrue(actLogInMesg.contains(string));
 	}
 

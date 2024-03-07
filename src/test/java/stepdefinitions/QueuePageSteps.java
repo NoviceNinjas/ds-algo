@@ -56,9 +56,9 @@ public class QueuePageSteps {
 	@Then("user gets the following links to explore Queue page")
 	public void user_gets_the_following_links_to_explore_queue_page(DataTable topicsTable) {
 	   List<String> expQueueTopicList = topicsTable.asList();
-	   System.out.println("Expected Queue Topic List: " + expQueueTopicList);
+	   //System.out.println("Expected Queue Topic List: " + expQueueTopicList);
 	   List<String> actQueueTopicList = queuePage.doGetLinkHeaders();
-	   System.out.println("Actual Queue Topic List: " + actQueueTopicList);
+	   //System.out.println("Actual Queue Topic List: " + actQueueTopicList);
 	   Assert.assertTrue(expQueueTopicList.containsAll(actQueueTopicList));
 	}
 
@@ -131,7 +131,7 @@ public class QueuePageSteps {
 		
 		alertBoxText = queuePage.doCaptureAlertText();
 		
-		System.out.println("The User is able to see the error message: "+ alertBoxText);
+		//System.out.println("The User is able to see the error message: "+ alertBoxText);
 		
 		Assert.assertTrue(alertBoxText.contains("NameError"));
 	    
@@ -165,8 +165,8 @@ public class QueuePageSteps {
 						
 		expectedOutput = testData.get(rowNum).get("Expected Output");
 		
-		System.out.println("The code is: "+ '\n' + pythonCode);
-		System.out.println("The expected output is: "+ '\n' + expectedOutput);
+		//System.out.println("The code is: "+ '\n' + pythonCode);
+		//System.out.println("The expected output is: "+ '\n' + expectedOutput);
 		
 		 queuePage.DoSendKeys(pythonCode);
 	}
@@ -175,7 +175,7 @@ public class QueuePageSteps {
 	public void user_is_able_to_see_the_expected_output_in_console_on_queue_page() {
 		
 		consoleOutput =  queuePage.doGetOutput();
-		System.out.println("The output from the console is: " + consoleOutput);
+		//System.out.println("The output from the console is: " + consoleOutput);
 	    
 	}
 

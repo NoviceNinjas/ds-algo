@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Tree page features
 -------------------------------------------------------------------------------
-Tests run: 92, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 677.6 s -- in Tree page features
+Tests run: 92, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 606.8 s -- in Tree page features
